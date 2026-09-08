@@ -1,1 +1,609 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PCNN variable vocabulary</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; max-width: 1200px; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+    th, td { border: 1px solid #ccc; padding: 0.4rem 0.5rem; vertical-align: top; }
+    th { background: #f4f4f4; text-align: left; }
+    code { font-size: 0.88rem; }
+  </style>
+</head>
+<body>
+  <h1>PCNN variable vocabulary</h1>
+  <p>Version 0.1.0. Local test page for PCNN item identifiers.</p>
+  <p>Persistent IRI pattern:
+     <code>https://w3id.org/pcnn/var/{column_name}</code>
+     (resolves after the w3id pull request is merged; until then use this page).</p>
+  <p>Machine-readable file: <a href="vocabulary.ttl">vocabulary.ttl</a></p>
+  <p>Instrument item wording remains copyright of the original instrument authors.
+     This page publishes PCNN identifiers, short English labels, definitions and mappings.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th><th>English label</th><th>Instrument</th>
+        <th>Datatype</th><th>Persistent IRI</th><th>Mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="smokingstatus">
+<td><code>smokingstatus</code></td>
+<td>Do you smoke?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/smokingstatus">https://w3id.org/pcnn/var/smokingstatus</a></td>
+<td>closeMatch <a href="http://loinc.org/72166-2">http://loinc.org/72166-2</a></td>
+</tr><tr id="paidjob">
+<td><code>paidjob</code></td>
+<td>Do you have a paid job at this moment?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/paidjob">https://w3id.org/pcnn/var/paidjob</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C95551">http://purl.obolibrary.org/obo/NCIT_C95551</a></td>
+</tr><tr id="hours_household">
+<td><code>hours_household</code></td>
+<td>Household activities (hours per week)</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/hours_household">https://w3id.org/pcnn/var/hours_household</a></td>
+<td>relatedMatch <a href="http://loinc.org/57253-7">http://loinc.org/57253-7</a></td>
+</tr><tr id="hours_family">
+<td><code>hours_family</code></td>
+<td>Family activities (hours per week)</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/hours_family">https://w3id.org/pcnn/var/hours_family</a></td>
+<td>No suitable exact public item found.</td>
+</tr><tr id="dsq_fatigue_freq">
+<td><code>dsq_fatigue_freq</code></td>
+<td>Frequency past 6 months: Fatigue / extreme tiredness</td>
+<td>DSQ</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_fatigue_freq">https://w3id.org/pcnn/var/dsq_fatigue_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></td>
+</tr><tr id="dsq_slowspeech_sev">
+<td><code>dsq_slowspeech_sev</code></td>
+<td>Severity past 6 months: Slowed speech</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_slowspeech_sev">https://w3id.org/pcnn/var/dsq_slowspeech_sev</a></td>
+<td>No public item IRI found for this DSQ-2 item.</td>
+</tr><tr id="dsq_memory_freq">
+<td><code>dsq_memory_freq</code></td>
+<td>Frequency past 6 months: Problems remembering things</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_memory_freq">https://w3id.org/pcnn/var/dsq_memory_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/386807006">http://snomed.info/id/386807006</a></td>
+</tr><tr id="dsq_exhausted_freq">
+<td><code>dsq_exhausted_freq</code></td>
+<td>Frequency past 6 months: Physically drained or sick after mild activity</td>
+<td>DSQ-PEM + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_exhausted_freq">https://w3id.org/pcnn/var/dsq_exhausted_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></td>
+</tr><tr id="dsq_heavy_freq">
+<td><code>dsq_heavy_freq</code></td>
+<td>Frequency past 6 months: Dead, heavy feeling after starting to exercise</td>
+<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_heavy_freq">https://w3id.org/pcnn/var/dsq_heavy_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/161874006">http://snomed.info/id/161874006</a></td>
+</tr><tr id="dsq_muscletwitch_freq">
+<td><code>dsq_muscletwitch_freq</code></td>
+<td>Frequency past 6 months: Muscle twitches</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_muscletwitch_freq">https://w3id.org/pcnn/var/dsq_muscletwitch_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_muscletwitch_sev">
+<td><code>dsq_muscletwitch_sev</code></td>
+<td>Severity past 6 months: Muscle twitches</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_muscletwitch_sev">https://w3id.org/pcnn/var/dsq_muscletwitch_sev</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_soreness_freq">
+<td><code>dsq_soreness_freq</code></td>
+<td>Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities</td>
+<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_soreness_freq">https://w3id.org/pcnn/var/dsq_soreness_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/71393004">http://snomed.info/id/71393004</a></td>
+</tr><tr id="dsq_minexercise_sev">
+<td><code>dsq_minexercise_sev</code></td>
+<td>Severity past 6 months: Minimum exercise makes you physically tired</td>
+<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_minexercise_sev">https://w3id.org/pcnn/var/dsq_minexercise_sev</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/408578001">http://snomed.info/id/408578001</a></td>
+</tr><tr id="dsq_pain_freq">
+<td><code>dsq_pain_freq</code></td>
+<td>Frequency past 6 months: Pain or aching in your muscles</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_pain_freq">https://w3id.org/pcnn/var/dsq_pain_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/68962001">http://snomed.info/id/68962001</a></td>
+</tr><tr id="dsq_forgetful_freq">
+<td><code>dsq_forgetful_freq</code></td>
+<td>Frequency past 6 months: Absent-mindedness or forgetfulness</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_forgetful_freq">https://w3id.org/pcnn/var/dsq_forgetful_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_shortbreath_freq">
+<td><code>dsq_shortbreath_freq</code></td>
+<td>Frequency past 6 months: Shortness of breath</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_shortbreath_freq">https://w3id.org/pcnn/var/dsq_shortbreath_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_noappetite_freq">
+<td><code>dsq_noappetite_freq</code></td>
+<td>Frequency past 6 months: No appetite</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_noappetite_freq">https://w3id.org/pcnn/var/dsq_noappetite_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_unablestand_freq">
+<td><code>dsq_unablestand_freq</code></td>
+<td>Frequency past 6 months: Inability to tolerate an upright position</td>
+<td>DSQ-POTS + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_unablestand_freq">https://w3id.org/pcnn/var/dsq_unablestand_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/870368003">http://snomed.info/id/870368003</a></td>
+</tr><tr id="dsq_bloating_freq">
+<td><code>dsq_bloating_freq</code></td>
+<td>Frequency past 6 months: Bloating</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_bloating_freq">https://w3id.org/pcnn/var/dsq_bloating_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/116289008">http://snomed.info/id/116289008</a></td>
+</tr><tr id="dsq_slowthink_freq">
+<td><code>dsq_slowthink_freq</code></td>
+<td>Frequency past 6 months: Slowness of thought</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_slowthink_freq">https://w3id.org/pcnn/var/dsq_slowthink_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_ibs_freq">
+<td><code>dsq_ibs_freq</code></td>
+<td>Frequency past 6 months: Irritable bowel problems</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_ibs_freq">https://w3id.org/pcnn/var/dsq_ibs_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/10743008">http://snomed.info/id/10743008</a></td>
+</tr><tr id="dsq_irregularhb_freq">
+<td><code>dsq_irregularhb_freq</code></td>
+<td>Frequency past 6 months: Irregular heart beats</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_irregularhb_freq">https://w3id.org/pcnn/var/dsq_irregularhb_freq</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C168414">http://purl.obolibrary.org/obo/NCIT_C168414</a></td>
+</tr><tr id="dsq_lowtemp_freq">
+<td><code>dsq_lowtemp_freq</code></td>
+<td>Frequency past 6 months: Feeling like you have a low temperature</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_lowtemp_freq">https://w3id.org/pcnn/var/dsq_lowtemp_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_flu_freq">
+<td><code>dsq_flu_freq</code></td>
+<td>Frequency past 6 months: Flu-like symptoms</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_flu_freq">https://w3id.org/pcnn/var/dsq_flu_freq</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C143492">http://purl.obolibrary.org/obo/NCIT_C143492</a></td>
+</tr><tr id="dsq_nightawake_freq">
+<td><code>dsq_nightawake_freq</code></td>
+<td>Frequency past 6 months: Sleeping all day and staying awake all night</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_nightawake_freq">https://w3id.org/pcnn/var/dsq_nightawake_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_dizzy_freq">
+<td><code>dsq_dizzy_freq</code></td>
+<td>Frequency past 6 months: Dizziness or fainting</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_dizzy_freq">https://w3id.org/pcnn/var/dsq_dizzy_freq</a></td>
+<td>relatedMatch <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></td>
+</tr><tr id="dsq_hightemp_freq">
+<td><code>dsq_hightemp_freq</code></td>
+<td>Frequency past 6 months: Feeling like you have a high temperature</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_hightemp_freq">https://w3id.org/pcnn/var/dsq_hightemp_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_coldlimbs_freq">
+<td><code>dsq_coldlimbs_freq</code></td>
+<td>Frequency past 6 months: Cold limbs</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_coldlimbs_freq">https://w3id.org/pcnn/var/dsq_coldlimbs_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/771542000">http://snomed.info/id/771542000</a></td>
+</tr><tr id="dsq_sensitivities_freq">
+<td><code>dsq_sensitivities_freq</code></td>
+<td>Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick</td>
+<td>DSQ-SF + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_sensitivities_freq">https://w3id.org/pcnn/var/dsq_sensitivities_freq</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/16932000">http://snomed.info/id/16932000</a></td>
+</tr><tr id="dsq_musclefatigue_sev">
+<td><code>dsq_musclefatigue_sev</code></td>
+<td>Severity past 6 months: Muscle fatigue after mild physical activity</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_musclefatigue_sev">https://w3id.org/pcnn/var/dsq_musclefatigue_sev</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></td>
+</tr><tr id="dsq_pressurepain_freq">
+<td><code>dsq_pressurepain_freq</code></td>
+<td>Frequency past 6 months: Pressure on parts of the body causes pain in other parts</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_pressurepain_freq">https://w3id.org/pcnn/var/dsq_pressurepain_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_blackedvision_freq">
+<td><code>dsq_blackedvision_freq</code></td>
+<td>Frequency past 6 months: Graying or blacking out after standing</td>
+<td>DSQ-POTS + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_blackedvision_freq">https://w3id.org/pcnn/var/dsq_blackedvision_freq</a></td>
+<td>relatedMatch <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></td>
+</tr><tr id="dsq_pemphysical_freq">
+<td><code>dsq_pemphysical_freq</code></td>
+<td>Frequency past 6 months: Worsening of symptoms after mild physical activity</td>
+<td>DSQ-PEM + DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_pemphysical_freq">https://w3id.org/pcnn/var/dsq_pemphysical_freq</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></td>
+</tr><tr id="dsq_achingeyes_freq">
+<td><code>dsq_achingeyes_freq</code></td>
+<td>Frequency past 6 months: Aching of the eyes or behind the eyes</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_achingeyes_freq">https://w3id.org/pcnn/var/dsq_achingeyes_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="dsq_headache_freq">
+<td><code>dsq_headache_freq</code></td>
+<td>Frequency past 6 months: Headaches</td>
+<td>DSQ-2</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/dsq_headache_freq">https://w3id.org/pcnn/var/dsq_headache_freq</a></td>
+<td>No public item IRI found.</td>
+</tr><tr id="bpi_pain_where_front">
+<td><code>bpi_pain_where_front</code></td>
+<td>Indicate your main pain area (front)</td>
+<td>Brief Pain Inventory</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/bpi_pain_where_front">https://w3id.org/pcnn/var/bpi_pain_where_front</a></td>
+<td>BPI body-map item; regions are instrument-specific.</td>
+</tr><tr id="bpi_prohibited_activity">
+<td><code>bpi_prohibited_activity</code></td>
+<td>Pain interference with general activity last 24 hours (0-10)</td>
+<td>Brief Pain Inventory</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/bpi_prohibited_activity">https://w3id.org/pcnn/var/bpi_prohibited_activity</a></td>
+<td>closeMatch <a href="http://purl.obolibrary.org/obo/NCIT_C100365">http://purl.obolibrary.org/obo/NCIT_C100365</a></td>
+</tr><tr id="cis_18_noenthousiasm">
+<td><code>cis_18_noenthousiasm</code></td>
+<td>I don&#x27;t feel like doing anything</td>
+<td>CIS20-R</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/cis_18_noenthousiasm">https://w3id.org/pcnn/var/cis_18_noenthousiasm</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130031">http://purl.obolibrary.org/obo/NCIT_C130031</a></td>
+</tr><tr id="cis_13_diff_focus">
+<td><code>cis_13_diff_focus</code></td>
+<td>It takes a lot of effort to concentrate on things</td>
+<td>CIS20-R</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/cis_13_diff_focus">https://w3id.org/pcnn/var/cis_13_diff_focus</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130026">http://purl.obolibrary.org/obo/NCIT_C130026</a></td>
+</tr><tr id="cis_14_phys_bad">
+<td><code>cis_14_phys_bad</code></td>
+<td>Physically I feel I am in bad form</td>
+<td>CIS20-R</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/cis_14_phys_bad">https://w3id.org/pcnn/var/cis_14_phys_bad</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130027">http://purl.obolibrary.org/obo/NCIT_C130027</a></td>
+</tr><tr id="employment_status">
+<td><code>employment_status</code></td>
+<td>Which situation applies to you most regarding paid work?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/employment_status">https://w3id.org/pcnn/var/employment_status</a></td>
+<td>relatedMatch <a href="http://loinc.org/67875-5">http://loinc.org/67875-5</a></td>
+</tr><tr id="income">
+<td><code>income</code></td>
+<td>Net monthly household income</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/income">https://w3id.org/pcnn/var/income</a></td>
+<td>relatedMatch <a href="http://loinc.org/98161-3">http://loinc.org/98161-3</a></td>
+</tr><tr id="onbehalf_who">
+<td><code>onbehalf_who</code></td>
+<td>What is your relation to the person for whom you provide information?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/onbehalf_who">https://w3id.org/pcnn/var/onbehalf_who</a></td>
+<td>Local informant-relationship item.</td>
+</tr><tr id="onbehalf_who_t">
+<td><code>onbehalf_who_t</code></td>
+<td>How are you related?</td>
+<td>none</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/onbehalf_who_t">https://w3id.org/pcnn/var/onbehalf_who_t</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C83393">http://purl.obolibrary.org/obo/NCIT_C83393</a></td>
+</tr><tr id="howheardstudy">
+<td><code>howheardstudy</code></td>
+<td>How did you hear about the post-COVID research?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/howheardstudy">https://w3id.org/pcnn/var/howheardstudy</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/780816009">http://snomed.info/id/780816009</a></td>
+</tr><tr id="invitation">
+<td><code>invitation</code></td>
+<td>Which research or organization invited you?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/invitation">https://w3id.org/pcnn/var/invitation</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C93448">http://purl.obolibrary.org/obo/NCIT_C93448</a></td>
+</tr><tr id="studycodept">
+<td><code>studycodept</code></td>
+<td>Research code received by email or letter</td>
+<td>none</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/studycodept">https://w3id.org/pcnn/var/studycodept</a></td>
+<td>Local linkage identifier; not a clinical concept.</td>
+</tr><tr id="contact_GP">
+<td><code>contact_GP</code></td>
+<td>Enter your GP contact details</td>
+<td>none</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/contact_GP">https://w3id.org/pcnn/var/contact_GP</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C60776">http://purl.obolibrary.org/obo/NCIT_C60776</a></td>
+</tr><tr id="hospital_end">
+<td><code>hospital_end</code></td>
+<td>Date discharged from hospital</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/hospital_end">https://w3id.org/pcnn/var/hospital_end</a></td>
+<td>closeMatch <a href="http://loinc.org/8649-6">http://loinc.org/8649-6</a></td>
+</tr><tr id="hosptial">
+<td><code>hosptial</code></td>
+<td>Hospital admission due to corona infection before long-term symptoms</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/hosptial">https://w3id.org/pcnn/var/hosptial</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C25179">http://purl.obolibrary.org/obo/NCIT_C25179</a></td>
+</tr><tr id="hospital_treat">
+<td><code>hospital_treat</code></td>
+<td>What applied during hospital admission</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/hospital_treat">https://w3id.org/pcnn/var/hospital_treat</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/32485007">http://snomed.info/id/32485007</a></td>
+</tr><tr id="Nxinfected">
+<td><code>Nxinfected</code></td>
+<td>Estimated number of coronavirus infections since February 2020</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/Nxinfected">https://w3id.org/pcnn/var/Nxinfected</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/840539006">http://snomed.info/id/840539006</a></td>
+</tr><tr id="Nxinfected_confirm">
+<td><code>Nxinfected_confirm</code></td>
+<td>Number of infections confirmed by a positive test</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/Nxinfected_confirm">https://w3id.org/pcnn/var/Nxinfected_confirm</a></td>
+<td></td>
+</tr><tr id="pos_test">
+<td><code>pos_test</code></td>
+<td>Positive test before long-term coronavirus complaints</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/pos_test">https://w3id.org/pcnn/var/pos_test</a></td>
+<td></td>
+</tr><tr id="pos_test_type">
+<td><code>pos_test_type</code></td>
+<td>Type of coronavirus test for this result</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/pos_test_type">https://w3id.org/pcnn/var/pos_test_type</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/246246002">http://snomed.info/id/246246002</a></td>
+</tr><tr id="pos_test_date">
+<td><code>pos_test_date</code></td>
+<td>Date of this coronavirus test</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/pos_test_date">https://w3id.org/pcnn/var/pos_test_date</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C82512">http://purl.obolibrary.org/obo/NCIT_C82512</a></td>
+</tr><tr id="pc_confirmedby">
+<td><code>pc_confirmedby</code></td>
+<td>Who told you that you had long COVID / post-COVID syndrome?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/pc_confirmedby">https://w3id.org/pcnn/var/pc_confirmedby</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/1119303003">http://snomed.info/id/1119303003</a></td>
+</tr><tr id="vaccin">
+<td><code>vaccin</code></td>
+<td>Have you been vaccinated against the coronavirus?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin">https://w3id.org/pcnn/var/vaccin</a></td>
+<td>relatedMatch <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></td>
+</tr><tr id="vaccin_N">
+<td><code>vaccin_N</code></td>
+<td>Number of coronavirus vaccinations</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin_N">https://w3id.org/pcnn/var/vaccin_N</a></td>
+<td>relatedMatch <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></td>
+</tr><tr id="vaccin_LTc_Nvacc">
+<td><code>vaccin_LTc_Nvacc</code></td>
+<td>After how many vaccinations did vaccine-related long-term complaints start?</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_Nvacc">https://w3id.org/pcnn/var/vaccin_LTc_Nvacc</a></td>
+<td></td>
+</tr><tr id="vaccin_LTc_date">
+<td><code>vaccin_LTc_date</code></td>
+<td>Date of the vaccination linked to post-COVID vaccination syndrome</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_date">https://w3id.org/pcnn/var/vaccin_LTc_date</a></td>
+<td></td>
+</tr><tr id="vaccin_LTc_Nvirus">
+<td><code>vaccin_LTc_Nvirus</code></td>
+<td>Vaccinations received before coronavirus-related long-term complaints</td>
+<td>none</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_Nvirus">https://w3id.org/pcnn/var/vaccin_LTc_Nvirus</a></td>
+<td></td>
+</tr><tr id="vaccin_LTc_other">
+<td><code>vaccin_LTc_other</code></td>
+<td>Long-term complaints after a non-COVID vaccination</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_other">https://w3id.org/pcnn/var/vaccin_LTc_other</a></td>
+<td>relatedMatch <a href="http://loinc.org/66375-7">http://loinc.org/66375-7</a></td>
+</tr><tr id="whodiagnosed">
+<td><code>whodiagnosed</code></td>
+<td>Who told you that you had post-COVID vaccination syndrome?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/whodiagnosed">https://w3id.org/pcnn/var/whodiagnosed</a></td>
+<td></td>
+</tr><tr id="LTcompl_virus">
+<td><code>LTcompl_virus</code></td>
+<td>Current long-term health complaints due to the coronavirus</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/LTcompl_virus">https://w3id.org/pcnn/var/LTcompl_virus</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/1119304009">http://snomed.info/id/1119304009</a></td>
+</tr><tr id="LTcompl_virus_start">
+<td><code>LTcompl_virus_start</code></td>
+<td>Approximate start date of coronavirus-related long-term complaints</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/LTcompl_virus_start">https://w3id.org/pcnn/var/LTcompl_virus_start</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/298059007">http://snomed.info/id/298059007</a></td>
+</tr><tr id="LTcompl_virus_recover">
+<td><code>LTcompl_virus_recover</code></td>
+<td>Approximate recovery date from coronavirus-related long-term complaints</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/LTcompl_virus_recover">https://w3id.org/pcnn/var/LTcompl_virus_recover</a></td>
+<td></td>
+</tr><tr id="LTcompl_vacc">
+<td><code>LTcompl_vacc</code></td>
+<td>Current long-term health complaints due to a coronavirus vaccination</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/LTcompl_vacc">https://w3id.org/pcnn/var/LTcompl_vacc</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></td>
+</tr><tr id="LTcompl_vacc_recover">
+<td><code>LTcompl_vacc_recover</code></td>
+<td>Approximate recovery date from vaccine-related long-term complaints</td>
+<td>none</td>
+<td>date</td>
+<td><a href="https://w3id.org/pcnn/var/LTcompl_vacc_recover">https://w3id.org/pcnn/var/LTcompl_vacc_recover</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></td>
+</tr><tr id="depression_history">
+<td><code>depression_history</code></td>
+<td>Have you ever suffered from depressive symptoms?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/depression_history">https://w3id.org/pcnn/var/depression_history</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/394924000">http://snomed.info/id/394924000</a></td>
+</tr><tr id="s31_skin_where">
+<td><code>s31_skin_where</code></td>
+<td>Which body parts are affected by these colour changes?</td>
+<td>COMPASS-31</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/s31_skin_where">https://w3id.org/pcnn/var/s31_skin_where</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/364533002">http://snomed.info/id/364533002</a></td>
+</tr><tr id="c31_dry_mouth">
+<td><code>c31_dry_mouth</code></td>
+<td>Does your mouth feel abnormally dry?</td>
+<td>COMPASS-31</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/c31_dry_mouth">https://w3id.org/pcnn/var/c31_dry_mouth</a></td>
+<td>closeMatch <a href="http://loinc.org/63981-5">http://loinc.org/63981-5</a></td>
+</tr><tr id="c31_drrhea_freq_n">
+<td><code>c31_drrhea_freq_n</code></td>
+<td>How many times per month? (diarrhea)</td>
+<td>COMPASS-31</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/c31_drrhea_freq_n">https://w3id.org/pcnn/var/c31_drrhea_freq_n</a></td>
+<td>relatedMatch <a href="http://loinc.org/69711-0">http://loinc.org/69711-0</a></td>
+</tr><tr id="c31_bladder_freq_n">
+<td><code>c31_bladder_freq_n</code></td>
+<td>How many times per month? (bladder)</td>
+<td>COMPASS-31</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/c31_bladder_freq_n">https://w3id.org/pcnn/var/c31_bladder_freq_n</a></td>
+<td></td>
+</tr><tr id="c31_eyes_change">
+<td><code>c31_eyes_change</code></td>
+<td>This most annoying eye complaint is</td>
+<td>COMPASS-31</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/c31_eyes_change">https://w3id.org/pcnn/var/c31_eyes_change</a></td>
+<td></td>
+</tr><tr id="calcc31_eyes_change">
+<td><code>calcc31_eyes_change</code></td>
+<td>COMPASS dependency (eyes)</td>
+<td>COMPASS-31</td>
+<td>number</td>
+<td><a href="https://w3id.org/pcnn/var/calcc31_eyes_change">https://w3id.org/pcnn/var/calcc31_eyes_change</a></td>
+<td>Derived variable; not a questionnaire item.</td>
+</tr><tr id="permission">
+<td><code>permission</code></td>
+<td>May we contact you for additional scientific research?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/permission">https://w3id.org/pcnn/var/permission</a></td>
+<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C125453">http://purl.obolibrary.org/obo/NCIT_C125453</a></td>
+</tr><tr id="permission_pc">
+<td><code>permission_pc</code></td>
+<td>Consent form for post-COVID research</td>
+<td>none</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/permission_pc">https://w3id.org/pcnn/var/permission_pc</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></td>
+</tr><tr id="persmission_postvacc">
+<td><code>persmission_postvacc</code></td>
+<td>Consent form for post-COVID vaccination complaints research</td>
+<td>none</td>
+<td>text</td>
+<td><a href="https://w3id.org/pcnn/var/persmission_postvacc">https://w3id.org/pcnn/var/persmission_postvacc</a></td>
+<td>relatedMatch <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></td>
+</tr><tr id="permissions_check">
+<td><code>permissions_check</code></td>
+<td>Confirmation that additional-research permission was not given</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/permissions_check">https://w3id.org/pcnn/var/permissions_check</a></td>
+<td></td>
+</tr><tr id="travel">
+<td><code>travel</code></td>
+<td>Able and willing to travel for additional research</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/travel">https://w3id.org/pcnn/var/travel</a></td>
+<td></td>
+</tr><tr id="contact">
+<td><code>contact</code></td>
+<td>May we contact you for a telephone or video appointment?</td>
+<td>none</td>
+<td>coded</td>
+<td><a href="https://w3id.org/pcnn/var/contact">https://w3id.org/pcnn/var/contact</a></td>
+<td></td>
+</tr>
+    </tbody>
+  </table>
+</body>
+</html>
