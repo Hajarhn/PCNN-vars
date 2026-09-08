@@ -1,0 +1,141 @@
+value_set_id,code,label_en,value_iri
+dsq-freq-0-4,0,none of the time,https://w3id.org/pcnn/vs/dsq-freq-0-4/0
+dsq-freq-0-4,1,a little of the time,https://w3id.org/pcnn/vs/dsq-freq-0-4/1
+dsq-freq-0-4,2,about half the time,https://w3id.org/pcnn/vs/dsq-freq-0-4/2
+dsq-freq-0-4,3,most of the time,https://w3id.org/pcnn/vs/dsq-freq-0-4/3
+dsq-freq-0-4,4,all of the time,https://w3id.org/pcnn/vs/dsq-freq-0-4/4
+dsq-sev-1-4,1,mild,https://w3id.org/pcnn/vs/dsq-sev-1-4/1
+dsq-sev-1-4,2,moderate,https://w3id.org/pcnn/vs/dsq-sev-1-4/2
+dsq-sev-1-4,3,severe,https://w3id.org/pcnn/vs/dsq-sev-1-4/3
+dsq-sev-1-4,4,very severe,https://w3id.org/pcnn/vs/dsq-sev-1-4/4
+cis-1-7,1,"yes, that is true",https://w3id.org/pcnn/vs/cis-1-7/1
+cis-1-7,2,2,https://w3id.org/pcnn/vs/cis-1-7/2
+cis-1-7,3,3,https://w3id.org/pcnn/vs/cis-1-7/3
+cis-1-7,4,4,https://w3id.org/pcnn/vs/cis-1-7/4
+cis-1-7,5,5,https://w3id.org/pcnn/vs/cis-1-7/5
+cis-1-7,6,6,https://w3id.org/pcnn/vs/cis-1-7/6
+cis-1-7,7,"no, that is not true",https://w3id.org/pcnn/vs/cis-1-7/7
+yes-no,1,Yes,https://w3id.org/pcnn/vs/yes-no/1
+yes-no,0,No,https://w3id.org/pcnn/vs/yes-no/0
+yes-no-unknown,1,Yes,https://w3id.org/pcnn/vs/yes-no-unknown/1
+yes-no-unknown,0,No,https://w3id.org/pcnn/vs/yes-no-unknown/0
+yes-no-unknown,3,I don't know,https://w3id.org/pcnn/vs/yes-no-unknown/3
+yes-no-recovered,1,Yes,https://w3id.org/pcnn/vs/yes-no-recovered/1
+yes-no-recovered,0,No,https://w3id.org/pcnn/vs/yes-no-recovered/0
+yes-no-recovered,3,"Not anymore, I have recovered",https://w3id.org/pcnn/vs/yes-no-recovered/3
+smokingstatus-6,1,No,https://w3id.org/pcnn/vs/smokingstatus-6/1
+smokingstatus-6,2,"No, but I have smoked in the past",https://w3id.org/pcnn/vs/smokingstatus-6/2
+smokingstatus-6,3,"Yes, occasionally",https://w3id.org/pcnn/vs/smokingstatus-6/3
+smokingstatus-6,4,"Daily, less than 10 cigarettes/cigars per day",https://w3id.org/pcnn/vs/smokingstatus-6/4
+smokingstatus-6,5,"Daily, 10 or more cigarettes/cigars per day",https://w3id.org/pcnn/vs/smokingstatus-6/5
+smokingstatus-6,6,"Daily, e-cigarettes/vapes only",https://w3id.org/pcnn/vs/smokingstatus-6/6
+paidjob-4,1,Yes,https://w3id.org/pcnn/vs/paidjob-4/1
+paidjob-4,0,No,https://w3id.org/pcnn/vs/paidjob-4/0
+paidjob-4,3,"Yes, but I have been reported sick (partly) due to long-term complaints",https://w3id.org/pcnn/vs/paidjob-4/3
+paidjob-4,4,"No, I no longer have a job due to long-term complaints",https://w3id.org/pcnn/vs/paidjob-4/4
+income-13,1,I do not know,https://w3id.org/pcnn/vs/income-13/1
+income-13,2,I rather not answer,https://w3id.org/pcnn/vs/income-13/2
+income-13,3,Less than EUR 750,https://w3id.org/pcnn/vs/income-13/3
+income-13,4,EUR 750 - 1000,https://w3id.org/pcnn/vs/income-13/4
+income-13,5,EUR 1000 - 1500,https://w3id.org/pcnn/vs/income-13/5
+income-13,6,EUR 1500 - 2000,https://w3id.org/pcnn/vs/income-13/6
+income-13,7,EUR 2000 - 2500,https://w3id.org/pcnn/vs/income-13/7
+income-13,8,EUR 2500 - 3000,https://w3id.org/pcnn/vs/income-13/8
+income-13,9,EUR 3000 - 3500,https://w3id.org/pcnn/vs/income-13/9
+income-13,10,EUR 3500 - 4000,https://w3id.org/pcnn/vs/income-13/10
+income-13,11,EUR 4000 - 4500,https://w3id.org/pcnn/vs/income-13/11
+income-13,12,EUR 4500 - 5000,https://w3id.org/pcnn/vs/income-13/12
+income-13,13,more than EUR 5000,https://w3id.org/pcnn/vs/income-13/13
+employment-10,1,Paid job 32 hours or more per week,https://w3id.org/pcnn/vs/employment-10/1
+employment-10,2,Paid job 20 to less than 32 hours per week,https://w3id.org/pcnn/vs/employment-10/2
+employment-10,3,Paid job 12 to less than 20 hours per week,https://w3id.org/pcnn/vs/employment-10/3
+employment-10,4,Paid job less than 12 hours per week,https://w3id.org/pcnn/vs/employment-10/4
+employment-10,5,Retired (early retirement / AOW / VUT / FPU),https://w3id.org/pcnn/vs/employment-10/5
+employment-10,6,Unemployed / jobseeker,https://w3id.org/pcnn/vs/employment-10/6
+employment-10,7,Work disabled (WAO / AAW / WAZ / Wajong),https://w3id.org/pcnn/vs/employment-10/7
+employment-10,8,Receiving a social security benefit,https://w3id.org/pcnn/vs/employment-10/8
+employment-10,9,Full-time homemaker,https://w3id.org/pcnn/vs/employment-10/9
+employment-10,10,In education / study,https://w3id.org/pcnn/vs/employment-10/10
+bpi-front-26,1,No pain,https://w3id.org/pcnn/vs/bpi-front-26/1
+bpi-front-26,2,Face,https://w3id.org/pcnn/vs/bpi-front-26/2
+bpi-front-26,3,Right jaw,https://w3id.org/pcnn/vs/bpi-front-26/3
+bpi-front-26,4,Left jaw,https://w3id.org/pcnn/vs/bpi-front-26/4
+bpi-front-26,5,Right chest,https://w3id.org/pcnn/vs/bpi-front-26/5
+bpi-front-26,6,Left chest,https://w3id.org/pcnn/vs/bpi-front-26/6
+bpi-front-26,7,Right upper arm,https://w3id.org/pcnn/vs/bpi-front-26/7
+bpi-front-26,8,Left upper arm,https://w3id.org/pcnn/vs/bpi-front-26/8
+bpi-front-26,9,Right elbow,https://w3id.org/pcnn/vs/bpi-front-26/9
+bpi-front-26,10,Left elbow,https://w3id.org/pcnn/vs/bpi-front-26/10
+bpi-front-26,11,Abdomen,https://w3id.org/pcnn/vs/bpi-front-26/11
+bpi-front-26,12,Pelvis,https://w3id.org/pcnn/vs/bpi-front-26/12
+bpi-front-26,13,Right forearm,https://w3id.org/pcnn/vs/bpi-front-26/13
+bpi-front-26,14,Left forearm,https://w3id.org/pcnn/vs/bpi-front-26/14
+bpi-front-26,15,Right wrist/hand,https://w3id.org/pcnn/vs/bpi-front-26/15
+bpi-front-26,16,Left wrist/hand,https://w3id.org/pcnn/vs/bpi-front-26/16
+bpi-front-26,17,Right groin,https://w3id.org/pcnn/vs/bpi-front-26/17
+bpi-front-26,18,Left groin,https://w3id.org/pcnn/vs/bpi-front-26/18
+bpi-front-26,19,Right thigh,https://w3id.org/pcnn/vs/bpi-front-26/19
+bpi-front-26,20,Left thigh,https://w3id.org/pcnn/vs/bpi-front-26/20
+bpi-front-26,21,Right knee,https://w3id.org/pcnn/vs/bpi-front-26/21
+bpi-front-26,22,Left knee,https://w3id.org/pcnn/vs/bpi-front-26/22
+bpi-front-26,23,Right lower leg,https://w3id.org/pcnn/vs/bpi-front-26/23
+bpi-front-26,24,Left lower leg,https://w3id.org/pcnn/vs/bpi-front-26/24
+bpi-front-26,25,Right ankle/foot,https://w3id.org/pcnn/vs/bpi-front-26/25
+bpi-front-26,26,Left ankle/foot,https://w3id.org/pcnn/vs/bpi-front-26/26
+bpi-interfere-0-10,0,no interference,https://w3id.org/pcnn/vs/bpi-interfere-0-10/0
+bpi-interfere-0-10,1,1,https://w3id.org/pcnn/vs/bpi-interfere-0-10/1
+bpi-interfere-0-10,2,2,https://w3id.org/pcnn/vs/bpi-interfere-0-10/2
+bpi-interfere-0-10,3,3,https://w3id.org/pcnn/vs/bpi-interfere-0-10/3
+bpi-interfere-0-10,4,4,https://w3id.org/pcnn/vs/bpi-interfere-0-10/4
+bpi-interfere-0-10,5,5,https://w3id.org/pcnn/vs/bpi-interfere-0-10/5
+bpi-interfere-0-10,6,6,https://w3id.org/pcnn/vs/bpi-interfere-0-10/6
+bpi-interfere-0-10,7,7,https://w3id.org/pcnn/vs/bpi-interfere-0-10/7
+bpi-interfere-0-10,8,8,https://w3id.org/pcnn/vs/bpi-interfere-0-10/8
+bpi-interfere-0-10,9,9,https://w3id.org/pcnn/vs/bpi-interfere-0-10/9
+bpi-interfere-0-10,10,complete interference,https://w3id.org/pcnn/vs/bpi-interfere-0-10/10
+onbehalf-8,1,Parent or legal guardian,https://w3id.org/pcnn/vs/onbehalf-8/1
+onbehalf-8,2,Child,https://w3id.org/pcnn/vs/onbehalf-8/2
+onbehalf-8,3,Sibling,https://w3id.org/pcnn/vs/onbehalf-8/3
+onbehalf-8,4,Partner,https://w3id.org/pcnn/vs/onbehalf-8/4
+onbehalf-8,5,Other relative,https://w3id.org/pcnn/vs/onbehalf-8/5
+onbehalf-8,6,Friend,https://w3id.org/pcnn/vs/onbehalf-8/6
+onbehalf-8,7,Care giver (not family),https://w3id.org/pcnn/vs/onbehalf-8/7
+onbehalf-8,8,Other,https://w3id.org/pcnn/vs/onbehalf-8/8
+howheard-7,1,Via my GP,https://w3id.org/pcnn/vs/howheard-7/1
+howheard-7,2,Via the media (free text),https://w3id.org/pcnn/vs/howheard-7/2
+howheard-7,3,Via friends or family,https://w3id.org/pcnn/vs/howheard-7/3
+howheard-7,4,Via Thuisarts.nl,https://w3id.org/pcnn/vs/howheard-7/4
+howheard-7,5,Via Google or another search engine,https://w3id.org/pcnn/vs/howheard-7/5
+howheard-7,6,Invitation by letter/email,https://w3id.org/pcnn/vs/howheard-7/6
+howheard-7,7,Other (free text),https://w3id.org/pcnn/vs/howheard-7/7
+invitation-3,1,Invitation after RIVM long-COVID study,https://w3id.org/pcnn/vs/invitation-3/1
+invitation-3,2,Invitation via C-support,https://w3id.org/pcnn/vs/invitation-3/2
+invitation-3,3,Via the RECLAIM newsletter,https://w3id.org/pcnn/vs/invitation-3/3
+hospital-treat-3,1,Admitted to ICU,https://w3id.org/pcnn/vs/hospital-treat-3/1
+hospital-treat-3,2,Received oxygen,https://w3id.org/pcnn/vs/hospital-treat-3/2
+hospital-treat-3,3,Neither,https://w3id.org/pcnn/vs/hospital-treat-3/3
+pos-test-type-5,1,PCR or antigen rapid test taken by an expert,https://w3id.org/pcnn/vs/pos-test-type-5/1
+pos-test-type-5,2,Blood test (serology),https://w3id.org/pcnn/vs/pos-test-type-5/2
+pos-test-type-5,3,Self-test,https://w3id.org/pcnn/vs/pos-test-type-5/3
+pos-test-type-5,4,Diagnosed by treating physician; test type unknown,https://w3id.org/pcnn/vs/pos-test-type-5/4
+pos-test-type-5,5,I do not know,https://w3id.org/pcnn/vs/pos-test-type-5/5
+pc-confirmedby-6,1,A general practitioner,https://w3id.org/pcnn/vs/pc-confirmedby-6/1
+pc-confirmedby-6,2,A medical specialist,https://w3id.org/pcnn/vs/pc-confirmedby-6/2
+pc-confirmedby-6,3,An alternative practitioner,https://w3id.org/pcnn/vs/pc-confirmedby-6/3
+pc-confirmedby-6,4,People who know me well think I have it; not officially confirmed,https://w3id.org/pcnn/vs/pc-confirmedby-6/4
+pc-confirmedby-6,5,I think I have it myself; not officially confirmed,https://w3id.org/pcnn/vs/pc-confirmedby-6/5
+pc-confirmedby-6,6,Other (free text),https://w3id.org/pcnn/vs/pc-confirmedby-6/6
+permission-2,1,"Yes, I may be approached; contact details provided",https://w3id.org/pcnn/vs/permission-2/1
+permission-2,0,"No, questionnaire study only",https://w3id.org/pcnn/vs/permission-2/0
+travel-3,1,Yes,https://w3id.org/pcnn/vs/travel-3/1
+travel-3,2,"Yes, but not longer than 1 hour",https://w3id.org/pcnn/vs/travel-3/2
+travel-3,0,No,https://w3id.org/pcnn/vs/travel-3/0
+s31-skin-2,1,My hands,https://w3id.org/pcnn/vs/s31-skin-2/1
+s31-skin-2,2,My feet,https://w3id.org/pcnn/vs/s31-skin-2/2
+depression-history,1,"Yes, last in year ...",https://w3id.org/pcnn/vs/depression-history/1
+depression-history,0,No,https://w3id.org/pcnn/vs/depression-history/0
+vaccin-ltc-other,1,"Yes, namely: free text",https://w3id.org/pcnn/vs/vaccin-ltc-other/1
+vaccin-ltc-other,0,No,https://w3id.org/pcnn/vs/vaccin-ltc-other/0
+permissions-check,1,"Yes, this is correct",https://w3id.org/pcnn/vs/permissions-check/1
+c31-dry-mouth,1,Yes,https://w3id.org/pcnn/vs/c31-dry-mouth/1
+c31-dry-mouth,0,No,https://w3id.org/pcnn/vs/c31-dry-mouth/0
