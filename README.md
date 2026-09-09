@@ -23,11 +23,6 @@ docs/index.html
 docs/vocabulary.ttl
 ```
 
-Do **not** upload `.grok`, `node_modules`, `src`, `server`, or the Grok app zip.
-
-Then: Settings → Pages → Deploy from branch → `/docs`.
-
-The public HTML is `docs/index.html`.
 
 ## Mapping policy
 
