@@ -11,148 +11,9 @@
   dct:description "Local persistent identifiers for PCNN study questionnaire and demographic items. Mappings to LOINC, SNOMED CT or NCIT are annotations, not replacements for the PCNN item IRI."@en ;
   dct:creator "PCNN study team" ;
   dct:created "2026-09-08"^^xsd:date ;
-  dct:modified "2026-09-08"^^xsd:date ;
+  dct:modified "2026-09-09"^^xsd:date ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  owl:versionInfo "0.1.0" ;
-  dct:source "PCNN multilingual codebook; source instruments cited per item." .
-
-vs:dsq-freq-0-4 a skos:ConceptScheme ;
-  dct:title "dsq-freq-0-4"@en .
-
-<https://w3id.org/pcnn/vs/dsq-freq-0-4/0> a skos:Concept ;
-  skos:inScheme vs:dsq-freq-0-4 ;
-  skos:notation "0" ;
-  skos:prefLabel "none of the time"@en .
-
-<https://w3id.org/pcnn/vs/dsq-freq-0-4/1> a skos:Concept ;
-  skos:inScheme vs:dsq-freq-0-4 ;
-  skos:notation "1" ;
-  skos:prefLabel "a little of the time"@en .
-
-<https://w3id.org/pcnn/vs/dsq-freq-0-4/2> a skos:Concept ;
-  skos:inScheme vs:dsq-freq-0-4 ;
-  skos:notation "2" ;
-  skos:prefLabel "about half the time"@en .
-
-<https://w3id.org/pcnn/vs/dsq-freq-0-4/3> a skos:Concept ;
-  skos:inScheme vs:dsq-freq-0-4 ;
-  skos:notation "3" ;
-  skos:prefLabel "most of the time"@en .
-
-<https://w3id.org/pcnn/vs/dsq-freq-0-4/4> a skos:Concept ;
-  skos:inScheme vs:dsq-freq-0-4 ;
-  skos:notation "4" ;
-  skos:prefLabel "all of the time"@en .
-
-vs:dsq-sev-1-4 a skos:ConceptScheme ;
-  dct:title "dsq-sev-1-4"@en .
-
-<https://w3id.org/pcnn/vs/dsq-sev-1-4/1> a skos:Concept ;
-  skos:inScheme vs:dsq-sev-1-4 ;
-  skos:notation "1" ;
-  skos:prefLabel "mild"@en .
-
-<https://w3id.org/pcnn/vs/dsq-sev-1-4/2> a skos:Concept ;
-  skos:inScheme vs:dsq-sev-1-4 ;
-  skos:notation "2" ;
-  skos:prefLabel "moderate"@en .
-
-<https://w3id.org/pcnn/vs/dsq-sev-1-4/3> a skos:Concept ;
-  skos:inScheme vs:dsq-sev-1-4 ;
-  skos:notation "3" ;
-  skos:prefLabel "severe"@en .
-
-<https://w3id.org/pcnn/vs/dsq-sev-1-4/4> a skos:Concept ;
-  skos:inScheme vs:dsq-sev-1-4 ;
-  skos:notation "4" ;
-  skos:prefLabel "very severe"@en .
-
-vs:cis-1-7 a skos:ConceptScheme ;
-  dct:title "cis-1-7"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/1> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "1" ;
-  skos:prefLabel "yes, that is true"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/2> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "2" ;
-  skos:prefLabel "2"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/3> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "3" ;
-  skos:prefLabel "3"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/4> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "4" ;
-  skos:prefLabel "4"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/5> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "5" ;
-  skos:prefLabel "5"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/6> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "6" ;
-  skos:prefLabel "6"@en .
-
-<https://w3id.org/pcnn/vs/cis-1-7/7> a skos:Concept ;
-  skos:inScheme vs:cis-1-7 ;
-  skos:notation "7" ;
-  skos:prefLabel "no, that is not true"@en .
-
-vs:yes-no a skos:ConceptScheme ;
-  dct:title "yes-no"@en .
-
-<https://w3id.org/pcnn/vs/yes-no/1> a skos:Concept ;
-  skos:inScheme vs:yes-no ;
-  skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
-
-<https://w3id.org/pcnn/vs/yes-no/0> a skos:Concept ;
-  skos:inScheme vs:yes-no ;
-  skos:notation "0" ;
-  skos:prefLabel "No"@en .
-
-vs:yes-no-unknown a skos:ConceptScheme ;
-  dct:title "yes-no-unknown"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-unknown/1> a skos:Concept ;
-  skos:inScheme vs:yes-no-unknown ;
-  skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-unknown/0> a skos:Concept ;
-  skos:inScheme vs:yes-no-unknown ;
-  skos:notation "0" ;
-  skos:prefLabel "No"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-unknown/3> a skos:Concept ;
-  skos:inScheme vs:yes-no-unknown ;
-  skos:notation "3" ;
-  skos:prefLabel "I don't know"@en .
-
-vs:yes-no-recovered a skos:ConceptScheme ;
-  dct:title "yes-no-recovered"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-recovered/1> a skos:Concept ;
-  skos:inScheme vs:yes-no-recovered ;
-  skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-recovered/0> a skos:Concept ;
-  skos:inScheme vs:yes-no-recovered ;
-  skos:notation "0" ;
-  skos:prefLabel "No"@en .
-
-<https://w3id.org/pcnn/vs/yes-no-recovered/3> a skos:Concept ;
-  skos:inScheme vs:yes-no-recovered ;
-  skos:notation "3" ;
-  skos:prefLabel "Not anymore, I have recovered"@en .
+  owl:versionInfo "0.1.0" .
 
 vs:smokingstatus-6 a skos:ConceptScheme ;
   dct:title "smokingstatus-6"@en .
@@ -160,32 +21,38 @@ vs:smokingstatus-6 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/smokingstatus-6/1> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "1" ;
-  skos:prefLabel "No"@en .
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
 <https://w3id.org/pcnn/vs/smokingstatus-6/2> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "2" ;
-  skos:prefLabel "No, but I have smoked in the past"@en .
+  skos:prefLabel "No, but I have smoked in the past"@en ;
+  skos:prefLabel "Nee, maar ik heb in het verleden wel gerookt"@nl .
 
 <https://w3id.org/pcnn/vs/smokingstatus-6/3> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "3" ;
-  skos:prefLabel "Yes, occasionally"@en .
+  skos:prefLabel "Yes, occasionally"@en ;
+  skos:prefLabel "Ja, af en toe"@nl .
 
 <https://w3id.org/pcnn/vs/smokingstatus-6/4> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "4" ;
-  skos:prefLabel "Daily, less than 10 cigarettes/cigars per day"@en .
+  skos:prefLabel "Daily, less than 10 cigarettes/cigars per day"@en ;
+  skos:prefLabel "Dagelijks, minder dan 10 sigaretten/sigaren per dag"@nl .
 
 <https://w3id.org/pcnn/vs/smokingstatus-6/5> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "5" ;
-  skos:prefLabel "Daily, 10 or more cigarettes/cigars per day"@en .
+  skos:prefLabel "Daily, 10 or more cigarettes/cigars per day"@en ;
+  skos:prefLabel "Dagelijks, 10 of meer sigaretten/sigaren per dag"@nl .
 
 <https://w3id.org/pcnn/vs/smokingstatus-6/6> a skos:Concept ;
   skos:inScheme vs:smokingstatus-6 ;
   skos:notation "6" ;
-  skos:prefLabel "Daily, e-cigarettes/vapes only"@en .
+  skos:prefLabel "Daily, e-cigarettes/vapes only"@en ;
+  skos:prefLabel "Dagelijks, alleen e-sigaretten/vapes"@nl .
 
 vs:paidjob-4 a skos:ConceptScheme ;
   dct:title "paidjob-4"@en .
@@ -193,143 +60,86 @@ vs:paidjob-4 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/paidjob-4/1> a skos:Concept ;
   skos:inScheme vs:paidjob-4 ;
   skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
 
 <https://w3id.org/pcnn/vs/paidjob-4/0> a skos:Concept ;
   skos:inScheme vs:paidjob-4 ;
   skos:notation "0" ;
-  skos:prefLabel "No"@en .
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
 <https://w3id.org/pcnn/vs/paidjob-4/3> a skos:Concept ;
   skos:inScheme vs:paidjob-4 ;
   skos:notation "3" ;
-  skos:prefLabel "Yes, but I have been reported sick (partly) due to long-term complaints"@en .
+  skos:prefLabel "Yes, but I have been reported sick (partly) due to long-term complaints"@en ;
+  skos:prefLabel "Ja, maar ik ben (deels) ziek gemeld door langdurige klachten"@nl .
 
 <https://w3id.org/pcnn/vs/paidjob-4/4> a skos:Concept ;
   skos:inScheme vs:paidjob-4 ;
   skos:notation "4" ;
-  skos:prefLabel "No, I no longer have a job due to long-term complaints"@en .
+  skos:prefLabel "No, I no longer have a job due to long-term complaints"@en ;
+  skos:prefLabel "Nee, ik heb geen werk meer door langdurige klachten"@nl .
 
-vs:income-13 a skos:ConceptScheme ;
-  dct:title "income-13"@en .
+vs:dsq-freq-0-4 a skos:ConceptScheme ;
+  dct:title "dsq-freq-0-4"@en .
 
-<https://w3id.org/pcnn/vs/income-13/1> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
+<https://w3id.org/pcnn/vs/dsq-freq-0-4/0> a skos:Concept ;
+  skos:inScheme vs:dsq-freq-0-4 ;
+  skos:notation "0" ;
+  skos:prefLabel "none of the time"@en ;
+  skos:prefLabel "nooit"@nl .
+
+<https://w3id.org/pcnn/vs/dsq-freq-0-4/1> a skos:Concept ;
+  skos:inScheme vs:dsq-freq-0-4 ;
   skos:notation "1" ;
-  skos:prefLabel "I do not know"@en .
+  skos:prefLabel "a little of the time"@en ;
+  skos:prefLabel "soms"@nl .
 
-<https://w3id.org/pcnn/vs/income-13/2> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
+<https://w3id.org/pcnn/vs/dsq-freq-0-4/2> a skos:Concept ;
+  skos:inScheme vs:dsq-freq-0-4 ;
   skos:notation "2" ;
-  skos:prefLabel "I rather not answer"@en .
+  skos:prefLabel "about half the time"@en ;
+  skos:prefLabel "ongeveer de helft van de tijd"@nl .
 
-<https://w3id.org/pcnn/vs/income-13/3> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
+<https://w3id.org/pcnn/vs/dsq-freq-0-4/3> a skos:Concept ;
+  skos:inScheme vs:dsq-freq-0-4 ;
   skos:notation "3" ;
-  skos:prefLabel "Less than EUR 750"@en .
+  skos:prefLabel "most of the time"@en ;
+  skos:prefLabel "meestal"@nl .
 
-<https://w3id.org/pcnn/vs/income-13/4> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
+<https://w3id.org/pcnn/vs/dsq-freq-0-4/4> a skos:Concept ;
+  skos:inScheme vs:dsq-freq-0-4 ;
   skos:notation "4" ;
-  skos:prefLabel "EUR 750 - 1000"@en .
+  skos:prefLabel "all of the time"@en ;
+  skos:prefLabel "altijd"@nl .
 
-<https://w3id.org/pcnn/vs/income-13/5> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "5" ;
-  skos:prefLabel "EUR 1000 - 1500"@en .
+vs:dsq-sev-1-4 a skos:ConceptScheme ;
+  dct:title "dsq-sev-1-4"@en .
 
-<https://w3id.org/pcnn/vs/income-13/6> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "6" ;
-  skos:prefLabel "EUR 1500 - 2000"@en .
-
-<https://w3id.org/pcnn/vs/income-13/7> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "7" ;
-  skos:prefLabel "EUR 2000 - 2500"@en .
-
-<https://w3id.org/pcnn/vs/income-13/8> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "8" ;
-  skos:prefLabel "EUR 2500 - 3000"@en .
-
-<https://w3id.org/pcnn/vs/income-13/9> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "9" ;
-  skos:prefLabel "EUR 3000 - 3500"@en .
-
-<https://w3id.org/pcnn/vs/income-13/10> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "10" ;
-  skos:prefLabel "EUR 3500 - 4000"@en .
-
-<https://w3id.org/pcnn/vs/income-13/11> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "11" ;
-  skos:prefLabel "EUR 4000 - 4500"@en .
-
-<https://w3id.org/pcnn/vs/income-13/12> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "12" ;
-  skos:prefLabel "EUR 4500 - 5000"@en .
-
-<https://w3id.org/pcnn/vs/income-13/13> a skos:Concept ;
-  skos:inScheme vs:income-13 ;
-  skos:notation "13" ;
-  skos:prefLabel "more than EUR 5000"@en .
-
-vs:employment-10 a skos:ConceptScheme ;
-  dct:title "employment-10"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/1> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
+<https://w3id.org/pcnn/vs/dsq-sev-1-4/1> a skos:Concept ;
+  skos:inScheme vs:dsq-sev-1-4 ;
   skos:notation "1" ;
-  skos:prefLabel "Paid job 32 hours or more per week"@en .
+  skos:prefLabel "mild"@en ;
+  skos:prefLabel "mild"@nl .
 
-<https://w3id.org/pcnn/vs/employment-10/2> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
+<https://w3id.org/pcnn/vs/dsq-sev-1-4/2> a skos:Concept ;
+  skos:inScheme vs:dsq-sev-1-4 ;
   skos:notation "2" ;
-  skos:prefLabel "Paid job 20 to less than 32 hours per week"@en .
+  skos:prefLabel "moderate"@en ;
+  skos:prefLabel "matig"@nl .
 
-<https://w3id.org/pcnn/vs/employment-10/3> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
+<https://w3id.org/pcnn/vs/dsq-sev-1-4/3> a skos:Concept ;
+  skos:inScheme vs:dsq-sev-1-4 ;
   skos:notation "3" ;
-  skos:prefLabel "Paid job 12 to less than 20 hours per week"@en .
+  skos:prefLabel "severe"@en ;
+  skos:prefLabel "ernstig"@nl .
 
-<https://w3id.org/pcnn/vs/employment-10/4> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
+<https://w3id.org/pcnn/vs/dsq-sev-1-4/4> a skos:Concept ;
+  skos:inScheme vs:dsq-sev-1-4 ;
   skos:notation "4" ;
-  skos:prefLabel "Paid job less than 12 hours per week"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/5> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "5" ;
-  skos:prefLabel "Retired (early retirement / AOW / VUT / FPU)"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/6> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "6" ;
-  skos:prefLabel "Unemployed / jobseeker"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/7> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "7" ;
-  skos:prefLabel "Work disabled (WAO / AAW / WAZ / Wajong)"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/8> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "8" ;
-  skos:prefLabel "Receiving a social security benefit"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/9> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "9" ;
-  skos:prefLabel "Full-time homemaker"@en .
-
-<https://w3id.org/pcnn/vs/employment-10/10> a skos:Concept ;
-  skos:inScheme vs:employment-10 ;
-  skos:notation "10" ;
-  skos:prefLabel "In education / study"@en .
+  skos:prefLabel "very severe"@en ;
+  skos:prefLabel "zeer ernstig"@nl .
 
 vs:bpi-front-26 a skos:ConceptScheme ;
   dct:title "bpi-front-26"@en .
@@ -337,132 +147,158 @@ vs:bpi-front-26 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/bpi-front-26/1> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "1" ;
-  skos:prefLabel "No pain"@en .
+  skos:prefLabel "No pain"@en ;
+  skos:prefLabel "Geen pijn"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/2> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "2" ;
-  skos:prefLabel "Face"@en .
+  skos:prefLabel "Face"@en ;
+  skos:prefLabel "Gezicht"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/3> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "3" ;
-  skos:prefLabel "Right jaw"@en .
+  skos:prefLabel "Right jaw"@en ;
+  skos:prefLabel "R kaak"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/4> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "4" ;
-  skos:prefLabel "Left jaw"@en .
+  skos:prefLabel "Left jaw"@en ;
+  skos:prefLabel "L kaak"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/5> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "5" ;
-  skos:prefLabel "Right chest"@en .
+  skos:prefLabel "Right chest"@en ;
+  skos:prefLabel "R borst"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/6> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "6" ;
-  skos:prefLabel "Left chest"@en .
+  skos:prefLabel "Left chest"@en ;
+  skos:prefLabel "L borst"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/7> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "7" ;
-  skos:prefLabel "Right upper arm"@en .
+  skos:prefLabel "Right upper arm"@en ;
+  skos:prefLabel "R bovenarm"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/8> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "8" ;
-  skos:prefLabel "Left upper arm"@en .
+  skos:prefLabel "Left upper arm"@en ;
+  skos:prefLabel "L bovenarm"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/9> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "9" ;
-  skos:prefLabel "Right elbow"@en .
+  skos:prefLabel "Right elbow"@en ;
+  skos:prefLabel "R elleboog"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/10> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "10" ;
-  skos:prefLabel "Left elbow"@en .
+  skos:prefLabel "Left elbow"@en ;
+  skos:prefLabel "L elleboog"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/11> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "11" ;
-  skos:prefLabel "Abdomen"@en .
+  skos:prefLabel "Abdomen"@en ;
+  skos:prefLabel "Buik"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/12> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "12" ;
-  skos:prefLabel "Pelvis"@en .
+  skos:prefLabel "Pelvis"@en ;
+  skos:prefLabel "Bekken"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/13> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "13" ;
-  skos:prefLabel "Right forearm"@en .
+  skos:prefLabel "Right forearm"@en ;
+  skos:prefLabel "R onderarm"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/14> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "14" ;
-  skos:prefLabel "Left forearm"@en .
+  skos:prefLabel "Left forearm"@en ;
+  skos:prefLabel "L onderarm"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/15> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "15" ;
-  skos:prefLabel "Right wrist/hand"@en .
+  skos:prefLabel "Right wrist/hand"@en ;
+  skos:prefLabel "R pols/hand"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/16> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "16" ;
-  skos:prefLabel "Left wrist/hand"@en .
+  skos:prefLabel "Left wrist/hand"@en ;
+  skos:prefLabel "L pols/hand"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/17> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "17" ;
-  skos:prefLabel "Right groin"@en .
+  skos:prefLabel "Right groin"@en ;
+  skos:prefLabel "R lies"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/18> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "18" ;
-  skos:prefLabel "Left groin"@en .
+  skos:prefLabel "Left groin"@en ;
+  skos:prefLabel "L lies"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/19> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "19" ;
-  skos:prefLabel "Right thigh"@en .
+  skos:prefLabel "Right thigh"@en ;
+  skos:prefLabel "R bovenbeen"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/20> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "20" ;
-  skos:prefLabel "Left thigh"@en .
+  skos:prefLabel "Left thigh"@en ;
+  skos:prefLabel "L bovenbeen"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/21> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "21" ;
-  skos:prefLabel "Right knee"@en .
+  skos:prefLabel "Right knee"@en ;
+  skos:prefLabel "R knie"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/22> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "22" ;
-  skos:prefLabel "Left knee"@en .
+  skos:prefLabel "Left knee"@en ;
+  skos:prefLabel "L knie"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/23> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "23" ;
-  skos:prefLabel "Right lower leg"@en .
+  skos:prefLabel "Right lower leg"@en ;
+  skos:prefLabel "R onderbeen"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/24> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "24" ;
-  skos:prefLabel "Left lower leg"@en .
+  skos:prefLabel "Left lower leg"@en ;
+  skos:prefLabel "L onderbeen"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/25> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "25" ;
-  skos:prefLabel "Right ankle/foot"@en .
+  skos:prefLabel "Right ankle/foot"@en ;
+  skos:prefLabel "R enkel/voet"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-front-26/26> a skos:Concept ;
   skos:inScheme vs:bpi-front-26 ;
   skos:notation "26" ;
-  skos:prefLabel "Left ankle/foot"@en .
+  skos:prefLabel "Left ankle/foot"@en ;
+  skos:prefLabel "L enkel/voet"@nl .
 
 vs:bpi-interfere-0-10 a skos:ConceptScheme ;
   dct:title "bpi-interfere-0-10"@en .
@@ -470,57 +306,257 @@ vs:bpi-interfere-0-10 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/0> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "0" ;
-  skos:prefLabel "no interference"@en .
+  skos:prefLabel "no interference"@en ;
+  skos:prefLabel "geen belemmering"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/1> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "1" ;
-  skos:prefLabel "1"@en .
+  skos:prefLabel "1"@en ;
+  skos:prefLabel "1"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/2> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "2" ;
-  skos:prefLabel "2"@en .
+  skos:prefLabel "2"@en ;
+  skos:prefLabel "2"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/3> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "3" ;
-  skos:prefLabel "3"@en .
+  skos:prefLabel "3"@en ;
+  skos:prefLabel "3"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/4> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "4" ;
-  skos:prefLabel "4"@en .
+  skos:prefLabel "4"@en ;
+  skos:prefLabel "4"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/5> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "5" ;
-  skos:prefLabel "5"@en .
+  skos:prefLabel "5"@en ;
+  skos:prefLabel "5"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/6> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "6" ;
-  skos:prefLabel "6"@en .
+  skos:prefLabel "6"@en ;
+  skos:prefLabel "6"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/7> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "7" ;
-  skos:prefLabel "7"@en .
+  skos:prefLabel "7"@en ;
+  skos:prefLabel "7"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/8> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "8" ;
-  skos:prefLabel "8"@en .
+  skos:prefLabel "8"@en ;
+  skos:prefLabel "8"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/9> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "9" ;
-  skos:prefLabel "9"@en .
+  skos:prefLabel "9"@en ;
+  skos:prefLabel "9"@nl .
 
 <https://w3id.org/pcnn/vs/bpi-interfere-0-10/10> a skos:Concept ;
   skos:inScheme vs:bpi-interfere-0-10 ;
   skos:notation "10" ;
-  skos:prefLabel "complete interference"@en .
+  skos:prefLabel "complete interference"@en ;
+  skos:prefLabel "volledige belemmering"@nl .
+
+vs:cis-1-7 a skos:ConceptScheme ;
+  dct:title "cis-1-7"@en .
+
+<https://w3id.org/pcnn/vs/cis-1-7/1> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "1" ;
+  skos:prefLabel "yes, that is true"@en ;
+  skos:prefLabel "ja, dat klopt"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/2> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "2" ;
+  skos:prefLabel "2"@en ;
+  skos:prefLabel "2"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/3> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "3" ;
+  skos:prefLabel "3"@en ;
+  skos:prefLabel "3"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/4> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "4" ;
+  skos:prefLabel "4"@en ;
+  skos:prefLabel "4"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/5> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "5" ;
+  skos:prefLabel "5"@en ;
+  skos:prefLabel "5"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/6> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "6" ;
+  skos:prefLabel "6"@en ;
+  skos:prefLabel "6"@nl .
+
+<https://w3id.org/pcnn/vs/cis-1-7/7> a skos:Concept ;
+  skos:inScheme vs:cis-1-7 ;
+  skos:notation "7" ;
+  skos:prefLabel "no, that is not true"@en ;
+  skos:prefLabel "nee, dat klopt niet"@nl .
+
+vs:employment-10 a skos:ConceptScheme ;
+  dct:title "employment-10"@en .
+
+<https://w3id.org/pcnn/vs/employment-10/1> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "1" ;
+  skos:prefLabel "Paid job 32 hours or more per week"@en ;
+  skos:prefLabel "Betaald werk 32 uur of meer per week"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/2> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "2" ;
+  skos:prefLabel "Paid job 20 to less than 32 hours per week"@en ;
+  skos:prefLabel "Betaald werk 20 tot minder dan 32 uur per week"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/3> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "3" ;
+  skos:prefLabel "Paid job 12 to less than 20 hours per week"@en ;
+  skos:prefLabel "Betaald werk 12 tot minder dan 20 uur per week"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/4> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "4" ;
+  skos:prefLabel "Paid job less than 12 hours per week"@en ;
+  skos:prefLabel "Betaald werk minder dan 12 uur per week"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/5> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "5" ;
+  skos:prefLabel "Retired (early retirement / AOW / VUT / FPU)"@en ;
+  skos:prefLabel "Met pensioen (vervroegd / AOW / VUT / FPU)"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/6> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "6" ;
+  skos:prefLabel "Unemployed / jobseeker"@en ;
+  skos:prefLabel "Werkloos / werkzoekend"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/7> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "7" ;
+  skos:prefLabel "Work disabled (WAO / AAW / WAZ / Wajong)"@en ;
+  skos:prefLabel "Arbeidsongeschikt (WAO / AAW / WAZ / Wajong)"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/8> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "8" ;
+  skos:prefLabel "Receiving a social security benefit"@en ;
+  skos:prefLabel "Ontvangt een bijstandsuitkering"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/9> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "9" ;
+  skos:prefLabel "Full-time homemaker"@en ;
+  skos:prefLabel "Voltijd huishouden"@nl .
+
+<https://w3id.org/pcnn/vs/employment-10/10> a skos:Concept ;
+  skos:inScheme vs:employment-10 ;
+  skos:notation "10" ;
+  skos:prefLabel "In education / study"@en ;
+  skos:prefLabel "In opleiding / studie"@nl .
+
+vs:income-13 a skos:ConceptScheme ;
+  dct:title "income-13"@en .
+
+<https://w3id.org/pcnn/vs/income-13/1> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "1" ;
+  skos:prefLabel "I do not know"@en ;
+  skos:prefLabel "Ik weet dit niet"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/2> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "2" ;
+  skos:prefLabel "I rather not answer"@en ;
+  skos:prefLabel "Daar geef ik liever geen antwoord op"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/3> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "3" ;
+  skos:prefLabel "Less than EUR 750"@en ;
+  skos:prefLabel "Minder dan € 750"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/4> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "4" ;
+  skos:prefLabel "EUR 750 - 1000"@en ;
+  skos:prefLabel "€ 750 - € 1000"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/5> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "5" ;
+  skos:prefLabel "EUR 1000 - 1500"@en ;
+  skos:prefLabel "€1000 - €1500"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/6> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "6" ;
+  skos:prefLabel "EUR 1500 - 2000"@en ;
+  skos:prefLabel "€1500 - €2000"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/7> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "7" ;
+  skos:prefLabel "EUR 2000 - 2500"@en ;
+  skos:prefLabel "€2000 - €2500"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/8> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "8" ;
+  skos:prefLabel "EUR 2500 - 3000"@en ;
+  skos:prefLabel "€2500 - €3000"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/9> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "9" ;
+  skos:prefLabel "EUR 3000 - 3500"@en ;
+  skos:prefLabel "€3000 - €3500"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/10> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "10" ;
+  skos:prefLabel "EUR 3500 - 4000"@en ;
+  skos:prefLabel "€3500 - €4000"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/11> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "11" ;
+  skos:prefLabel "EUR 4000 - 4500"@en ;
+  skos:prefLabel "€4000 - €4500"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/12> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "12" ;
+  skos:prefLabel "EUR 4500 - 5000"@en ;
+  skos:prefLabel "€4500 - €5000"@nl .
+
+<https://w3id.org/pcnn/vs/income-13/13> a skos:Concept ;
+  skos:inScheme vs:income-13 ;
+  skos:notation "13" ;
+  skos:prefLabel "more than EUR 5000"@en ;
+  skos:prefLabel "ruim € 5000"@nl .
 
 vs:onbehalf-8 a skos:ConceptScheme ;
   dct:title "onbehalf-8"@en .
@@ -528,42 +564,50 @@ vs:onbehalf-8 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/onbehalf-8/1> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "1" ;
-  skos:prefLabel "Parent or legal guardian"@en .
+  skos:prefLabel "Parent or legal guardian"@en ;
+  skos:prefLabel "Ouder of wettelijk vertegenwoordiger"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/2> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "2" ;
-  skos:prefLabel "Child"@en .
+  skos:prefLabel "Child"@en ;
+  skos:prefLabel "Kind"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/3> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "3" ;
-  skos:prefLabel "Sibling"@en .
+  skos:prefLabel "Sibling"@en ;
+  skos:prefLabel "Broer of zus"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/4> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "4" ;
-  skos:prefLabel "Partner"@en .
+  skos:prefLabel "Partner"@en ;
+  skos:prefLabel "Partner"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/5> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "5" ;
-  skos:prefLabel "Other relative"@en .
+  skos:prefLabel "Other relative"@en ;
+  skos:prefLabel "Ander familielid"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/6> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "6" ;
-  skos:prefLabel "Friend"@en .
+  skos:prefLabel "Friend"@en ;
+  skos:prefLabel "Vriend(in)"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/7> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "7" ;
-  skos:prefLabel "Care giver (not family)"@en .
+  skos:prefLabel "Care giver (not family)"@en ;
+  skos:prefLabel "Zorgverlener (geen familie)"@nl .
 
 <https://w3id.org/pcnn/vs/onbehalf-8/8> a skos:Concept ;
   skos:inScheme vs:onbehalf-8 ;
   skos:notation "8" ;
-  skos:prefLabel "Other"@en .
+  skos:prefLabel "Other"@en ;
+  skos:prefLabel "Anders"@nl .
 
 vs:howheard-7 a skos:ConceptScheme ;
   dct:title "howheard-7"@en .
@@ -571,37 +615,44 @@ vs:howheard-7 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/howheard-7/1> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "1" ;
-  skos:prefLabel "Via my GP"@en .
+  skos:prefLabel "Via my GP"@en ;
+  skos:prefLabel "Via mijn huisarts"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/2> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "2" ;
-  skos:prefLabel "Via the media (free text)"@en .
+  skos:prefLabel "Via the media (free text)"@en ;
+  skos:prefLabel "Via de media (vrije tekst)"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/3> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "3" ;
-  skos:prefLabel "Via friends or family"@en .
+  skos:prefLabel "Via friends or family"@en ;
+  skos:prefLabel "Via vrienden of familie"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/4> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "4" ;
-  skos:prefLabel "Via Thuisarts.nl"@en .
+  skos:prefLabel "Via Thuisarts.nl"@en ;
+  skos:prefLabel "Via Thuisarts.nl"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/5> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "5" ;
-  skos:prefLabel "Via Google or another search engine"@en .
+  skos:prefLabel "Via Google or another search engine"@en ;
+  skos:prefLabel "Via Google of een andere zoekmachine"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/6> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "6" ;
-  skos:prefLabel "Invitation by letter/email"@en .
+  skos:prefLabel "Invitation by letter/email"@en ;
+  skos:prefLabel "Uitnodiging per brief/e-mail"@nl .
 
 <https://w3id.org/pcnn/vs/howheard-7/7> a skos:Concept ;
   skos:inScheme vs:howheard-7 ;
   skos:notation "7" ;
-  skos:prefLabel "Other (free text)"@en .
+  skos:prefLabel "Other (free text)"@en ;
+  skos:prefLabel "Anders (vrije tekst)"@nl .
 
 vs:invitation-3 a skos:ConceptScheme ;
   dct:title "invitation-3"@en .
@@ -609,17 +660,35 @@ vs:invitation-3 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/invitation-3/1> a skos:Concept ;
   skos:inScheme vs:invitation-3 ;
   skos:notation "1" ;
-  skos:prefLabel "Invitation after RIVM long-COVID study"@en .
+  skos:prefLabel "Invitation after RIVM long-COVID study"@en ;
+  skos:prefLabel "Uitnodiging na RIVM long-COVID-onderzoek"@nl .
 
 <https://w3id.org/pcnn/vs/invitation-3/2> a skos:Concept ;
   skos:inScheme vs:invitation-3 ;
   skos:notation "2" ;
-  skos:prefLabel "Invitation via C-support"@en .
+  skos:prefLabel "Invitation via C-support"@en ;
+  skos:prefLabel "Uitnodiging via C-support"@nl .
 
 <https://w3id.org/pcnn/vs/invitation-3/3> a skos:Concept ;
   skos:inScheme vs:invitation-3 ;
   skos:notation "3" ;
-  skos:prefLabel "Via the RECLAIM newsletter"@en .
+  skos:prefLabel "Via the RECLAIM newsletter"@en ;
+  skos:prefLabel "Via de RECLAIM-nieuwsbrief"@nl .
+
+vs:yes-no a skos:ConceptScheme ;
+  dct:title "yes-no"@en .
+
+<https://w3id.org/pcnn/vs/yes-no/1> a skos:Concept ;
+  skos:inScheme vs:yes-no ;
+  skos:notation "1" ;
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
+
+<https://w3id.org/pcnn/vs/yes-no/0> a skos:Concept ;
+  skos:inScheme vs:yes-no ;
+  skos:notation "0" ;
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
 vs:hospital-treat-3 a skos:ConceptScheme ;
   dct:title "hospital-treat-3"@en .
@@ -627,17 +696,20 @@ vs:hospital-treat-3 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/hospital-treat-3/1> a skos:Concept ;
   skos:inScheme vs:hospital-treat-3 ;
   skos:notation "1" ;
-  skos:prefLabel "Admitted to ICU"@en .
+  skos:prefLabel "Admitted to ICU"@en ;
+  skos:prefLabel "Opgenomen op IC"@nl .
 
 <https://w3id.org/pcnn/vs/hospital-treat-3/2> a skos:Concept ;
   skos:inScheme vs:hospital-treat-3 ;
   skos:notation "2" ;
-  skos:prefLabel "Received oxygen"@en .
+  skos:prefLabel "Received oxygen"@en ;
+  skos:prefLabel "Zuurstof gekregen"@nl .
 
 <https://w3id.org/pcnn/vs/hospital-treat-3/3> a skos:Concept ;
   skos:inScheme vs:hospital-treat-3 ;
   skos:notation "3" ;
-  skos:prefLabel "Neither"@en .
+  skos:prefLabel "Neither"@en ;
+  skos:prefLabel "Geen van beide"@nl .
 
 vs:pos-test-type-5 a skos:ConceptScheme ;
   dct:title "pos-test-type-5"@en .
@@ -645,27 +717,32 @@ vs:pos-test-type-5 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/pos-test-type-5/1> a skos:Concept ;
   skos:inScheme vs:pos-test-type-5 ;
   skos:notation "1" ;
-  skos:prefLabel "PCR or antigen rapid test taken by an expert"@en .
+  skos:prefLabel "PCR or antigen rapid test taken by an expert"@en ;
+  skos:prefLabel "PCR- of antigeensneltest afgenomen door een deskundige"@nl .
 
 <https://w3id.org/pcnn/vs/pos-test-type-5/2> a skos:Concept ;
   skos:inScheme vs:pos-test-type-5 ;
   skos:notation "2" ;
-  skos:prefLabel "Blood test (serology)"@en .
+  skos:prefLabel "Blood test (serology)"@en ;
+  skos:prefLabel "Bloedtest (serologie)"@nl .
 
 <https://w3id.org/pcnn/vs/pos-test-type-5/3> a skos:Concept ;
   skos:inScheme vs:pos-test-type-5 ;
   skos:notation "3" ;
-  skos:prefLabel "Self-test"@en .
+  skos:prefLabel "Self-test"@en ;
+  skos:prefLabel "Zelftest"@nl .
 
 <https://w3id.org/pcnn/vs/pos-test-type-5/4> a skos:Concept ;
   skos:inScheme vs:pos-test-type-5 ;
   skos:notation "4" ;
-  skos:prefLabel "Diagnosed by treating physician; test type unknown"@en .
+  skos:prefLabel "Diagnosed by treating physician; test type unknown"@en ;
+  skos:prefLabel "Vastgesteld door behandelend arts; type test onbekend"@nl .
 
 <https://w3id.org/pcnn/vs/pos-test-type-5/5> a skos:Concept ;
   skos:inScheme vs:pos-test-type-5 ;
   skos:notation "5" ;
-  skos:prefLabel "I do not know"@en .
+  skos:prefLabel "I do not know"@en ;
+  skos:prefLabel "Ik weet het niet"@nl .
 
 vs:pc-confirmedby-6 a skos:ConceptScheme ;
   dct:title "pc-confirmedby-6"@en .
@@ -673,89 +750,59 @@ vs:pc-confirmedby-6 a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/1> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "1" ;
-  skos:prefLabel "A general practitioner"@en .
+  skos:prefLabel "A general practitioner"@en ;
+  skos:prefLabel "Een huisarts"@nl .
 
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/2> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "2" ;
-  skos:prefLabel "A medical specialist"@en .
+  skos:prefLabel "A medical specialist"@en ;
+  skos:prefLabel "Een medisch specialist"@nl .
 
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/3> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "3" ;
-  skos:prefLabel "An alternative practitioner"@en .
+  skos:prefLabel "An alternative practitioner"@en ;
+  skos:prefLabel "Een alternatieve behandelaar"@nl .
 
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/4> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "4" ;
-  skos:prefLabel "People who know me well think I have it; not officially confirmed"@en .
+  skos:prefLabel "People who know me well think I have it; not officially confirmed"@en ;
+  skos:prefLabel "Mensen die mij goed kennen denken dat ik het heb; niet officieel bevestigd"@nl .
 
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/5> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "5" ;
-  skos:prefLabel "I think I have it myself; not officially confirmed"@en .
+  skos:prefLabel "I think I have it myself; not officially confirmed"@en ;
+  skos:prefLabel "Ik denk zelf dat ik het heb; niet officieel bevestigd"@nl .
 
 <https://w3id.org/pcnn/vs/pc-confirmedby-6/6> a skos:Concept ;
   skos:inScheme vs:pc-confirmedby-6 ;
   skos:notation "6" ;
-  skos:prefLabel "Other (free text)"@en .
+  skos:prefLabel "Other (free text)"@en ;
+  skos:prefLabel "Anders (vrije tekst)"@nl .
 
-vs:permission-2 a skos:ConceptScheme ;
-  dct:title "permission-2"@en .
+vs:yes-no-unknown a skos:ConceptScheme ;
+  dct:title "yes-no-unknown"@en .
 
-<https://w3id.org/pcnn/vs/permission-2/1> a skos:Concept ;
-  skos:inScheme vs:permission-2 ;
+<https://w3id.org/pcnn/vs/yes-no-unknown/1> a skos:Concept ;
+  skos:inScheme vs:yes-no-unknown ;
   skos:notation "1" ;
-  skos:prefLabel "Yes, I may be approached; contact details provided"@en .
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
 
-<https://w3id.org/pcnn/vs/permission-2/0> a skos:Concept ;
-  skos:inScheme vs:permission-2 ;
+<https://w3id.org/pcnn/vs/yes-no-unknown/0> a skos:Concept ;
+  skos:inScheme vs:yes-no-unknown ;
   skos:notation "0" ;
-  skos:prefLabel "No, questionnaire study only"@en .
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
-vs:travel-3 a skos:ConceptScheme ;
-  dct:title "travel-3"@en .
-
-<https://w3id.org/pcnn/vs/travel-3/1> a skos:Concept ;
-  skos:inScheme vs:travel-3 ;
-  skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
-
-<https://w3id.org/pcnn/vs/travel-3/2> a skos:Concept ;
-  skos:inScheme vs:travel-3 ;
-  skos:notation "2" ;
-  skos:prefLabel "Yes, but not longer than 1 hour"@en .
-
-<https://w3id.org/pcnn/vs/travel-3/0> a skos:Concept ;
-  skos:inScheme vs:travel-3 ;
-  skos:notation "0" ;
-  skos:prefLabel "No"@en .
-
-vs:s31-skin-2 a skos:ConceptScheme ;
-  dct:title "s31-skin-2"@en .
-
-<https://w3id.org/pcnn/vs/s31-skin-2/1> a skos:Concept ;
-  skos:inScheme vs:s31-skin-2 ;
-  skos:notation "1" ;
-  skos:prefLabel "My hands"@en .
-
-<https://w3id.org/pcnn/vs/s31-skin-2/2> a skos:Concept ;
-  skos:inScheme vs:s31-skin-2 ;
-  skos:notation "2" ;
-  skos:prefLabel "My feet"@en .
-
-vs:depression-history a skos:ConceptScheme ;
-  dct:title "depression-history"@en .
-
-<https://w3id.org/pcnn/vs/depression-history/1> a skos:Concept ;
-  skos:inScheme vs:depression-history ;
-  skos:notation "1" ;
-  skos:prefLabel "Yes, last in year ..."@en .
-
-<https://w3id.org/pcnn/vs/depression-history/0> a skos:Concept ;
-  skos:inScheme vs:depression-history ;
-  skos:notation "0" ;
-  skos:prefLabel "No"@en .
+<https://w3id.org/pcnn/vs/yes-no-unknown/3> a skos:Concept ;
+  skos:inScheme vs:yes-no-unknown ;
+  skos:notation "3" ;
+  skos:prefLabel "I don't know"@en ;
+  skos:prefLabel "Ik weet het niet"@nl .
 
 vs:vaccin-ltc-other a skos:ConceptScheme ;
   dct:title "vaccin-ltc-other"@en .
@@ -763,20 +810,65 @@ vs:vaccin-ltc-other a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/vaccin-ltc-other/1> a skos:Concept ;
   skos:inScheme vs:vaccin-ltc-other ;
   skos:notation "1" ;
-  skos:prefLabel "Yes, namely: free text"@en .
+  skos:prefLabel "Yes, namely: free text"@en ;
+  skos:prefLabel "Ja, namelijk: vrije tekst"@nl .
 
 <https://w3id.org/pcnn/vs/vaccin-ltc-other/0> a skos:Concept ;
   skos:inScheme vs:vaccin-ltc-other ;
   skos:notation "0" ;
-  skos:prefLabel "No"@en .
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
-vs:permissions-check a skos:ConceptScheme ;
-  dct:title "permissions-check"@en .
+vs:yes-no-recovered a skos:ConceptScheme ;
+  dct:title "yes-no-recovered"@en .
 
-<https://w3id.org/pcnn/vs/permissions-check/1> a skos:Concept ;
-  skos:inScheme vs:permissions-check ;
+<https://w3id.org/pcnn/vs/yes-no-recovered/1> a skos:Concept ;
+  skos:inScheme vs:yes-no-recovered ;
   skos:notation "1" ;
-  skos:prefLabel "Yes, this is correct"@en .
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
+
+<https://w3id.org/pcnn/vs/yes-no-recovered/0> a skos:Concept ;
+  skos:inScheme vs:yes-no-recovered ;
+  skos:notation "0" ;
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
+
+<https://w3id.org/pcnn/vs/yes-no-recovered/3> a skos:Concept ;
+  skos:inScheme vs:yes-no-recovered ;
+  skos:notation "3" ;
+  skos:prefLabel "Not anymore, I have recovered"@en ;
+  skos:prefLabel "Niet meer, ik ben hersteld"@nl .
+
+vs:depression-history a skos:ConceptScheme ;
+  dct:title "depression-history"@en .
+
+<https://w3id.org/pcnn/vs/depression-history/1> a skos:Concept ;
+  skos:inScheme vs:depression-history ;
+  skos:notation "1" ;
+  skos:prefLabel "Yes, last in year ..."@en ;
+  skos:prefLabel "Ja, voor het laatst in jaar ..."@nl .
+
+<https://w3id.org/pcnn/vs/depression-history/0> a skos:Concept ;
+  skos:inScheme vs:depression-history ;
+  skos:notation "0" ;
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
+
+vs:s31-skin-2 a skos:ConceptScheme ;
+  dct:title "s31-skin-2"@en .
+
+<https://w3id.org/pcnn/vs/s31-skin-2/1> a skos:Concept ;
+  skos:inScheme vs:s31-skin-2 ;
+  skos:notation "1" ;
+  skos:prefLabel "My hands"@en ;
+  skos:prefLabel "Mijn handen"@nl .
+
+<https://w3id.org/pcnn/vs/s31-skin-2/2> a skos:Concept ;
+  skos:inScheme vs:s31-skin-2 ;
+  skos:notation "2" ;
+  skos:prefLabel "My feet"@en ;
+  skos:prefLabel "Mijn voeten"@nl .
 
 vs:c31-dry-mouth a skos:ConceptScheme ;
   dct:title "c31-dry-mouth"@en .
@@ -784,760 +876,965 @@ vs:c31-dry-mouth a skos:ConceptScheme ;
 <https://w3id.org/pcnn/vs/c31-dry-mouth/1> a skos:Concept ;
   skos:inScheme vs:c31-dry-mouth ;
   skos:notation "1" ;
-  skos:prefLabel "Yes"@en .
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
 
 <https://w3id.org/pcnn/vs/c31-dry-mouth/0> a skos:Concept ;
   skos:inScheme vs:c31-dry-mouth ;
   skos:notation "0" ;
-  skos:prefLabel "No"@en .
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
+
+vs:permission-2 a skos:ConceptScheme ;
+  dct:title "permission-2"@en .
+
+<https://w3id.org/pcnn/vs/permission-2/1> a skos:Concept ;
+  skos:inScheme vs:permission-2 ;
+  skos:notation "1" ;
+  skos:prefLabel "Yes, I may be approached; contact details provided"@en ;
+  skos:prefLabel "Ja, ik mag benaderd worden; contactgegevens gegeven"@nl .
+
+<https://w3id.org/pcnn/vs/permission-2/0> a skos:Concept ;
+  skos:inScheme vs:permission-2 ;
+  skos:notation "0" ;
+  skos:prefLabel "No, questionnaire study only"@en ;
+  skos:prefLabel "Nee, alleen vragenlijstonderzoek"@nl .
+
+vs:permissions-check a skos:ConceptScheme ;
+  dct:title "permissions-check"@en .
+
+<https://w3id.org/pcnn/vs/permissions-check/1> a skos:Concept ;
+  skos:inScheme vs:permissions-check ;
+  skos:notation "1" ;
+  skos:prefLabel "Yes, this is correct"@en ;
+  skos:prefLabel "Ja, dit klopt"@nl .
+
+vs:travel-3 a skos:ConceptScheme ;
+  dct:title "travel-3"@en .
+
+<https://w3id.org/pcnn/vs/travel-3/1> a skos:Concept ;
+  skos:inScheme vs:travel-3 ;
+  skos:notation "1" ;
+  skos:prefLabel "Yes"@en ;
+  skos:prefLabel "Ja"@nl .
+
+<https://w3id.org/pcnn/vs/travel-3/2> a skos:Concept ;
+  skos:inScheme vs:travel-3 ;
+  skos:notation "2" ;
+  skos:prefLabel "Yes, but not longer than 1 hour"@en ;
+  skos:prefLabel "Ja, maar niet langer dan 1 uur"@nl .
+
+<https://w3id.org/pcnn/vs/travel-3/0> a skos:Concept ;
+  skos:inScheme vs:travel-3 ;
+  skos:notation "0" ;
+  skos:prefLabel "No"@en ;
+  skos:prefLabel "Nee"@nl .
 
 var:smokingstatus a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Do you smoke?"@en ;
-  skos:altLabel "smokingstatus" ;
   skos:notation "smokingstatus" ;
+  skos:prefLabel "Do you smoke?"@en ;
+  skos:prefLabel "Rook je?"@nl ;
   skos:definition "Self-reported current smoking behaviour, including former smoking, occasional use, daily tobacco use by amount, and exclusive e-cigarette or vape use."@en ;
-  skos:scopeNote "Theme: demographics / lifestyle. Instrument: none. Datatype: coded. Value set: vs:smokingstatus-6. Same topic as LOINC 72166-2; PCNN uses a 6-level list including vapes."@en ;
-  skos:closeMatch <http://loinc.org/72166-2> .
+  skos:closeMatch <http://loinc.org/72166-2> ;
+  skos:related vs:smokingstatus-6 .
 
 var:paidjob a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Do you have a paid job at this moment?"@en ;
-  skos:altLabel "paidjob" ;
   skos:notation "paidjob" ;
+  skos:prefLabel "Do you have a paid job at this moment?"@en ;
+  skos:prefLabel "Heb je op dit moment betaald werk?"@nl ;
   skos:definition "Whether the respondent currently has paid work, including partial sick leave and job loss due to long-term complaints."@en ;
-  skos:scopeNote "Theme: demographics / work. Instrument: none. Datatype: coded. Value set: vs:paidjob-4. Employment-related concept only; response options are PCNN-specific."@en ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C95551> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C95551> ;
+  skos:related vs:paidjob-4 .
 
 var:hours_household a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Household activities (hours per week)"@en ;
-  skos:altLabel "hours_household" ;
   skos:notation "hours_household" ;
+  skos:prefLabel "Household activities (hours per week)"@en ;
+  skos:prefLabel "Huishoudelijke activiteiten? (uren per week):"@nl ;
   skos:definition "Hours per week spent on household activities."@en ;
-  skos:scopeNote "Theme: demographics / activity. Instrument: none. Datatype: number. Unit: h/wk. Not the same item. LOINC 57253-7 is OASIS-C functional independence, not hours per week."@en ;
   skos:relatedMatch <http://loinc.org/57253-7> .
 
 var:hours_family a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Family activities (hours per week)"@en ;
-  skos:altLabel "hours_family" ;
   skos:notation "hours_family" ;
-  skos:definition "Hours per week spent on family activities."@en ;
-  skos:scopeNote "Theme: demographics / activity. Instrument: none. Datatype: number. Unit: h/wk. No suitable exact public item found."@en .
+  skos:prefLabel "Family activities (hours per week)"@en ;
+  skos:prefLabel "Gezinsactiviteiten? (uren per week):"@nl ;
+  skos:definition "Hours per week spent on family activities."@en .
 
 var:dsq_fatigue_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Fatigue / extreme tiredness"@en ;
-  skos:altLabel "dsq_fatigue_freq" ;
   skos:notation "dsq_fatigue_freq" ;
+  skos:prefLabel "Frequency past 6 months: Fatigue / extreme tiredness"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Vermoeidheid/extreme uitputting"@nl ;
   skos:definition "DSQ frequency rating for fatigue or extreme tiredness over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ. Datatype: coded. Value set: vs:dsq-freq-0-4. SNOMED fatigue is the symptom, not this DSQ frequency item."@en ;
-  dct:source "DSQ" ;
-  skos:relatedMatch <http://snomed.info/id/84229001> .
+  skos:relatedMatch <http://snomed.info/id/84229001> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_slowspeech_sev a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Severity past 6 months: Slowed speech"@en ;
-  skos:altLabel "dsq_slowspeech_sev" ;
   skos:notation "dsq_slowspeech_sev" ;
+  skos:prefLabel "Severity past 6 months: Slowed speech"@en ;
+  skos:prefLabel "Ernst afgelopen 6 maanden: Traag spreken"@nl ;
   skos:definition "DSQ-2 severity rating for slowed speech over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / severity. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-sev-1-4. No public item IRI found for this DSQ-2 item."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-sev-1-4 .
 
 var:dsq_memory_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Problems remembering things"@en ;
-  skos:altLabel "dsq_memory_freq" ;
   skos:notation "dsq_memory_freq" ;
+  skos:prefLabel "Frequency past 6 months: Problems remembering things"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Moeite met herinneren van dingen"@nl ;
   skos:definition "DSQ frequency rating for problems remembering things over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. SNOMED memory concept is the symptom, not the DSQ frequency item."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/386807006> .
+  skos:relatedMatch <http://snomed.info/id/386807006> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_exhausted_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Physically drained or sick after mild activity"@en ;
-  skos:altLabel "dsq_exhausted_freq" ;
   skos:notation "dsq_exhausted_freq" ;
+  skos:prefLabel "Frequency past 6 months: Physically drained or sick after mild activity"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Lichamelijk uitgeput of ziek na milde activiteit"@nl ;
   skos:definition "DSQ frequency rating for feeling physically drained or sick after mild activity over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / PEM. Instrument: DSQ-PEM + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-PEM + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/84229001> .
+  skos:relatedMatch <http://snomed.info/id/84229001> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_heavy_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Dead, heavy feeling after starting to exercise"@en ;
-  skos:altLabel "dsq_heavy_freq" ;
   skos:notation "dsq_heavy_freq" ;
+  skos:prefLabel "Frequency past 6 months: Dead, heavy feeling after starting to exercise"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Dood, zwaar gevoel na beginnen met sporten"@nl ;
   skos:definition "DSQ frequency rating for a dead, heavy feeling after starting to exercise over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / PEM. Instrument: DSQ-SF + DSQ-PEM + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-PEM + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/161874006> .
+  skos:relatedMatch <http://snomed.info/id/161874006> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_muscletwitch_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Muscle twitches"@en ;
-  skos:altLabel "dsq_muscletwitch_freq" ;
   skos:notation "dsq_muscletwitch_freq" ;
+  skos:prefLabel "Frequency past 6 months: Muscle twitches"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Spiertrekkingen"@nl ;
   skos:definition "DSQ-2 frequency rating for muscle twitches over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_muscletwitch_sev a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Severity past 6 months: Muscle twitches"@en ;
-  skos:altLabel "dsq_muscletwitch_sev" ;
   skos:notation "dsq_muscletwitch_sev" ;
+  skos:prefLabel "Severity past 6 months: Muscle twitches"@en ;
+  skos:prefLabel "Ernst afgelopen 6 maanden: Spiertrekkingen"@nl ;
   skos:definition "DSQ-2 severity rating for muscle twitches over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / severity. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-sev-1-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-sev-1-4 .
 
 var:dsq_soreness_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities"@en ;
-  skos:altLabel "dsq_soreness_freq" ;
   skos:notation "dsq_soreness_freq" ;
+  skos:prefLabel "Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Spierpijn of vermoeidheid de volgende dag na niet-zware alledaagse activiteiten"@nl ;
   skos:definition "DSQ frequency rating for next-day soreness or fatigue after non-strenuous everyday activities."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / PEM. Instrument: DSQ-SF + DSQ-PEM + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-PEM + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/71393004> .
+  skos:relatedMatch <http://snomed.info/id/71393004> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_minexercise_sev a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Severity past 6 months: Minimum exercise makes you physically tired"@en ;
-  skos:altLabel "dsq_minexercise_sev" ;
   skos:notation "dsq_minexercise_sev" ;
+  skos:prefLabel "Severity past 6 months: Minimum exercise makes you physically tired"@en ;
+  skos:prefLabel "Ernst afgelopen 6 maanden: Minimale inspanning maakt je lichamelijk moe"@nl ;
   skos:definition "DSQ severity rating for becoming physically tired after minimum exercise."@en ;
-  skos:scopeNote "Theme: symptoms / severity / PEM. Instrument: DSQ-SF + DSQ-PEM + DSQ-2. Datatype: coded. Value set: vs:dsq-sev-1-4."@en ;
-  dct:source "DSQ-SF + DSQ-PEM + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/408578001> .
+  skos:relatedMatch <http://snomed.info/id/408578001> ;
+  skos:related vs:dsq-sev-1-4 .
 
 var:dsq_pain_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Pain or aching in your muscles"@en ;
-  skos:altLabel "dsq_pain_freq" ;
   skos:notation "dsq_pain_freq" ;
+  skos:prefLabel "Frequency past 6 months: Pain or aching in your muscles"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Pijn of zeurend gevoel in je spieren"@nl ;
   skos:definition "DSQ frequency rating for muscle pain or aching over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/68962001> .
+  skos:relatedMatch <http://snomed.info/id/68962001> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_forgetful_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Absent-mindedness or forgetfulness"@en ;
-  skos:altLabel "dsq_forgetful_freq" ;
   skos:notation "dsq_forgetful_freq" ;
+  skos:prefLabel "Frequency past 6 months: Absent-mindedness or forgetfulness"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Vergeetachtigheid"@nl ;
   skos:definition "DSQ-2 frequency rating for absent-mindedness or forgetfulness over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_shortbreath_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Shortness of breath"@en ;
-  skos:altLabel "dsq_shortbreath_freq" ;
   skos:notation "dsq_shortbreath_freq" ;
+  skos:prefLabel "Frequency past 6 months: Shortness of breath"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Kortademigheid"@nl ;
   skos:definition "DSQ-2 frequency rating for shortness of breath or trouble catching breath over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_noappetite_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: No appetite"@en ;
-  skos:altLabel "dsq_noappetite_freq" ;
   skos:notation "dsq_noappetite_freq" ;
+  skos:prefLabel "Frequency past 6 months: No appetite"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Geen eetlust"@nl ;
   skos:definition "DSQ-2 frequency rating for no appetite over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_unablestand_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Inability to tolerate an upright position"@en ;
-  skos:altLabel "dsq_unablestand_freq" ;
   skos:notation "dsq_unablestand_freq" ;
+  skos:prefLabel "Frequency past 6 months: Inability to tolerate an upright position"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Niet kunnen verdragen van een rechtopstaande houding"@nl ;
   skos:definition "DSQ frequency rating for inability to tolerate an upright position over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / POTS. Instrument: DSQ-POTS + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-POTS + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/870368003> .
+  skos:relatedMatch <http://snomed.info/id/870368003> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_bloating_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Bloating"@en ;
-  skos:altLabel "dsq_bloating_freq" ;
   skos:notation "dsq_bloating_freq" ;
+  skos:prefLabel "Frequency past 6 months: Bloating"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Opgeblazen gevoel"@nl ;
   skos:definition "DSQ frequency rating for bloating over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/116289008> .
+  skos:relatedMatch <http://snomed.info/id/116289008> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_slowthink_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Slowness of thought"@en ;
-  skos:altLabel "dsq_slowthink_freq" ;
   skos:notation "dsq_slowthink_freq" ;
+  skos:prefLabel "Frequency past 6 months: Slowness of thought"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Traag denken"@nl ;
   skos:definition "DSQ-2 frequency rating for slowness of thought over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_ibs_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Irritable bowel problems"@en ;
-  skos:altLabel "dsq_ibs_freq" ;
   skos:notation "dsq_ibs_freq" ;
+  skos:prefLabel "Frequency past 6 months: Irritable bowel problems"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Prikkelbare darmklachten"@nl ;
   skos:definition "DSQ frequency rating for irritable bowel problems over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/10743008> .
+  skos:relatedMatch <http://snomed.info/id/10743008> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_irregularhb_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Irregular heart beats"@en ;
-  skos:altLabel "dsq_irregularhb_freq" ;
   skos:notation "dsq_irregularhb_freq" ;
+  skos:prefLabel "Frequency past 6 months: Irregular heart beats"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Onregelmatige hartslag"@nl ;
   skos:definition "DSQ-2 frequency rating for irregular heart beats over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / POTS. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-2" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C168414> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C168414> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_lowtemp_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Feeling like you have a low temperature"@en ;
-  skos:altLabel "dsq_lowtemp_freq" ;
   skos:notation "dsq_lowtemp_freq" ;
+  skos:prefLabel "Frequency past 6 months: Feeling like you have a low temperature"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Gevoel van lage lichaamstemperatuur"@nl ;
   skos:definition "DSQ-2 frequency rating for feeling as if body temperature is low."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_flu_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Flu-like symptoms"@en ;
-  skos:altLabel "dsq_flu_freq" ;
   skos:notation "dsq_flu_freq" ;
+  skos:prefLabel "Frequency past 6 months: Flu-like symptoms"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Griepachtige klachten"@nl ;
   skos:definition "DSQ frequency rating for flu-like symptoms over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C143492> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C143492> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_nightawake_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Sleeping all day and staying awake all night"@en ;
-  skos:altLabel "dsq_nightawake_freq" ;
   skos:notation "dsq_nightawake_freq" ;
+  skos:prefLabel "Frequency past 6 months: Sleeping all day and staying awake all night"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Overdag slapen en 's nachts wakker blijven"@nl ;
   skos:definition "DSQ-2 frequency rating for sleeping all day and staying awake all night."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_dizzy_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Dizziness or fainting"@en ;
-  skos:altLabel "dsq_dizzy_freq" ;
   skos:notation "dsq_dizzy_freq" ;
+  skos:prefLabel "Frequency past 6 months: Dizziness or fainting"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Duizeligheid of flauwvallen"@nl ;
   skos:definition "DSQ-2 frequency rating for dizziness or fainting over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / POTS. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-2" ;
-  skos:relatedMatch <http://loinc.org/69712-8> .
+  skos:relatedMatch <http://loinc.org/69712-8> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_hightemp_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Feeling like you have a high temperature"@en ;
-  skos:altLabel "dsq_hightemp_freq" ;
   skos:notation "dsq_hightemp_freq" ;
+  skos:prefLabel "Frequency past 6 months: Feeling like you have a high temperature"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Gevoel van hoge lichaamstemperatuur"@nl ;
   skos:definition "DSQ-2 frequency rating for feeling as if body temperature is high."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_coldlimbs_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Cold limbs"@en ;
-  skos:altLabel "dsq_coldlimbs_freq" ;
   skos:notation "dsq_coldlimbs_freq" ;
+  skos:prefLabel "Frequency past 6 months: Cold limbs"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Koude ledematen"@nl ;
   skos:definition "DSQ frequency rating for cold arms, legs, hands or feet over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/771542000> .
+  skos:relatedMatch <http://snomed.info/id/771542000> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_sensitivities_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick"@en ;
-  skos:altLabel "dsq_sensitivities_freq" ;
   skos:notation "dsq_sensitivities_freq" ;
+  skos:prefLabel "Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Sommige geuren, voeding, medicijnen of chemicaliën maken je ziek"@nl ;
   skos:definition "DSQ frequency rating for feeling sick from some smells, foods, medications or chemicals."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-SF + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-SF + DSQ-2" ;
-  skos:relatedMatch <http://snomed.info/id/16932000> .
+  skos:relatedMatch <http://snomed.info/id/16932000> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_musclefatigue_sev a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Severity past 6 months: Muscle fatigue after mild physical activity"@en ;
-  skos:altLabel "dsq_musclefatigue_sev" ;
   skos:notation "dsq_musclefatigue_sev" ;
+  skos:prefLabel "Severity past 6 months: Muscle fatigue after mild physical activity"@en ;
+  skos:prefLabel "Ernst afgelopen 6 maanden: Spiervermoeidheid na milde fysieke activiteit"@nl ;
   skos:definition "DSQ-2 severity rating for muscle fatigue after mild physical activity."@en ;
-  skos:scopeNote "Theme: symptoms / severity / PEM. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-sev-1-4."@en ;
-  dct:source "DSQ-2" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C189011> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C189011> ;
+  skos:related vs:dsq-sev-1-4 .
 
 var:dsq_pressurepain_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Pressure on parts of the body causes pain in other parts"@en ;
-  skos:altLabel "dsq_pressurepain_freq" ;
   skos:notation "dsq_pressurepain_freq" ;
+  skos:prefLabel "Frequency past 6 months: Pressure on parts of the body causes pain in other parts"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Druk op delen van het lichaam veroorzaakt pijn elders"@nl ;
   skos:definition "DSQ-2 frequency rating for pain referred from pressure on other body parts."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_blackedvision_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Graying or blacking out after standing"@en ;
-  skos:altLabel "dsq_blackedvision_freq" ;
   skos:notation "dsq_blackedvision_freq" ;
+  skos:prefLabel "Frequency past 6 months: Graying or blacking out after standing"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Grijze of zwarte vlekken na opstaan"@nl ;
   skos:definition "DSQ frequency rating for graying or blacking out after standing."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / POTS. Instrument: DSQ-POTS + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-POTS + DSQ-2" ;
-  skos:relatedMatch <http://loinc.org/69712-8> .
+  skos:relatedMatch <http://loinc.org/69712-8> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_pemphysical_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Worsening of symptoms after mild physical activity"@en ;
-  skos:altLabel "dsq_pemphysical_freq" ;
   skos:notation "dsq_pemphysical_freq" ;
+  skos:prefLabel "Frequency past 6 months: Worsening of symptoms after mild physical activity"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Verergering van klachten na milde fysieke activiteit"@nl ;
   skos:definition "DSQ frequency rating for worsening of symptoms after mild physical activity."@en ;
-  skos:scopeNote "Theme: symptoms / frequency / PEM. Instrument: DSQ-PEM + DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4."@en ;
-  dct:source "DSQ-PEM + DSQ-2" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C189011> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C189011> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_achingeyes_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Aching of the eyes or behind the eyes"@en ;
-  skos:altLabel "dsq_achingeyes_freq" ;
   skos:notation "dsq_achingeyes_freq" ;
+  skos:prefLabel "Frequency past 6 months: Aching of the eyes or behind the eyes"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Pijn in of achter de ogen"@nl ;
   skos:definition "DSQ-2 frequency rating for aching of the eyes or behind the eyes."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:related vs:dsq-freq-0-4 .
 
 var:dsq_headache_freq a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Frequency past 6 months: Headaches"@en ;
-  skos:altLabel "dsq_headache_freq" ;
   skos:notation "dsq_headache_freq" ;
+  skos:prefLabel "Frequency past 6 months: Headaches"@en ;
+  skos:prefLabel "Frequentie afgelopen 6 maanden: Hoofdpijn"@nl ;
   skos:definition "DSQ-2 frequency rating for headaches over the past 6 months."@en ;
-  skos:scopeNote "Theme: symptoms / frequency. Instrument: DSQ-2. Datatype: coded. Value set: vs:dsq-freq-0-4. No public item IRI found."@en ;
-  dct:source "DSQ-2" .
+  skos:relatedMatch <http://snomed.info/id/25064002> ;
+  skos:related vs:dsq-freq-0-4 .
 
 var:bpi_pain_where_front a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Indicate your main pain area (front)"@en ;
-  skos:altLabel "bpi_pain_where_front" ;
   skos:notation "bpi_pain_where_front" ;
+  skos:prefLabel "Indicate your main pain area (front)"@en ;
+  skos:prefLabel "Geef uw belangrijkste pijngebied aan (voorkant)."@nl ;
   skos:definition "Main pain region selected on the front body map of the Brief Pain Inventory."@en ;
-  skos:scopeNote "Theme: pain. Instrument: Brief Pain Inventory. Datatype: coded. Value set: vs:bpi-front-26. BPI body-map item; regions are instrument-specific."@en ;
-  dct:source "Brief Pain Inventory" .
+  skos:related vs:bpi-front-26 .
 
 var:bpi_prohibited_activity a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Pain interference with general activity last 24 hours (0-10)"@en ;
-  skos:altLabel "bpi_prohibited_activity" ;
   skos:notation "bpi_prohibited_activity" ;
+  skos:prefLabel "Pain interference with general activity last 24 hours (0-10)"@en ;
+  skos:prefLabel "Hoe heeft de pijn in de afgelopen 24-uur belemmerend gewerkt op uw algemene activiteit"@nl ;
   skos:definition "How much pain interfered with general activity during the last 24 hours (0 = no interference, 10 = complete interference)."@en ;
-  skos:scopeNote "Theme: pain / interference. Instrument: Brief Pain Inventory. Datatype: coded. Value set: vs:bpi-interfere-0-10. Related pain-interference concept; 24-hour 0-10 scale is from BPI."@en ;
-  dct:source "Brief Pain Inventory" ;
-  skos:closeMatch <http://purl.obolibrary.org/obo/NCIT_C100365> .
+  skos:closeMatch <http://purl.obolibrary.org/obo/NCIT_C100365> ;
+  skos:related vs:bpi-interfere-0-10 .
 
 var:cis_18_noenthousiasm a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "I don't feel like doing anything"@en ;
-  skos:altLabel "cis_18_noenthousiasm" ;
   skos:notation "cis_18_noenthousiasm" ;
+  skos:prefLabel "I don't feel like doing anything"@en ;
+  skos:prefLabel "De zin om dingen te ondernemen ontbreekt mij"@nl ;
   skos:definition "CIS20-R item: agreement with 'I don't feel like doing anything' on a 1-7 scale."@en ;
-  skos:scopeNote "Theme: fatigue / motivation. Instrument: CIS20-R. Datatype: coded. Value set: vs:cis-1-7. Related motivation concept; this is the CIS20-R item."@en ;
-  dct:source "CIS20-R" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130031> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130031> ;
+  skos:related vs:cis-1-7 .
 
 var:cis_13_diff_focus a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "It takes a lot of effort to concentrate on things"@en ;
-  skos:altLabel "cis_13_diff_focus" ;
   skos:notation "cis_13_diff_focus" ;
+  skos:prefLabel "It takes a lot of effort to concentrate on things"@en ;
+  skos:prefLabel "Het kost me moeite ergens mijn aandacht bij te houden"@nl ;
   skos:definition "CIS20-R item: agreement with difficulty concentrating, 1-7 scale."@en ;
-  skos:scopeNote "Theme: fatigue / concentration. Instrument: CIS20-R. Datatype: coded. Value set: vs:cis-1-7. Related concentration concept; this is the CIS20-R item."@en ;
-  dct:source "CIS20-R" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130026> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130026> ;
+  skos:related vs:cis-1-7 .
 
 var:cis_14_phys_bad a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Physically I feel I am in bad form"@en ;
-  skos:altLabel "cis_14_phys_bad" ;
   skos:notation "cis_14_phys_bad" ;
+  skos:prefLabel "Physically I feel I am in bad form"@en ;
+  skos:prefLabel "Lichamelijk voel ik me in een slechte conditie"@nl ;
   skos:definition "CIS20-R item: agreement with 'Physically I feel I am in bad form' on a 1-7 scale."@en ;
-  skos:scopeNote "Theme: fatigue / energy. Instrument: CIS20-R. Datatype: coded. Value set: vs:cis-1-7. Related physical-fatigue concept; not an exact CIS item code."@en ;
-  dct:source "CIS20-R" ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130027> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C130027> ;
+  skos:related vs:cis-1-7 .
 
 var:employment_status a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Which situation applies to you most regarding paid work?"@en ;
-  skos:altLabel "employment_status" ;
   skos:notation "employment_status" ;
+  skos:prefLabel "Which situation applies to you most regarding paid work?"@en ;
+  skos:prefLabel "Welke situatie is voor jou het meest van toepassing wat betreft betaald werk?"@nl ;
   skos:definition "Current main employment or income situation."@en ;
-  skos:scopeNote "Theme: demographics / work. Instrument: none. Datatype: coded. Value set: vs:employment-10. Employment-status topic only; PCNN options are study-specific."@en ;
-  skos:relatedMatch <http://loinc.org/67875-5> .
+  skos:relatedMatch <http://loinc.org/67875-5> ;
+  skos:related vs:employment-10 .
 
 var:income a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Net monthly household income"@en ;
-  skos:altLabel "income" ;
   skos:notation "income" ;
+  skos:prefLabel "Net monthly household income"@en ;
+  skos:prefLabel "Hoeveel bedraagt het netto inkomen per maand?"@nl ;
   skos:definition "Net monthly household income in euro bands, including partner income if the household is shared."@en ;
-  skos:scopeNote "Theme: demographics / work. Instrument: none. Datatype: coded. Value set: vs:income-13. Income topic only; euro cut-points are PCNN-specific."@en ;
-  skos:relatedMatch <http://loinc.org/98161-3> .
+  skos:relatedMatch <http://loinc.org/98161-3> ;
+  skos:related vs:income-13 .
 
 var:onbehalf_who a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "What is your relation to the person for whom you provide information?"@en ;
-  skos:altLabel "onbehalf_who" ;
   skos:notation "onbehalf_who" ;
+  skos:prefLabel "What is your relation to the person for whom you provide information?"@en ;
+  skos:prefLabel "Wat is jouw relatie tot de persoon voor wie je informatie invult?"@nl ;
   skos:definition "Relationship of the informant to the study participant when completing on behalf of someone else."@en ;
-  skos:scopeNote "Theme: participation. Instrument: none. Datatype: coded. Value set: vs:onbehalf-8. Local informant-relationship item."@en .
+  skos:related vs:onbehalf-8 .
 
 var:onbehalf_who_t a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "How are you related?"@en ;
-  skos:altLabel "onbehalf_who_t" ;
   skos:notation "onbehalf_who_t" ;
+  skos:prefLabel "How are you related?"@en ;
+  skos:prefLabel "Hoe ben je gerelateerd?"@nl ;
   skos:definition "Free-text description of the relationship when completing on behalf of someone else."@en ;
-  skos:scopeNote "Theme: participation. Instrument: none. Datatype: text."@en ;
   skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C83393> .
 
 var:howheardstudy a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "How did you hear about the post-COVID research?"@en ;
-  skos:altLabel "howheardstudy" ;
   skos:notation "howheardstudy" ;
+  skos:prefLabel "How did you hear about the post-COVID research?"@en ;
+  skos:prefLabel "Hoe heb je van het post-COVID-onderzoek gehoord?"@nl ;
   skos:definition "How the respondent learned about the PCNN study."@en ;
-  skos:scopeNote "Theme: participation. Instrument: none. Datatype: coded. Value set: vs:howheard-7."@en ;
-  skos:relatedMatch <http://snomed.info/id/780816009> .
+  skos:relatedMatch <http://snomed.info/id/780816009> ;
+  skos:related vs:howheard-7 .
 
 var:invitation a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Which research or organization invited you?"@en ;
-  skos:altLabel "invitation" ;
   skos:notation "invitation" ;
+  skos:prefLabel "Which research or organization invited you?"@en ;
+  skos:prefLabel "Welk onderzoek of welke organisatie heeft je uitgenodigd?"@nl ;
   skos:definition "Recruitment source that invited the respondent."@en ;
-  skos:scopeNote "Theme: participation. Instrument: none. Datatype: coded. Value set: vs:invitation-3."@en ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C93448> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C93448> ;
+  skos:related vs:invitation-3 .
 
 var:studycodept a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Research code received by email or letter"@en ;
-  skos:altLabel "studycodept" ;
   skos:notation "studycodept" ;
-  skos:definition "Study linkage code sent to the participant so questionnaire data can be joined to other PCNN data."@en ;
-  skos:scopeNote "Theme: participation / contact. Instrument: none. Datatype: text. Local linkage identifier; not a clinical concept."@en .
+  skos:prefLabel "Research code received by email or letter"@en ;
+  skos:prefLabel "Onderzoekscode ontvangen per e-mail of brief"@nl ;
+  skos:definition "Study linkage code sent to the participant so questionnaire data can be joined to other PCNN data."@en .
 
 var:contact_GP a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Enter your GP contact details"@en ;
-  skos:altLabel "contact_GP" ;
   skos:notation "contact_GP" ;
+  skos:prefLabel "Enter your GP contact details"@en ;
+  skos:prefLabel "Vul de contactgegevens van je huisarts in"@nl ;
   skos:definition "Free-text general practitioner contact details provided by the respondent."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: text."@en ;
   skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C60776> .
 
 var:hospital_end a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Date discharged from hospital"@en ;
-  skos:altLabel "hospital_end" ;
   skos:notation "hospital_end" ;
+  skos:prefLabel "Date discharged from hospital"@en ;
+  skos:prefLabel "Op welke datum werd je ontslagen uit het ziekenhuis?"@nl ;
   skos:definition "Date the respondent was discharged from hospital; estimation is allowed."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: date. Discharge-date concept; PCNN item allows an estimate."@en ;
   skos:closeMatch <http://loinc.org/8649-6> .
 
 var:hosptial a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Hospital admission due to corona infection before long-term symptoms"@en ;
-  skos:altLabel "hosptial" ;
   skos:notation "hosptial" ;
+  skos:prefLabel "Hospital admission due to corona infection before long-term symptoms"@en ;
+  skos:prefLabel "Opname in het ziekenhuis door corona-infectie vóór langdurige klachten"@nl ;
   skos:definition "Whether the respondent was admitted to hospital for a coronavirus infection before long-term symptoms started."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: coded. Value set: vs:yes-no. Column name keeps the original codebook spelling."@en ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C25179> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C25179> ;
+  skos:related vs:yes-no .
 
 var:hospital_treat a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "What applied during hospital admission"@en ;
-  skos:altLabel "hospital_treat" ;
   skos:notation "hospital_treat" ;
+  skos:prefLabel "What applied during hospital admission"@en ;
+  skos:prefLabel "Wat was van toepassing tijdens de ziekenhuisopname"@nl ;
   skos:definition "Whether ICU admission and/or oxygen treatment applied during hospital admission."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: coded. Value set: vs:hospital-treat-3."@en ;
-  skos:relatedMatch <http://snomed.info/id/32485007> .
+  skos:relatedMatch <http://snomed.info/id/32485007> ;
+  skos:related vs:hospital-treat-3 .
 
 var:Nxinfected a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Estimated number of coronavirus infections since February 2020"@en ;
-  skos:altLabel "Nxinfected" ;
   skos:notation "Nxinfected" ;
+  skos:prefLabel "Estimated number of coronavirus infections since February 2020"@en ;
+  skos:prefLabel "Geschat aantal coronavirusinfecties sinds februari 2020"@nl ;
   skos:definition "How often the respondent thinks they were infected with SARS-CoV-2 since the start of the pandemic in the Netherlands."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: number."@en ;
   skos:relatedMatch <http://snomed.info/id/840539006> .
 
 var:Nxinfected_confirm a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Number of infections confirmed by a positive test"@en ;
-  skos:altLabel "Nxinfected_confirm" ;
   skos:notation "Nxinfected_confirm" ;
-  skos:definition "How many of the reported infections were confirmed with a positive test."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: number."@en .
+  skos:prefLabel "Number of infections confirmed by a positive test"@en ;
+  skos:prefLabel "Aantal infecties bevestigd met een positieve test"@nl ;
+  skos:definition "How many of the reported infections were confirmed with a positive test."@en .
 
 var:pos_test a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Positive test before long-term coronavirus complaints"@en ;
-  skos:altLabel "pos_test" ;
   skos:notation "pos_test" ;
+  skos:prefLabel "Positive test before long-term coronavirus complaints"@en ;
+  skos:prefLabel "Positieve test vóór langdurige coronavirusklachten"@nl ;
   skos:definition "Whether the respondent tested positive before long-term coronavirus complaints started."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: coded. Value set: vs:yes-no."@en .
+  skos:related vs:yes-no .
 
 var:pos_test_type a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Type of coronavirus test for this result"@en ;
-  skos:altLabel "pos_test_type" ;
   skos:notation "pos_test_type" ;
+  skos:prefLabel "Type of coronavirus test for this result"@en ;
+  skos:prefLabel "Type coronavirustest voor dit resultaat"@nl ;
   skos:definition "Type of test used for the reported positive coronavirus result."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: coded. Value set: vs:pos-test-type-5."@en ;
-  skos:relatedMatch <http://snomed.info/id/246246002> .
+  skos:relatedMatch <http://snomed.info/id/246246002> ;
+  skos:related vs:pos-test-type-5 .
 
 var:pos_test_date a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Date of this coronavirus test"@en ;
-  skos:altLabel "pos_test_date" ;
   skos:notation "pos_test_date" ;
+  skos:prefLabel "Date of this coronavirus test"@en ;
+  skos:prefLabel "Datum van deze coronavirustest"@nl ;
   skos:definition "Date of the reported coronavirus test; estimation is allowed."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: date."@en ;
   skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C82512> .
 
 var:pc_confirmedby a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Who told you that you had long COVID / post-COVID syndrome?"@en ;
-  skos:altLabel "pc_confirmedby" ;
   skos:notation "pc_confirmedby" ;
+  skos:prefLabel "Who told you that you had long COVID / post-COVID syndrome?"@en ;
+  skos:prefLabel "Wie heeft je verteld dat je long COVID / post-COVID-syndroom had?"@nl ;
   skos:definition "Source of the long-COVID or post-COVID syndrome attribution."@en ;
-  skos:scopeNote "Theme: COVID-19. Instrument: none. Datatype: coded. Value set: vs:pc-confirmedby-6."@en ;
-  skos:relatedMatch <http://snomed.info/id/1119303003> .
+  skos:relatedMatch <http://snomed.info/id/1119303003> ;
+  skos:related vs:pc-confirmedby-6 .
 
 var:vaccin a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Have you been vaccinated against the coronavirus?"@en ;
-  skos:altLabel "vaccin" ;
   skos:notation "vaccin" ;
+  skos:prefLabel "Have you been vaccinated against the coronavirus?"@en ;
+  skos:prefLabel "Ben je gevaccineerd tegen het coronavirus?"@nl ;
   skos:definition "Whether the respondent received any SARS-CoV-2 vaccination."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: coded. Value set: vs:yes-no-unknown."@en ;
-  skos:relatedMatch <http://loinc.org/97073-1> .
+  skos:relatedMatch <http://loinc.org/97073-1> ;
+  skos:related vs:yes-no-unknown .
 
 var:vaccin_N a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Number of coronavirus vaccinations"@en ;
-  skos:altLabel "vaccin_N" ;
   skos:notation "vaccin_N" ;
+  skos:prefLabel "Number of coronavirus vaccinations"@en ;
+  skos:prefLabel "Aantal coronavirusvaccinaties"@nl ;
   skos:definition "How many coronavirus vaccinations the respondent has received."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: number."@en ;
   skos:relatedMatch <http://loinc.org/97073-1> .
 
 var:vaccin_LTc_Nvacc a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "After how many vaccinations did vaccine-related long-term complaints start?"@en ;
-  skos:altLabel "vaccin_LTc_Nvacc" ;
   skos:notation "vaccin_LTc_Nvacc" ;
-  skos:definition "Number of coronavirus vaccinations received before long-term complaints attributed to vaccination started."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: number."@en .
+  skos:prefLabel "After how many vaccinations did vaccine-related long-term complaints start?"@en ;
+  skos:prefLabel "Na hoeveel vaccinaties begonnen vaccingerelateerde langdurige klachten?"@nl ;
+  skos:definition "Number of coronavirus vaccinations received before long-term complaints attributed to vaccination started."@en .
 
 var:vaccin_LTc_date a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Date of the vaccination linked to post-COVID vaccination syndrome"@en ;
-  skos:altLabel "vaccin_LTc_date" ;
   skos:notation "vaccin_LTc_date" ;
-  skos:definition "Date of the vaccination after which post-COVID vaccination syndrome started; estimation allowed."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: date."@en .
+  skos:prefLabel "Date of the vaccination linked to post-COVID vaccination syndrome"@en ;
+  skos:prefLabel "Datum van de vaccinatie gekoppeld aan post-COVID-vaccinatiesyndroom"@nl ;
+  skos:definition "Date of the vaccination after which post-COVID vaccination syndrome started; estimation allowed."@en .
 
 var:vaccin_LTc_Nvirus a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Vaccinations received before coronavirus-related long-term complaints"@en ;
-  skos:altLabel "vaccin_LTc_Nvirus" ;
   skos:notation "vaccin_LTc_Nvirus" ;
-  skos:definition "Number of vaccinations received before long-term complaints attributed to the coronavirus started."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: number."@en .
+  skos:prefLabel "Vaccinations received before coronavirus-related long-term complaints"@en ;
+  skos:prefLabel "Vaccinaties ontvangen vóór coronavirusgerelateerde langdurige klachten"@nl ;
+  skos:definition "Number of vaccinations received before long-term complaints attributed to the coronavirus started."@en .
 
 var:vaccin_LTc_other a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Long-term complaints after a non-COVID vaccination"@en ;
-  skos:altLabel "vaccin_LTc_other" ;
   skos:notation "vaccin_LTc_other" ;
+  skos:prefLabel "Long-term complaints after a non-COVID vaccination"@en ;
+  skos:prefLabel "Langdurige klachten na een niet-COVID-vaccinatie"@nl ;
   skos:definition "Whether the respondent ever had long-term complaints after a non-COVID vaccination, for example a travel vaccine or flu shot."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: coded. Value set: vs:vaccin-ltc-other."@en ;
-  skos:relatedMatch <http://loinc.org/66375-7> .
+  skos:relatedMatch <http://loinc.org/66375-7> ;
+  skos:related vs:vaccin-ltc-other .
 
 var:whodiagnosed a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Who told you that you had post-COVID vaccination syndrome?"@en ;
-  skos:altLabel "whodiagnosed" ;
   skos:notation "whodiagnosed" ;
+  skos:prefLabel "Who told you that you had post-COVID vaccination syndrome?"@en ;
+  skos:prefLabel "Wie heeft je verteld dat je post-COVID-vaccinatiesyndroom had?"@nl ;
   skos:definition "Source of the post-COVID vaccination syndrome attribution."@en ;
-  skos:scopeNote "Theme: COVID-19 / vaccination. Instrument: none. Datatype: coded. Value set: vs:pc-confirmedby-6."@en .
+  skos:related vs:pc-confirmedby-6 .
 
 var:LTcompl_virus a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Current long-term health complaints due to the coronavirus"@en ;
-  skos:altLabel "LTcompl_virus" ;
   skos:notation "LTcompl_virus" ;
+  skos:prefLabel "Current long-term health complaints due to the coronavirus"@en ;
+  skos:prefLabel "Huidige langdurige gezondheidsklachten door het coronavirus"@nl ;
   skos:definition "Whether the respondent currently has long-term health complaints attributed to the coronavirus."@en ;
-  skos:scopeNote "Theme: long-term complaints / COVID-19. Instrument: none. Datatype: coded. Value set: vs:yes-no-recovered."@en ;
-  skos:relatedMatch <http://snomed.info/id/1119304009> .
+  skos:relatedMatch <http://snomed.info/id/1119304009> ;
+  skos:related vs:yes-no-recovered .
 
 var:LTcompl_virus_start a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Approximate start date of coronavirus-related long-term complaints"@en ;
-  skos:altLabel "LTcompl_virus_start" ;
   skos:notation "LTcompl_virus_start" ;
+  skos:prefLabel "Approximate start date of coronavirus-related long-term complaints"@en ;
+  skos:prefLabel "Geschatte startdatum van coronavirusgerelateerde langdurige klachten"@nl ;
   skos:definition "Estimated start date of long-term complaints attributed to the coronavirus."@en ;
-  skos:scopeNote "Theme: long-term complaints / COVID-19. Instrument: none. Datatype: date."@en ;
   skos:relatedMatch <http://snomed.info/id/298059007> .
 
 var:LTcompl_virus_recover a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Approximate recovery date from coronavirus-related long-term complaints"@en ;
-  skos:altLabel "LTcompl_virus_recover" ;
   skos:notation "LTcompl_virus_recover" ;
-  skos:definition "Estimated date of recovery from long-term complaints attributed to the coronavirus."@en ;
-  skos:scopeNote "Theme: long-term complaints / COVID-19. Instrument: none. Datatype: date."@en .
+  skos:prefLabel "Approximate recovery date from coronavirus-related long-term complaints"@en ;
+  skos:prefLabel "Geschatte hersteldatum van coronavirusgerelateerde langdurige klachten"@nl ;
+  skos:definition "Estimated date of recovery from long-term complaints attributed to the coronavirus."@en .
 
 var:LTcompl_vacc a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Current long-term health complaints due to a coronavirus vaccination"@en ;
-  skos:altLabel "LTcompl_vacc" ;
   skos:notation "LTcompl_vacc" ;
+  skos:prefLabel "Current long-term health complaints due to a coronavirus vaccination"@en ;
+  skos:prefLabel "Huidige langdurige gezondheidsklachten door een coronavirusvaccinatie"@nl ;
   skos:definition "Whether the respondent currently has long-term health complaints attributed to a coronavirus vaccination."@en ;
-  skos:scopeNote "Theme: long-term complaints / vaccination. Instrument: none. Datatype: coded. Value set: vs:yes-no-recovered."@en ;
-  skos:relatedMatch <http://snomed.info/id/293104008> .
+  skos:relatedMatch <http://snomed.info/id/293104008> ;
+  skos:related vs:yes-no-recovered .
 
 var:LTcompl_vacc_recover a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Approximate recovery date from vaccine-related long-term complaints"@en ;
-  skos:altLabel "LTcompl_vacc_recover" ;
   skos:notation "LTcompl_vacc_recover" ;
+  skos:prefLabel "Approximate recovery date from vaccine-related long-term complaints"@en ;
+  skos:prefLabel "Geschatte hersteldatum van vaccingerelateerde langdurige klachten"@nl ;
   skos:definition "Estimated date of recovery from long-term complaints attributed to the coronavirus vaccine."@en ;
-  skos:scopeNote "Theme: long-term complaints / vaccination. Instrument: none. Datatype: date."@en ;
   skos:relatedMatch <http://snomed.info/id/293104008> .
 
 var:depression_history a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Have you ever suffered from depressive symptoms?"@en ;
-  skos:altLabel "depression_history" ;
   skos:notation "depression_history" ;
+  skos:prefLabel "Have you ever suffered from depressive symptoms?"@en ;
+  skos:prefLabel "Heb je ooit last gehad van depressieve klachten?"@nl ;
   skos:definition "Lifetime history of depressive symptoms, with optional year of last episode."@en ;
-  skos:scopeNote "Theme: mental health. Instrument: none. Datatype: coded. Value set: vs:depression-history."@en ;
-  skos:relatedMatch <http://snomed.info/id/394924000> .
+  skos:relatedMatch <http://snomed.info/id/394924000> ;
+  skos:related vs:depression-history .
 
 var:s31_skin_where a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Which body parts are affected by these colour changes?"@en ;
-  skos:altLabel "s31_skin_where" ;
   skos:notation "s31_skin_where" ;
+  skos:prefLabel "Which body parts are affected by these colour changes?"@en ;
+  skos:prefLabel "Welke lichaamsdelen zijn betrokken bij deze kleurveranderingen?"@nl ;
   skos:definition "COMPASS-31 item: body regions affected by skin colour changes."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: coded. Value set: vs:s31-skin-2."@en ;
-  dct:source "COMPASS-31" ;
-  skos:relatedMatch <http://snomed.info/id/364533002> .
+  skos:relatedMatch <http://snomed.info/id/364533002> ;
+  skos:related vs:s31-skin-2 .
 
 var:c31_dry_mouth a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Does your mouth feel abnormally dry?"@en ;
-  skos:altLabel "c31_dry_mouth" ;
   skos:notation "c31_dry_mouth" ;
+  skos:prefLabel "Does your mouth feel abnormally dry?"@en ;
+  skos:prefLabel "Voelt uw mond abnormaal droog aan?"@nl ;
   skos:definition "COMPASS-31 item asking whether the mouth feels abnormally dry."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: coded. Value set: vs:c31-dry-mouth. Close to PhenX/LOINC 63981-5 ('frequently dry') but this is the COMPASS-31 wording ('abnormally dry')."@en ;
-  dct:source "COMPASS-31" ;
-  skos:closeMatch <http://loinc.org/63981-5> .
+  skos:closeMatch <http://loinc.org/63981-5> ;
+  skos:related vs:c31-dry-mouth .
 
 var:c31_drrhea_freq_n a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "How many times per month? (diarrhea)"@en ;
-  skos:altLabel "c31_drrhea_freq_n" ;
   skos:notation "c31_drrhea_freq_n" ;
+  skos:prefLabel "How many times per month? (diarrhea)"@en ;
+  skos:prefLabel "Hoe vaak per maand? (diarree)"@nl ;
   skos:definition "COMPASS-31 count of diarrhea episodes per month."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: number. Unit: /mo."@en ;
-  dct:source "COMPASS-31" ;
   skos:relatedMatch <http://loinc.org/69711-0> .
 
 var:c31_bladder_freq_n a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "How many times per month? (bladder)"@en ;
-  skos:altLabel "c31_bladder_freq_n" ;
   skos:notation "c31_bladder_freq_n" ;
-  skos:definition "COMPASS-31 count of bladder-related episodes per month."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: number. Unit: /mo."@en ;
-  dct:source "COMPASS-31" .
+  skos:prefLabel "How many times per month? (bladder)"@en ;
+  skos:prefLabel "Hoe vaak per maand? (blaas)"@nl ;
+  skos:definition "COMPASS-31 count of bladder-related episodes per month."@en .
 
 var:c31_eyes_change a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "This most annoying eye complaint is"@en ;
-  skos:altLabel "c31_eyes_change" ;
   skos:notation "c31_eyes_change" ;
-  skos:definition "COMPASS-31 item identifying the most annoying eye complaint."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: text."@en ;
-  dct:source "COMPASS-31" .
+  skos:prefLabel "This most annoying eye complaint is"@en ;
+  skos:prefLabel "Deze meest hinderlijke oogklacht is"@nl ;
+  skos:definition "COMPASS-31 item identifying the most annoying eye complaint."@en .
 
 var:calcc31_eyes_change a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "COMPASS dependency (eyes)"@en ;
-  skos:altLabel "calcc31_eyes_change" ;
   skos:notation "calcc31_eyes_change" ;
-  skos:definition "Derived COMPASS-31 eyes-change dependency score calculated by the study pipeline."@en ;
-  skos:scopeNote "Theme: symptoms / POTS. Instrument: COMPASS-31. Datatype: number. Derived variable; not a questionnaire item."@en ;
-  dct:source "COMPASS-31" .
+  skos:prefLabel "COMPASS dependency (eyes)"@en ;
+  skos:prefLabel "COMPASS-afhankelijkheid (ogen)"@nl ;
+  skos:definition "Derived COMPASS-31 eyes-change dependency score calculated by the study pipeline."@en .
 
 var:permission a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "May we contact you for additional scientific research?"@en ;
-  skos:altLabel "permission" ;
   skos:notation "permission" ;
+  skos:prefLabel "May we contact you for additional scientific research?"@en ;
+  skos:prefLabel "Mogen we je benaderen voor aanvullend wetenschappelijk onderzoek?"@nl ;
   skos:definition "Consent to be approached for additional PCNN scientific research."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: coded. Value set: vs:permission-2."@en ;
-  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C125453> .
+  skos:relatedMatch <http://purl.obolibrary.org/obo/NCIT_C125453> ;
+  skos:related vs:permission-2 .
 
 var:permission_pc a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Consent form for post-COVID research"@en ;
-  skos:altLabel "permission_pc" ;
   skos:notation "permission_pc" ;
+  skos:prefLabel "Consent form for post-COVID research"@en ;
+  skos:prefLabel "Toestemmingsformulier voor post-COVID-onderzoek"@nl ;
   skos:definition "Record that the post-COVID research consent form was presented or completed."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: text."@en ;
   skos:relatedMatch <http://snomed.info/id/75554001> .
 
 var:persmission_postvacc a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Consent form for post-COVID vaccination complaints research"@en ;
-  skos:altLabel "persmission_postvacc" ;
   skos:notation "persmission_postvacc" ;
+  skos:prefLabel "Consent form for post-COVID vaccination complaints research"@en ;
+  skos:prefLabel "Toestemmingsformulier voor onderzoek naar post-COVID-vaccinatieklachten"@nl ;
   skos:definition "Record that the post-vaccination complaints consent form was presented or completed. Column name keeps the original codebook spelling."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: text."@en ;
   skos:relatedMatch <http://snomed.info/id/75554001> .
 
 var:permissions_check a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Confirmation that additional-research permission was not given"@en ;
-  skos:altLabel "permissions_check" ;
   skos:notation "permissions_check" ;
+  skos:prefLabel "Confirmation that additional-research permission was not given"@en ;
+  skos:prefLabel "Je hebt op de vorige pagina (nog) geen toestemming gegeven om benaderd te mogen worden voor aanvullend onderzoek. Klopt dit?"@nl ;
   skos:definition "Check item confirming that the respondent did not give permission to be approached for additional research."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: coded. Value set: vs:permissions-check."@en .
+  skos:related vs:permissions-check .
 
 var:travel a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "Able and willing to travel for additional research"@en ;
-  skos:altLabel "travel" ;
   skos:notation "travel" ;
+  skos:prefLabel "Able and willing to travel for additional research"@en ;
+  skos:prefLabel "Ben je in staat en bereid om te reizen om deel te nemen aan aanvullend onderzoek?"@nl ;
   skos:definition "Whether the respondent can travel to take part in additional research."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: coded. Value set: vs:travel-3."@en .
+  skos:related vs:travel-3 .
 
 var:contact a skos:Concept ;
   skos:inScheme : ;
-  skos:prefLabel "May we contact you for a telephone or video appointment?"@en ;
-  skos:altLabel "contact" ;
   skos:notation "contact" ;
+  skos:prefLabel "May we contact you for a telephone or video appointment?"@en ;
+  skos:prefLabel "Mogen we je benaderen voor een belafspraak of een videogesprek voor aanvullend onderzoek"@nl ;
   skos:definition "Consent to be contacted by phone or video for additional research."@en ;
-  skos:scopeNote "Theme: permissions. Instrument: none. Datatype: coded. Value set: vs:yes-no."@en .
+  skos:related vs:yes-no .
+
+:coll-inst-brief-pain-inventory a skos:Collection ;
+  skos:prefLabel "Brief Pain Inventory"@en ;
+  skos:member var:bpi_pain_where_front,
+    var:bpi_prohibited_activity .
+
+:coll-inst-cis20-r a skos:Collection ;
+  skos:prefLabel "CIS20-R"@en ;
+  skos:member var:cis_18_noenthousiasm,
+    var:cis_13_diff_focus,
+    var:cis_14_phys_bad .
+
+:coll-inst-compass-31 a skos:Collection ;
+  skos:prefLabel "COMPASS-31"@en ;
+  skos:member var:s31_skin_where,
+    var:c31_dry_mouth,
+    var:c31_drrhea_freq_n,
+    var:c31_bladder_freq_n,
+    var:c31_eyes_change,
+    var:calcc31_eyes_change .
+
+:coll-inst-dsq a skos:Collection ;
+  skos:prefLabel "DSQ"@en ;
+  skos:member var:dsq_fatigue_freq .
+
+:coll-inst-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-2"@en ;
+  skos:member var:dsq_slowspeech_sev,
+    var:dsq_muscletwitch_freq,
+    var:dsq_muscletwitch_sev,
+    var:dsq_forgetful_freq,
+    var:dsq_shortbreath_freq,
+    var:dsq_noappetite_freq,
+    var:dsq_slowthink_freq,
+    var:dsq_irregularhb_freq,
+    var:dsq_lowtemp_freq,
+    var:dsq_nightawake_freq,
+    var:dsq_dizzy_freq,
+    var:dsq_hightemp_freq,
+    var:dsq_musclefatigue_sev,
+    var:dsq_pressurepain_freq,
+    var:dsq_achingeyes_freq,
+    var:dsq_headache_freq .
+
+:coll-inst-dsq-pem-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-PEM + DSQ-2"@en ;
+  skos:member var:dsq_exhausted_freq,
+    var:dsq_pemphysical_freq .
+
+:coll-inst-dsq-pots-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-POTS + DSQ-2"@en ;
+  skos:member var:dsq_unablestand_freq,
+    var:dsq_blackedvision_freq .
+
+:coll-inst-dsq-sf-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-SF + DSQ-2"@en ;
+  skos:member var:dsq_memory_freq,
+    var:dsq_pain_freq,
+    var:dsq_bloating_freq,
+    var:dsq_ibs_freq,
+    var:dsq_flu_freq,
+    var:dsq_coldlimbs_freq,
+    var:dsq_sensitivities_freq .
+
+:coll-inst-dsq-sf-dsq-pem-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-SF + DSQ-PEM + DSQ-2"@en ;
+  skos:member var:dsq_heavy_freq,
+    var:dsq_soreness_freq,
+    var:dsq_minexercise_sev .
+
+:coll-inst-no-instrument a skos:Collection ;
+  skos:prefLabel "no instrument"@en ;
+  skos:member var:smokingstatus,
+    var:paidjob,
+    var:hours_household,
+    var:hours_family,
+    var:employment_status,
+    var:income,
+    var:onbehalf_who,
+    var:onbehalf_who_t,
+    var:howheardstudy,
+    var:invitation,
+    var:studycodept,
+    var:contact_GP,
+    var:hospital_end,
+    var:hosptial,
+    var:hospital_treat,
+    var:Nxinfected,
+    var:Nxinfected_confirm,
+    var:pos_test,
+    var:pos_test_type,
+    var:pos_test_date,
+    var:pc_confirmedby,
+    var:vaccin,
+    var:vaccin_N,
+    var:vaccin_LTc_Nvacc,
+    var:vaccin_LTc_date,
+    var:vaccin_LTc_Nvirus,
+    var:vaccin_LTc_other,
+    var:whodiagnosed,
+    var:LTcompl_virus,
+    var:LTcompl_virus_start,
+    var:LTcompl_virus_recover,
+    var:LTcompl_vacc,
+    var:LTcompl_vacc_recover,
+    var:depression_history,
+    var:permission,
+    var:permission_pc,
+    var:persmission_postvacc,
+    var:permissions_check,
+    var:travel,
+    var:contact .
+
+:coll-theme-covid-19 a skos:Collection ;
+  skos:prefLabel "COVID-19"@en ;
+  skos:member var:hospital_end,
+    var:hosptial,
+    var:hospital_treat,
+    var:Nxinfected,
+    var:Nxinfected_confirm,
+    var:pos_test,
+    var:pos_test_type,
+    var:pos_test_date,
+    var:pc_confirmedby,
+    var:vaccin,
+    var:vaccin_N,
+    var:vaccin_LTc_Nvacc,
+    var:vaccin_LTc_date,
+    var:vaccin_LTc_Nvirus,
+    var:vaccin_LTc_other,
+    var:whodiagnosed .
+
+:coll-theme-demographics a skos:Collection ;
+  skos:prefLabel "demographics"@en ;
+  skos:member var:smokingstatus,
+    var:paidjob,
+    var:hours_household,
+    var:hours_family,
+    var:employment_status,
+    var:income .
+
+:coll-theme-fatigue a skos:Collection ;
+  skos:prefLabel "fatigue"@en ;
+  skos:member var:cis_18_noenthousiasm,
+    var:cis_13_diff_focus,
+    var:cis_14_phys_bad .
+
+:coll-theme-long-term-complaints a skos:Collection ;
+  skos:prefLabel "long-term complaints"@en ;
+  skos:member var:LTcompl_virus,
+    var:LTcompl_virus_start,
+    var:LTcompl_virus_recover,
+    var:LTcompl_vacc,
+    var:LTcompl_vacc_recover .
+
+:coll-theme-mental-health a skos:Collection ;
+  skos:prefLabel "mental health"@en ;
+  skos:member var:depression_history .
+
+:coll-theme-pain a skos:Collection ;
+  skos:prefLabel "pain"@en ;
+  skos:member var:bpi_pain_where_front,
+    var:bpi_prohibited_activity .
+
+:coll-theme-participation a skos:Collection ;
+  skos:prefLabel "participation"@en ;
+  skos:member var:onbehalf_who,
+    var:onbehalf_who_t,
+    var:howheardstudy,
+    var:invitation,
+    var:studycodept .
+
+:coll-theme-permissions a skos:Collection ;
+  skos:prefLabel "permissions"@en ;
+  skos:member var:contact_GP,
+    var:permission,
+    var:permission_pc,
+    var:persmission_postvacc,
+    var:permissions_check,
+    var:travel,
+    var:contact .
+
+:coll-theme-symptoms a skos:Collection ;
+  skos:prefLabel "symptoms"@en ;
+  skos:member var:dsq_fatigue_freq,
+    var:dsq_slowspeech_sev,
+    var:dsq_memory_freq,
+    var:dsq_exhausted_freq,
+    var:dsq_heavy_freq,
+    var:dsq_muscletwitch_freq,
+    var:dsq_muscletwitch_sev,
+    var:dsq_soreness_freq,
+    var:dsq_minexercise_sev,
+    var:dsq_pain_freq,
+    var:dsq_forgetful_freq,
+    var:dsq_shortbreath_freq,
+    var:dsq_noappetite_freq,
+    var:dsq_unablestand_freq,
+    var:dsq_bloating_freq,
+    var:dsq_slowthink_freq,
+    var:dsq_ibs_freq,
+    var:dsq_irregularhb_freq,
+    var:dsq_lowtemp_freq,
+    var:dsq_flu_freq,
+    var:dsq_nightawake_freq,
+    var:dsq_dizzy_freq,
+    var:dsq_hightemp_freq,
+    var:dsq_coldlimbs_freq,
+    var:dsq_sensitivities_freq,
+    var:dsq_musclefatigue_sev,
+    var:dsq_pressurepain_freq,
+    var:dsq_blackedvision_freq,
+    var:dsq_pemphysical_freq,
+    var:dsq_achingeyes_freq,
+    var:dsq_headache_freq,
+    var:s31_skin_where,
+    var:c31_dry_mouth,
+    var:c31_drrhea_freq_n,
+    var:c31_bladder_freq_n,
+    var:c31_eyes_change,
+    var:calcc31_eyes_change .
 

@@ -1,609 +1,690 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>PCNN variable vocabulary</title>
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; max-width: 1200px; }
-    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
-    th, td { border: 1px solid #ccc; padding: 0.4rem 0.5rem; vertical-align: top; }
-    th { background: #f4f4f4; text-align: left; }
-    code { font-size: 0.88rem; }
-  </style>
-</head>
-<body>
-  <h1>PCNN variable vocabulary</h1>
-  <p>Version 0.1.0. Local test page for PCNN item identifiers.</p>
-  <p>Persistent IRI pattern:
-     <code>https://w3id.org/pcnn/var/{column_name}</code>
-     (resolves after the w3id pull request is merged; until then use this page).</p>
-  <p>Machine-readable file: <a href="vocabulary.ttl">vocabulary.ttl</a></p>
-  <p>Instrument item wording remains copyright of the original instrument authors.
-     This page publishes PCNN identifiers, short English labels, definitions and mappings.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Column</th><th>English label</th><th>Instrument</th>
-        <th>Datatype</th><th>Persistent IRI</th><th>Mapping</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr id="smokingstatus">
-<td><code>smokingstatus</code></td>
-<td>Do you smoke?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/smokingstatus">https://w3id.org/pcnn/var/smokingstatus</a></td>
-<td>closeMatch <a href="http://loinc.org/72166-2">http://loinc.org/72166-2</a></td>
-</tr><tr id="paidjob">
-<td><code>paidjob</code></td>
-<td>Do you have a paid job at this moment?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/paidjob">https://w3id.org/pcnn/var/paidjob</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C95551">http://purl.obolibrary.org/obo/NCIT_C95551</a></td>
-</tr><tr id="hours_household">
-<td><code>hours_household</code></td>
-<td>Household activities (hours per week)</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/hours_household">https://w3id.org/pcnn/var/hours_household</a></td>
-<td>relatedMatch <a href="http://loinc.org/57253-7">http://loinc.org/57253-7</a></td>
-</tr><tr id="hours_family">
-<td><code>hours_family</code></td>
-<td>Family activities (hours per week)</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/hours_family">https://w3id.org/pcnn/var/hours_family</a></td>
-<td>No suitable exact public item found.</td>
-</tr><tr id="dsq_fatigue_freq">
-<td><code>dsq_fatigue_freq</code></td>
-<td>Frequency past 6 months: Fatigue / extreme tiredness</td>
-<td>DSQ</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_fatigue_freq">https://w3id.org/pcnn/var/dsq_fatigue_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></td>
-</tr><tr id="dsq_slowspeech_sev">
-<td><code>dsq_slowspeech_sev</code></td>
-<td>Severity past 6 months: Slowed speech</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_slowspeech_sev">https://w3id.org/pcnn/var/dsq_slowspeech_sev</a></td>
-<td>No public item IRI found for this DSQ-2 item.</td>
-</tr><tr id="dsq_memory_freq">
-<td><code>dsq_memory_freq</code></td>
-<td>Frequency past 6 months: Problems remembering things</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_memory_freq">https://w3id.org/pcnn/var/dsq_memory_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/386807006">http://snomed.info/id/386807006</a></td>
-</tr><tr id="dsq_exhausted_freq">
-<td><code>dsq_exhausted_freq</code></td>
-<td>Frequency past 6 months: Physically drained or sick after mild activity</td>
-<td>DSQ-PEM + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_exhausted_freq">https://w3id.org/pcnn/var/dsq_exhausted_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></td>
-</tr><tr id="dsq_heavy_freq">
-<td><code>dsq_heavy_freq</code></td>
-<td>Frequency past 6 months: Dead, heavy feeling after starting to exercise</td>
-<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_heavy_freq">https://w3id.org/pcnn/var/dsq_heavy_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/161874006">http://snomed.info/id/161874006</a></td>
-</tr><tr id="dsq_muscletwitch_freq">
-<td><code>dsq_muscletwitch_freq</code></td>
-<td>Frequency past 6 months: Muscle twitches</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_muscletwitch_freq">https://w3id.org/pcnn/var/dsq_muscletwitch_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_muscletwitch_sev">
-<td><code>dsq_muscletwitch_sev</code></td>
-<td>Severity past 6 months: Muscle twitches</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_muscletwitch_sev">https://w3id.org/pcnn/var/dsq_muscletwitch_sev</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_soreness_freq">
-<td><code>dsq_soreness_freq</code></td>
-<td>Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities</td>
-<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_soreness_freq">https://w3id.org/pcnn/var/dsq_soreness_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/71393004">http://snomed.info/id/71393004</a></td>
-</tr><tr id="dsq_minexercise_sev">
-<td><code>dsq_minexercise_sev</code></td>
-<td>Severity past 6 months: Minimum exercise makes you physically tired</td>
-<td>DSQ-SF + DSQ-PEM + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_minexercise_sev">https://w3id.org/pcnn/var/dsq_minexercise_sev</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/408578001">http://snomed.info/id/408578001</a></td>
-</tr><tr id="dsq_pain_freq">
-<td><code>dsq_pain_freq</code></td>
-<td>Frequency past 6 months: Pain or aching in your muscles</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_pain_freq">https://w3id.org/pcnn/var/dsq_pain_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/68962001">http://snomed.info/id/68962001</a></td>
-</tr><tr id="dsq_forgetful_freq">
-<td><code>dsq_forgetful_freq</code></td>
-<td>Frequency past 6 months: Absent-mindedness or forgetfulness</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_forgetful_freq">https://w3id.org/pcnn/var/dsq_forgetful_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_shortbreath_freq">
-<td><code>dsq_shortbreath_freq</code></td>
-<td>Frequency past 6 months: Shortness of breath</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_shortbreath_freq">https://w3id.org/pcnn/var/dsq_shortbreath_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_noappetite_freq">
-<td><code>dsq_noappetite_freq</code></td>
-<td>Frequency past 6 months: No appetite</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_noappetite_freq">https://w3id.org/pcnn/var/dsq_noappetite_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_unablestand_freq">
-<td><code>dsq_unablestand_freq</code></td>
-<td>Frequency past 6 months: Inability to tolerate an upright position</td>
-<td>DSQ-POTS + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_unablestand_freq">https://w3id.org/pcnn/var/dsq_unablestand_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/870368003">http://snomed.info/id/870368003</a></td>
-</tr><tr id="dsq_bloating_freq">
-<td><code>dsq_bloating_freq</code></td>
-<td>Frequency past 6 months: Bloating</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_bloating_freq">https://w3id.org/pcnn/var/dsq_bloating_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/116289008">http://snomed.info/id/116289008</a></td>
-</tr><tr id="dsq_slowthink_freq">
-<td><code>dsq_slowthink_freq</code></td>
-<td>Frequency past 6 months: Slowness of thought</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_slowthink_freq">https://w3id.org/pcnn/var/dsq_slowthink_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_ibs_freq">
-<td><code>dsq_ibs_freq</code></td>
-<td>Frequency past 6 months: Irritable bowel problems</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_ibs_freq">https://w3id.org/pcnn/var/dsq_ibs_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/10743008">http://snomed.info/id/10743008</a></td>
-</tr><tr id="dsq_irregularhb_freq">
-<td><code>dsq_irregularhb_freq</code></td>
-<td>Frequency past 6 months: Irregular heart beats</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_irregularhb_freq">https://w3id.org/pcnn/var/dsq_irregularhb_freq</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C168414">http://purl.obolibrary.org/obo/NCIT_C168414</a></td>
-</tr><tr id="dsq_lowtemp_freq">
-<td><code>dsq_lowtemp_freq</code></td>
-<td>Frequency past 6 months: Feeling like you have a low temperature</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_lowtemp_freq">https://w3id.org/pcnn/var/dsq_lowtemp_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_flu_freq">
-<td><code>dsq_flu_freq</code></td>
-<td>Frequency past 6 months: Flu-like symptoms</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_flu_freq">https://w3id.org/pcnn/var/dsq_flu_freq</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C143492">http://purl.obolibrary.org/obo/NCIT_C143492</a></td>
-</tr><tr id="dsq_nightawake_freq">
-<td><code>dsq_nightawake_freq</code></td>
-<td>Frequency past 6 months: Sleeping all day and staying awake all night</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_nightawake_freq">https://w3id.org/pcnn/var/dsq_nightawake_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_dizzy_freq">
-<td><code>dsq_dizzy_freq</code></td>
-<td>Frequency past 6 months: Dizziness or fainting</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_dizzy_freq">https://w3id.org/pcnn/var/dsq_dizzy_freq</a></td>
-<td>relatedMatch <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></td>
-</tr><tr id="dsq_hightemp_freq">
-<td><code>dsq_hightemp_freq</code></td>
-<td>Frequency past 6 months: Feeling like you have a high temperature</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_hightemp_freq">https://w3id.org/pcnn/var/dsq_hightemp_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_coldlimbs_freq">
-<td><code>dsq_coldlimbs_freq</code></td>
-<td>Frequency past 6 months: Cold limbs</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_coldlimbs_freq">https://w3id.org/pcnn/var/dsq_coldlimbs_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/771542000">http://snomed.info/id/771542000</a></td>
-</tr><tr id="dsq_sensitivities_freq">
-<td><code>dsq_sensitivities_freq</code></td>
-<td>Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick</td>
-<td>DSQ-SF + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_sensitivities_freq">https://w3id.org/pcnn/var/dsq_sensitivities_freq</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/16932000">http://snomed.info/id/16932000</a></td>
-</tr><tr id="dsq_musclefatigue_sev">
-<td><code>dsq_musclefatigue_sev</code></td>
-<td>Severity past 6 months: Muscle fatigue after mild physical activity</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_musclefatigue_sev">https://w3id.org/pcnn/var/dsq_musclefatigue_sev</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></td>
-</tr><tr id="dsq_pressurepain_freq">
-<td><code>dsq_pressurepain_freq</code></td>
-<td>Frequency past 6 months: Pressure on parts of the body causes pain in other parts</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_pressurepain_freq">https://w3id.org/pcnn/var/dsq_pressurepain_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_blackedvision_freq">
-<td><code>dsq_blackedvision_freq</code></td>
-<td>Frequency past 6 months: Graying or blacking out after standing</td>
-<td>DSQ-POTS + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_blackedvision_freq">https://w3id.org/pcnn/var/dsq_blackedvision_freq</a></td>
-<td>relatedMatch <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></td>
-</tr><tr id="dsq_pemphysical_freq">
-<td><code>dsq_pemphysical_freq</code></td>
-<td>Frequency past 6 months: Worsening of symptoms after mild physical activity</td>
-<td>DSQ-PEM + DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_pemphysical_freq">https://w3id.org/pcnn/var/dsq_pemphysical_freq</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></td>
-</tr><tr id="dsq_achingeyes_freq">
-<td><code>dsq_achingeyes_freq</code></td>
-<td>Frequency past 6 months: Aching of the eyes or behind the eyes</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_achingeyes_freq">https://w3id.org/pcnn/var/dsq_achingeyes_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="dsq_headache_freq">
-<td><code>dsq_headache_freq</code></td>
-<td>Frequency past 6 months: Headaches</td>
-<td>DSQ-2</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/dsq_headache_freq">https://w3id.org/pcnn/var/dsq_headache_freq</a></td>
-<td>No public item IRI found.</td>
-</tr><tr id="bpi_pain_where_front">
-<td><code>bpi_pain_where_front</code></td>
-<td>Indicate your main pain area (front)</td>
-<td>Brief Pain Inventory</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/bpi_pain_where_front">https://w3id.org/pcnn/var/bpi_pain_where_front</a></td>
-<td>BPI body-map item; regions are instrument-specific.</td>
-</tr><tr id="bpi_prohibited_activity">
-<td><code>bpi_prohibited_activity</code></td>
-<td>Pain interference with general activity last 24 hours (0-10)</td>
-<td>Brief Pain Inventory</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/bpi_prohibited_activity">https://w3id.org/pcnn/var/bpi_prohibited_activity</a></td>
-<td>closeMatch <a href="http://purl.obolibrary.org/obo/NCIT_C100365">http://purl.obolibrary.org/obo/NCIT_C100365</a></td>
-</tr><tr id="cis_18_noenthousiasm">
-<td><code>cis_18_noenthousiasm</code></td>
-<td>I don&#x27;t feel like doing anything</td>
-<td>CIS20-R</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/cis_18_noenthousiasm">https://w3id.org/pcnn/var/cis_18_noenthousiasm</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130031">http://purl.obolibrary.org/obo/NCIT_C130031</a></td>
-</tr><tr id="cis_13_diff_focus">
-<td><code>cis_13_diff_focus</code></td>
-<td>It takes a lot of effort to concentrate on things</td>
-<td>CIS20-R</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/cis_13_diff_focus">https://w3id.org/pcnn/var/cis_13_diff_focus</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130026">http://purl.obolibrary.org/obo/NCIT_C130026</a></td>
-</tr><tr id="cis_14_phys_bad">
-<td><code>cis_14_phys_bad</code></td>
-<td>Physically I feel I am in bad form</td>
-<td>CIS20-R</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/cis_14_phys_bad">https://w3id.org/pcnn/var/cis_14_phys_bad</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C130027">http://purl.obolibrary.org/obo/NCIT_C130027</a></td>
-</tr><tr id="employment_status">
-<td><code>employment_status</code></td>
-<td>Which situation applies to you most regarding paid work?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/employment_status">https://w3id.org/pcnn/var/employment_status</a></td>
-<td>relatedMatch <a href="http://loinc.org/67875-5">http://loinc.org/67875-5</a></td>
-</tr><tr id="income">
-<td><code>income</code></td>
-<td>Net monthly household income</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/income">https://w3id.org/pcnn/var/income</a></td>
-<td>relatedMatch <a href="http://loinc.org/98161-3">http://loinc.org/98161-3</a></td>
-</tr><tr id="onbehalf_who">
-<td><code>onbehalf_who</code></td>
-<td>What is your relation to the person for whom you provide information?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/onbehalf_who">https://w3id.org/pcnn/var/onbehalf_who</a></td>
-<td>Local informant-relationship item.</td>
-</tr><tr id="onbehalf_who_t">
-<td><code>onbehalf_who_t</code></td>
-<td>How are you related?</td>
-<td>none</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/onbehalf_who_t">https://w3id.org/pcnn/var/onbehalf_who_t</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C83393">http://purl.obolibrary.org/obo/NCIT_C83393</a></td>
-</tr><tr id="howheardstudy">
-<td><code>howheardstudy</code></td>
-<td>How did you hear about the post-COVID research?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/howheardstudy">https://w3id.org/pcnn/var/howheardstudy</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/780816009">http://snomed.info/id/780816009</a></td>
-</tr><tr id="invitation">
-<td><code>invitation</code></td>
-<td>Which research or organization invited you?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/invitation">https://w3id.org/pcnn/var/invitation</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C93448">http://purl.obolibrary.org/obo/NCIT_C93448</a></td>
-</tr><tr id="studycodept">
-<td><code>studycodept</code></td>
-<td>Research code received by email or letter</td>
-<td>none</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/studycodept">https://w3id.org/pcnn/var/studycodept</a></td>
-<td>Local linkage identifier; not a clinical concept.</td>
-</tr><tr id="contact_GP">
-<td><code>contact_GP</code></td>
-<td>Enter your GP contact details</td>
-<td>none</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/contact_GP">https://w3id.org/pcnn/var/contact_GP</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C60776">http://purl.obolibrary.org/obo/NCIT_C60776</a></td>
-</tr><tr id="hospital_end">
-<td><code>hospital_end</code></td>
-<td>Date discharged from hospital</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/hospital_end">https://w3id.org/pcnn/var/hospital_end</a></td>
-<td>closeMatch <a href="http://loinc.org/8649-6">http://loinc.org/8649-6</a></td>
-</tr><tr id="hosptial">
-<td><code>hosptial</code></td>
-<td>Hospital admission due to corona infection before long-term symptoms</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/hosptial">https://w3id.org/pcnn/var/hosptial</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C25179">http://purl.obolibrary.org/obo/NCIT_C25179</a></td>
-</tr><tr id="hospital_treat">
-<td><code>hospital_treat</code></td>
-<td>What applied during hospital admission</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/hospital_treat">https://w3id.org/pcnn/var/hospital_treat</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/32485007">http://snomed.info/id/32485007</a></td>
-</tr><tr id="Nxinfected">
-<td><code>Nxinfected</code></td>
-<td>Estimated number of coronavirus infections since February 2020</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/Nxinfected">https://w3id.org/pcnn/var/Nxinfected</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/840539006">http://snomed.info/id/840539006</a></td>
-</tr><tr id="Nxinfected_confirm">
-<td><code>Nxinfected_confirm</code></td>
-<td>Number of infections confirmed by a positive test</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/Nxinfected_confirm">https://w3id.org/pcnn/var/Nxinfected_confirm</a></td>
-<td></td>
-</tr><tr id="pos_test">
-<td><code>pos_test</code></td>
-<td>Positive test before long-term coronavirus complaints</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/pos_test">https://w3id.org/pcnn/var/pos_test</a></td>
-<td></td>
-</tr><tr id="pos_test_type">
-<td><code>pos_test_type</code></td>
-<td>Type of coronavirus test for this result</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/pos_test_type">https://w3id.org/pcnn/var/pos_test_type</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/246246002">http://snomed.info/id/246246002</a></td>
-</tr><tr id="pos_test_date">
-<td><code>pos_test_date</code></td>
-<td>Date of this coronavirus test</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/pos_test_date">https://w3id.org/pcnn/var/pos_test_date</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C82512">http://purl.obolibrary.org/obo/NCIT_C82512</a></td>
-</tr><tr id="pc_confirmedby">
-<td><code>pc_confirmedby</code></td>
-<td>Who told you that you had long COVID / post-COVID syndrome?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/pc_confirmedby">https://w3id.org/pcnn/var/pc_confirmedby</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/1119303003">http://snomed.info/id/1119303003</a></td>
-</tr><tr id="vaccin">
-<td><code>vaccin</code></td>
-<td>Have you been vaccinated against the coronavirus?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin">https://w3id.org/pcnn/var/vaccin</a></td>
-<td>relatedMatch <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></td>
-</tr><tr id="vaccin_N">
-<td><code>vaccin_N</code></td>
-<td>Number of coronavirus vaccinations</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin_N">https://w3id.org/pcnn/var/vaccin_N</a></td>
-<td>relatedMatch <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></td>
-</tr><tr id="vaccin_LTc_Nvacc">
-<td><code>vaccin_LTc_Nvacc</code></td>
-<td>After how many vaccinations did vaccine-related long-term complaints start?</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_Nvacc">https://w3id.org/pcnn/var/vaccin_LTc_Nvacc</a></td>
-<td></td>
-</tr><tr id="vaccin_LTc_date">
-<td><code>vaccin_LTc_date</code></td>
-<td>Date of the vaccination linked to post-COVID vaccination syndrome</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_date">https://w3id.org/pcnn/var/vaccin_LTc_date</a></td>
-<td></td>
-</tr><tr id="vaccin_LTc_Nvirus">
-<td><code>vaccin_LTc_Nvirus</code></td>
-<td>Vaccinations received before coronavirus-related long-term complaints</td>
-<td>none</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_Nvirus">https://w3id.org/pcnn/var/vaccin_LTc_Nvirus</a></td>
-<td></td>
-</tr><tr id="vaccin_LTc_other">
-<td><code>vaccin_LTc_other</code></td>
-<td>Long-term complaints after a non-COVID vaccination</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/vaccin_LTc_other">https://w3id.org/pcnn/var/vaccin_LTc_other</a></td>
-<td>relatedMatch <a href="http://loinc.org/66375-7">http://loinc.org/66375-7</a></td>
-</tr><tr id="whodiagnosed">
-<td><code>whodiagnosed</code></td>
-<td>Who told you that you had post-COVID vaccination syndrome?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/whodiagnosed">https://w3id.org/pcnn/var/whodiagnosed</a></td>
-<td></td>
-</tr><tr id="LTcompl_virus">
-<td><code>LTcompl_virus</code></td>
-<td>Current long-term health complaints due to the coronavirus</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/LTcompl_virus">https://w3id.org/pcnn/var/LTcompl_virus</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/1119304009">http://snomed.info/id/1119304009</a></td>
-</tr><tr id="LTcompl_virus_start">
-<td><code>LTcompl_virus_start</code></td>
-<td>Approximate start date of coronavirus-related long-term complaints</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/LTcompl_virus_start">https://w3id.org/pcnn/var/LTcompl_virus_start</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/298059007">http://snomed.info/id/298059007</a></td>
-</tr><tr id="LTcompl_virus_recover">
-<td><code>LTcompl_virus_recover</code></td>
-<td>Approximate recovery date from coronavirus-related long-term complaints</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/LTcompl_virus_recover">https://w3id.org/pcnn/var/LTcompl_virus_recover</a></td>
-<td></td>
-</tr><tr id="LTcompl_vacc">
-<td><code>LTcompl_vacc</code></td>
-<td>Current long-term health complaints due to a coronavirus vaccination</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/LTcompl_vacc">https://w3id.org/pcnn/var/LTcompl_vacc</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></td>
-</tr><tr id="LTcompl_vacc_recover">
-<td><code>LTcompl_vacc_recover</code></td>
-<td>Approximate recovery date from vaccine-related long-term complaints</td>
-<td>none</td>
-<td>date</td>
-<td><a href="https://w3id.org/pcnn/var/LTcompl_vacc_recover">https://w3id.org/pcnn/var/LTcompl_vacc_recover</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></td>
-</tr><tr id="depression_history">
-<td><code>depression_history</code></td>
-<td>Have you ever suffered from depressive symptoms?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/depression_history">https://w3id.org/pcnn/var/depression_history</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/394924000">http://snomed.info/id/394924000</a></td>
-</tr><tr id="s31_skin_where">
-<td><code>s31_skin_where</code></td>
-<td>Which body parts are affected by these colour changes?</td>
-<td>COMPASS-31</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/s31_skin_where">https://w3id.org/pcnn/var/s31_skin_where</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/364533002">http://snomed.info/id/364533002</a></td>
-</tr><tr id="c31_dry_mouth">
-<td><code>c31_dry_mouth</code></td>
-<td>Does your mouth feel abnormally dry?</td>
-<td>COMPASS-31</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/c31_dry_mouth">https://w3id.org/pcnn/var/c31_dry_mouth</a></td>
-<td>closeMatch <a href="http://loinc.org/63981-5">http://loinc.org/63981-5</a></td>
-</tr><tr id="c31_drrhea_freq_n">
-<td><code>c31_drrhea_freq_n</code></td>
-<td>How many times per month? (diarrhea)</td>
-<td>COMPASS-31</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/c31_drrhea_freq_n">https://w3id.org/pcnn/var/c31_drrhea_freq_n</a></td>
-<td>relatedMatch <a href="http://loinc.org/69711-0">http://loinc.org/69711-0</a></td>
-</tr><tr id="c31_bladder_freq_n">
-<td><code>c31_bladder_freq_n</code></td>
-<td>How many times per month? (bladder)</td>
-<td>COMPASS-31</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/c31_bladder_freq_n">https://w3id.org/pcnn/var/c31_bladder_freq_n</a></td>
-<td></td>
-</tr><tr id="c31_eyes_change">
-<td><code>c31_eyes_change</code></td>
-<td>This most annoying eye complaint is</td>
-<td>COMPASS-31</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/c31_eyes_change">https://w3id.org/pcnn/var/c31_eyes_change</a></td>
-<td></td>
-</tr><tr id="calcc31_eyes_change">
-<td><code>calcc31_eyes_change</code></td>
-<td>COMPASS dependency (eyes)</td>
-<td>COMPASS-31</td>
-<td>number</td>
-<td><a href="https://w3id.org/pcnn/var/calcc31_eyes_change">https://w3id.org/pcnn/var/calcc31_eyes_change</a></td>
-<td>Derived variable; not a questionnaire item.</td>
-</tr><tr id="permission">
-<td><code>permission</code></td>
-<td>May we contact you for additional scientific research?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/permission">https://w3id.org/pcnn/var/permission</a></td>
-<td>relatedMatch <a href="http://purl.obolibrary.org/obo/NCIT_C125453">http://purl.obolibrary.org/obo/NCIT_C125453</a></td>
-</tr><tr id="permission_pc">
-<td><code>permission_pc</code></td>
-<td>Consent form for post-COVID research</td>
-<td>none</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/permission_pc">https://w3id.org/pcnn/var/permission_pc</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></td>
-</tr><tr id="persmission_postvacc">
-<td><code>persmission_postvacc</code></td>
-<td>Consent form for post-COVID vaccination complaints research</td>
-<td>none</td>
-<td>text</td>
-<td><a href="https://w3id.org/pcnn/var/persmission_postvacc">https://w3id.org/pcnn/var/persmission_postvacc</a></td>
-<td>relatedMatch <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></td>
-</tr><tr id="permissions_check">
-<td><code>permissions_check</code></td>
-<td>Confirmation that additional-research permission was not given</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/permissions_check">https://w3id.org/pcnn/var/permissions_check</a></td>
-<td></td>
-</tr><tr id="travel">
-<td><code>travel</code></td>
-<td>Able and willing to travel for additional research</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/travel">https://w3id.org/pcnn/var/travel</a></td>
-<td></td>
-</tr><tr id="contact">
-<td><code>contact</code></td>
-<td>May we contact you for a telephone or video appointment?</td>
-<td>none</td>
-<td>coded</td>
-<td><a href="https://w3id.org/pcnn/var/contact">https://w3id.org/pcnn/var/contact</a></td>
-<td></td>
-</tr>
-    </tbody>
-  </table>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><title>PCNN codebook</title>
+<style>
+body{font-family:IBM Plex Sans,system-ui,sans-serif;margin:0;background:#f3eee4;color:#1b1814}
+main{max-width:980px;margin:auto;padding:1.5rem}
+.card{background:#fffaf2;border:1px solid #d8d0c3;border-radius:12px;padding:1rem;margin:1rem 0}
+th{text-align:left;width:12rem;vertical-align:top;padding:.35rem;font-size:.75rem;color:#6a635a;text-transform:uppercase}
+td{padding:.35rem;vertical-align:top}
+table.meta, table.meta table{width:100%;border-collapse:collapse}
+table.meta table td, table.meta table th{border:1px solid #d8d0c3}
+.rec{color:#0e5c56;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+.note{color:#6a635a;font-size:.9rem}
+code,a{color:#0e5c56}
+</style></head><body><main>
+<h1>PCNN variable codebook</h1>
+<p>Human page for GitHub Pages. Open this file: <code>docs/index.html</code>.</p>
+<h2>Recommended examples</h2>
+<article class="card" id="smokingstatus">
+<p class="rec">Recommended example</p>
+<h3><code>smokingstatus</code> — Do you smoke?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/smokingstatus</td></tr><tr><th>variable_name_CBS</th><td>smokingstatus</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>lifestyle</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Do you smoke?</td></tr><tr><th>variable_label_NL</th><td>Rook je?</td></tr><tr><th>Definition</th><td>Self-reported current smoking behaviour, including former smoking, occasional use, daily tobacco use by amount, and exclusive e-cigarette or vape use.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Nee</td><td>No</td></tr><tr><td>2</td><td>Nee, maar ik heb in het verleden wel gerookt</td><td>No, but I have smoked in the past</td></tr><tr><td>3</td><td>Ja, af en toe</td><td>Yes, occasionally</td></tr><tr><td>4</td><td>Dagelijks, minder dan 10 sigaretten/sigaren per dag</td><td>Daily, less than 10 cigarettes/cigars per day</td></tr><tr><td>5</td><td>Dagelijks, 10 of meer sigaretten/sigaren per dag</td><td>Daily, 10 or more cigarettes/cigars per day</td></tr><tr><td>6</td><td>Dagelijks, alleen e-sigaretten/vapes</td><td>Daily, e-cigarettes/vapes only</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://loinc.org/72166-2">http://loinc.org/72166-2</a></p><p class="note">Same topic as LOINC 72166-2; PCNN uses a 6-level list including vapes.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_headache_freq">
+<p class="rec">Recommended example</p>
+<h3><code>dsq_headache_freq</code> — Frequency past 6 months: Headaches</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_headache_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_headache_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Headaches</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Hoofdpijn</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for headaches over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="c31_dry_mouth">
+<p class="rec">Recommended example</p>
+<h3><code>c31_dry_mouth</code> — Does your mouth feel abnormally dry?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/c31_dry_mouth</td></tr><tr><th>variable_name_CBS</th><td>c31_dry_mouth</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>Does your mouth feel abnormally dry?</td></tr><tr><th>variable_label_NL</th><td>Voelt uw mond abnormaal droog aan?</td></tr><tr><th>Definition</th><td>COMPASS-31 item asking whether the mouth feels abnormally dry.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://loinc.org/63981-5">http://loinc.org/63981-5</a></p><p class="note">Close to PhenX/LOINC 63981-5 (&#x27;frequently dry&#x27;) but this is the COMPASS-31 wording (&#x27;abnormally dry&#x27;).</p></td></tr>
+</table>
+</article>
+<h2>Collections by instrument</h2>
+<h3>Brief Pain Inventory</h3><ul><li><a href="#bpi_pain_where_front"><code>bpi_pain_where_front</code></a></li>
+<li><a href="#bpi_prohibited_activity"><code>bpi_prohibited_activity</code></a></li></ul><h3>CIS20-R</h3><ul><li><a href="#cis_18_noenthousiasm"><code>cis_18_noenthousiasm</code></a></li>
+<li><a href="#cis_13_diff_focus"><code>cis_13_diff_focus</code></a></li>
+<li><a href="#cis_14_phys_bad"><code>cis_14_phys_bad</code></a></li></ul><h3>COMPASS-31</h3><ul><li><a href="#s31_skin_where"><code>s31_skin_where</code></a></li>
+<li><a href="#c31_dry_mouth"><code>c31_dry_mouth</code></a></li>
+<li><a href="#c31_drrhea_freq_n"><code>c31_drrhea_freq_n</code></a></li>
+<li><a href="#c31_bladder_freq_n"><code>c31_bladder_freq_n</code></a></li>
+<li><a href="#c31_eyes_change"><code>c31_eyes_change</code></a></li>
+<li><a href="#calcc31_eyes_change"><code>calcc31_eyes_change</code></a></li></ul><h3>DSQ</h3><ul><li><a href="#dsq_fatigue_freq"><code>dsq_fatigue_freq</code></a></li></ul><h3>DSQ-2</h3><ul><li><a href="#dsq_slowspeech_sev"><code>dsq_slowspeech_sev</code></a></li>
+<li><a href="#dsq_muscletwitch_freq"><code>dsq_muscletwitch_freq</code></a></li>
+<li><a href="#dsq_muscletwitch_sev"><code>dsq_muscletwitch_sev</code></a></li>
+<li><a href="#dsq_forgetful_freq"><code>dsq_forgetful_freq</code></a></li>
+<li><a href="#dsq_shortbreath_freq"><code>dsq_shortbreath_freq</code></a></li>
+<li><a href="#dsq_noappetite_freq"><code>dsq_noappetite_freq</code></a></li>
+<li><a href="#dsq_slowthink_freq"><code>dsq_slowthink_freq</code></a></li>
+<li><a href="#dsq_irregularhb_freq"><code>dsq_irregularhb_freq</code></a></li>
+<li><a href="#dsq_lowtemp_freq"><code>dsq_lowtemp_freq</code></a></li>
+<li><a href="#dsq_nightawake_freq"><code>dsq_nightawake_freq</code></a></li>
+<li><a href="#dsq_dizzy_freq"><code>dsq_dizzy_freq</code></a></li>
+<li><a href="#dsq_hightemp_freq"><code>dsq_hightemp_freq</code></a></li>
+<li><a href="#dsq_musclefatigue_sev"><code>dsq_musclefatigue_sev</code></a></li>
+<li><a href="#dsq_pressurepain_freq"><code>dsq_pressurepain_freq</code></a></li>
+<li><a href="#dsq_achingeyes_freq"><code>dsq_achingeyes_freq</code></a></li>
+<li><a href="#dsq_headache_freq"><code>dsq_headache_freq</code></a></li></ul><h3>DSQ-PEM + DSQ-2</h3><ul><li><a href="#dsq_exhausted_freq"><code>dsq_exhausted_freq</code></a></li>
+<li><a href="#dsq_pemphysical_freq"><code>dsq_pemphysical_freq</code></a></li></ul><h3>DSQ-POTS + DSQ-2</h3><ul><li><a href="#dsq_unablestand_freq"><code>dsq_unablestand_freq</code></a></li>
+<li><a href="#dsq_blackedvision_freq"><code>dsq_blackedvision_freq</code></a></li></ul><h3>DSQ-SF + DSQ-2</h3><ul><li><a href="#dsq_memory_freq"><code>dsq_memory_freq</code></a></li>
+<li><a href="#dsq_pain_freq"><code>dsq_pain_freq</code></a></li>
+<li><a href="#dsq_bloating_freq"><code>dsq_bloating_freq</code></a></li>
+<li><a href="#dsq_ibs_freq"><code>dsq_ibs_freq</code></a></li>
+<li><a href="#dsq_flu_freq"><code>dsq_flu_freq</code></a></li>
+<li><a href="#dsq_coldlimbs_freq"><code>dsq_coldlimbs_freq</code></a></li>
+<li><a href="#dsq_sensitivities_freq"><code>dsq_sensitivities_freq</code></a></li></ul><h3>DSQ-SF + DSQ-PEM + DSQ-2</h3><ul><li><a href="#dsq_heavy_freq"><code>dsq_heavy_freq</code></a></li>
+<li><a href="#dsq_soreness_freq"><code>dsq_soreness_freq</code></a></li>
+<li><a href="#dsq_minexercise_sev"><code>dsq_minexercise_sev</code></a></li></ul><h3>no instrument</h3><ul><li><a href="#smokingstatus"><code>smokingstatus</code></a></li>
+<li><a href="#paidjob"><code>paidjob</code></a></li>
+<li><a href="#hours_household"><code>hours_household</code></a></li>
+<li><a href="#hours_family"><code>hours_family</code></a></li>
+<li><a href="#employment_status"><code>employment_status</code></a></li>
+<li><a href="#income"><code>income</code></a></li>
+<li><a href="#onbehalf_who"><code>onbehalf_who</code></a></li>
+<li><a href="#onbehalf_who_t"><code>onbehalf_who_t</code></a></li>
+<li><a href="#howheardstudy"><code>howheardstudy</code></a></li>
+<li><a href="#invitation"><code>invitation</code></a></li>
+<li><a href="#studycodept"><code>studycodept</code></a></li>
+<li><a href="#contact_GP"><code>contact_GP</code></a></li>
+<li><a href="#hospital_end"><code>hospital_end</code></a></li>
+<li><a href="#hosptial"><code>hosptial</code></a></li>
+<li><a href="#hospital_treat"><code>hospital_treat</code></a></li>
+<li><a href="#Nxinfected"><code>Nxinfected</code></a></li>
+<li><a href="#Nxinfected_confirm"><code>Nxinfected_confirm</code></a></li>
+<li><a href="#pos_test"><code>pos_test</code></a></li>
+<li><a href="#pos_test_type"><code>pos_test_type</code></a></li>
+<li><a href="#pos_test_date"><code>pos_test_date</code></a></li>
+<li><a href="#pc_confirmedby"><code>pc_confirmedby</code></a></li>
+<li><a href="#vaccin"><code>vaccin</code></a></li>
+<li><a href="#vaccin_N"><code>vaccin_N</code></a></li>
+<li><a href="#vaccin_LTc_Nvacc"><code>vaccin_LTc_Nvacc</code></a></li>
+<li><a href="#vaccin_LTc_date"><code>vaccin_LTc_date</code></a></li>
+<li><a href="#vaccin_LTc_Nvirus"><code>vaccin_LTc_Nvirus</code></a></li>
+<li><a href="#vaccin_LTc_other"><code>vaccin_LTc_other</code></a></li>
+<li><a href="#whodiagnosed"><code>whodiagnosed</code></a></li>
+<li><a href="#LTcompl_virus"><code>LTcompl_virus</code></a></li>
+<li><a href="#LTcompl_virus_start"><code>LTcompl_virus_start</code></a></li>
+<li><a href="#LTcompl_virus_recover"><code>LTcompl_virus_recover</code></a></li>
+<li><a href="#LTcompl_vacc"><code>LTcompl_vacc</code></a></li>
+<li><a href="#LTcompl_vacc_recover"><code>LTcompl_vacc_recover</code></a></li>
+<li><a href="#depression_history"><code>depression_history</code></a></li>
+<li><a href="#permission"><code>permission</code></a></li>
+<li><a href="#permission_pc"><code>permission_pc</code></a></li>
+<li><a href="#persmission_postvacc"><code>persmission_postvacc</code></a></li>
+<li><a href="#permissions_check"><code>permissions_check</code></a></li>
+<li><a href="#travel"><code>travel</code></a></li>
+<li><a href="#contact"><code>contact</code></a></li></ul>
+<h2>All concepts</h2>
+<article class="card" id="smokingstatus">
+
+<h3><code>smokingstatus</code> — Do you smoke?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/smokingstatus</td></tr><tr><th>variable_name_CBS</th><td>smokingstatus</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>lifestyle</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Do you smoke?</td></tr><tr><th>variable_label_NL</th><td>Rook je?</td></tr><tr><th>Definition</th><td>Self-reported current smoking behaviour, including former smoking, occasional use, daily tobacco use by amount, and exclusive e-cigarette or vape use.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Nee</td><td>No</td></tr><tr><td>2</td><td>Nee, maar ik heb in het verleden wel gerookt</td><td>No, but I have smoked in the past</td></tr><tr><td>3</td><td>Ja, af en toe</td><td>Yes, occasionally</td></tr><tr><td>4</td><td>Dagelijks, minder dan 10 sigaretten/sigaren per dag</td><td>Daily, less than 10 cigarettes/cigars per day</td></tr><tr><td>5</td><td>Dagelijks, 10 of meer sigaretten/sigaren per dag</td><td>Daily, 10 or more cigarettes/cigars per day</td></tr><tr><td>6</td><td>Dagelijks, alleen e-sigaretten/vapes</td><td>Daily, e-cigarettes/vapes only</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://loinc.org/72166-2">http://loinc.org/72166-2</a></p><p class="note">Same topic as LOINC 72166-2; PCNN uses a 6-level list including vapes.</p></td></tr>
+</table>
+</article><article class="card" id="paidjob">
+
+<h3><code>paidjob</code> — Do you have a paid job at this moment?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/paidjob</td></tr><tr><th>variable_name_CBS</th><td>paidjob</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>work</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Do you have a paid job at this moment?</td></tr><tr><th>variable_label_NL</th><td>Heb je op dit moment betaald werk?</td></tr><tr><th>Definition</th><td>Whether the respondent currently has paid work, including partial sick leave and job loss due to long-term complaints.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr><tr><td>3</td><td>Ja, maar ik ben (deels) ziek gemeld door langdurige klachten</td><td>Yes, but I have been reported sick (partly) due to long-term complaints</td></tr><tr><td>4</td><td>Nee, ik heb geen werk meer door langdurige klachten</td><td>No, I no longer have a job due to long-term complaints</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C95551">http://purl.obolibrary.org/obo/NCIT_C95551</a></p><p class="note">Employment-related concept only; response options are PCNN-specific.</p></td></tr>
+</table>
+</article><article class="card" id="hours_household">
+
+<h3><code>hours_household</code> — Household activities (hours per week)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/hours_household</td></tr><tr><th>variable_name_CBS</th><td>hours_household</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>activity</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Household activities (hours per week)</td></tr><tr><th>variable_label_NL</th><td>Huishoudelijke activiteiten? (uren per week):</td></tr><tr><th>Definition</th><td>Hours per week spent on household activities.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/57253-7">http://loinc.org/57253-7</a></p><p class="note">Not the same item. LOINC 57253-7 is OASIS-C functional independence, not hours per week.</p></td></tr>
+</table>
+</article><article class="card" id="hours_family">
+
+<h3><code>hours_family</code> — Family activities (hours per week)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/hours_family</td></tr><tr><th>variable_name_CBS</th><td>hours_family</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>activity</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Family activities (hours per week)</td></tr><tr><th>variable_label_NL</th><td>Gezinsactiviteiten? (uren per week):</td></tr><tr><th>Definition</th><td>Hours per week spent on family activities.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No suitable exact public item found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_fatigue_freq">
+
+<h3><code>dsq_fatigue_freq</code> — Frequency past 6 months: Fatigue / extreme tiredness</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_fatigue_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_fatigue_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Fatigue / extreme tiredness</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Vermoeidheid/extreme uitputting</td></tr><tr><th>Definition</th><td>DSQ frequency rating for fatigue or extreme tiredness over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></p><p class="note">SNOMED fatigue is the symptom, not this DSQ frequency item.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_slowspeech_sev">
+
+<h3><code>dsq_slowspeech_sev</code> — Severity past 6 months: Slowed speech</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_slowspeech_sev</td></tr><tr><th>variable_name_CBS</th><td>dsq_slowspeech_sev</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>severity</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Severity past 6 months: Slowed speech</td></tr><tr><th>variable_label_NL</th><td>Ernst afgelopen 6 maanden: Traag spreken</td></tr><tr><th>Definition</th><td>DSQ-2 severity rating for slowed speech over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>mild</td><td>mild</td></tr><tr><td>2</td><td>matig</td><td>moderate</td></tr><tr><td>3</td><td>ernstig</td><td>severe</td></tr><tr><td>4</td><td>zeer ernstig</td><td>very severe</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found for this DSQ-2 item.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_memory_freq">
+
+<h3><code>dsq_memory_freq</code> — Frequency past 6 months: Problems remembering things</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_memory_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_memory_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Problems remembering things</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Moeite met herinneren van dingen</td></tr><tr><th>Definition</th><td>DSQ frequency rating for problems remembering things over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/386807006">http://snomed.info/id/386807006</a></p><p class="note">SNOMED memory concept is the symptom, not the DSQ frequency item.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_exhausted_freq">
+
+<h3><code>dsq_exhausted_freq</code> — Frequency past 6 months: Physically drained or sick after mild activity</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_exhausted_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_exhausted_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / PEM</td></tr><tr><th>Instrument</th><td>DSQ-PEM + DSQ-2</td></tr><tr><th>Instrument_version</th><td>PEM / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Physically drained or sick after mild activity</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Lichamelijk uitgeput of ziek na milde activiteit</td></tr><tr><th>Definition</th><td>DSQ frequency rating for feeling physically drained or sick after mild activity over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_heavy_freq">
+
+<h3><code>dsq_heavy_freq</code> — Frequency past 6 months: Dead, heavy feeling after starting to exercise</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_heavy_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_heavy_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / PEM</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-PEM + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / PEM / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Dead, heavy feeling after starting to exercise</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Dood, zwaar gevoel na beginnen met sporten</td></tr><tr><th>Definition</th><td>DSQ frequency rating for a dead, heavy feeling after starting to exercise over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/161874006">http://snomed.info/id/161874006</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_muscletwitch_freq">
+
+<h3><code>dsq_muscletwitch_freq</code> — Frequency past 6 months: Muscle twitches</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_muscletwitch_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_muscletwitch_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Muscle twitches</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Spiertrekkingen</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for muscle twitches over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_muscletwitch_sev">
+
+<h3><code>dsq_muscletwitch_sev</code> — Severity past 6 months: Muscle twitches</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_muscletwitch_sev</td></tr><tr><th>variable_name_CBS</th><td>dsq_muscletwitch_sev</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>severity</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Severity past 6 months: Muscle twitches</td></tr><tr><th>variable_label_NL</th><td>Ernst afgelopen 6 maanden: Spiertrekkingen</td></tr><tr><th>Definition</th><td>DSQ-2 severity rating for muscle twitches over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>mild</td><td>mild</td></tr><tr><td>2</td><td>matig</td><td>moderate</td></tr><tr><td>3</td><td>ernstig</td><td>severe</td></tr><tr><td>4</td><td>zeer ernstig</td><td>very severe</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_soreness_freq">
+
+<h3><code>dsq_soreness_freq</code> — Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_soreness_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_soreness_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / PEM</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-PEM + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / PEM / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Spierpijn of vermoeidheid de volgende dag na niet-zware alledaagse activiteiten</td></tr><tr><th>Definition</th><td>DSQ frequency rating for next-day soreness or fatigue after non-strenuous everyday activities.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/71393004">http://snomed.info/id/71393004</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_minexercise_sev">
+
+<h3><code>dsq_minexercise_sev</code> — Severity past 6 months: Minimum exercise makes you physically tired</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_minexercise_sev</td></tr><tr><th>variable_name_CBS</th><td>dsq_minexercise_sev</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>severity / PEM</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-PEM + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / PEM / 2</td></tr><tr><th>variable_label_EN</th><td>Severity past 6 months: Minimum exercise makes you physically tired</td></tr><tr><th>variable_label_NL</th><td>Ernst afgelopen 6 maanden: Minimale inspanning maakt je lichamelijk moe</td></tr><tr><th>Definition</th><td>DSQ severity rating for becoming physically tired after minimum exercise.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>mild</td><td>mild</td></tr><tr><td>2</td><td>matig</td><td>moderate</td></tr><tr><td>3</td><td>ernstig</td><td>severe</td></tr><tr><td>4</td><td>zeer ernstig</td><td>very severe</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/408578001">http://snomed.info/id/408578001</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_pain_freq">
+
+<h3><code>dsq_pain_freq</code> — Frequency past 6 months: Pain or aching in your muscles</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_pain_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_pain_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Pain or aching in your muscles</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Pijn of zeurend gevoel in je spieren</td></tr><tr><th>Definition</th><td>DSQ frequency rating for muscle pain or aching over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/68962001">http://snomed.info/id/68962001</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_forgetful_freq">
+
+<h3><code>dsq_forgetful_freq</code> — Frequency past 6 months: Absent-mindedness or forgetfulness</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_forgetful_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_forgetful_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Absent-mindedness or forgetfulness</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Vergeetachtigheid</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for absent-mindedness or forgetfulness over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_shortbreath_freq">
+
+<h3><code>dsq_shortbreath_freq</code> — Frequency past 6 months: Shortness of breath</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_shortbreath_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_shortbreath_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Shortness of breath</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Kortademigheid</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for shortness of breath or trouble catching breath over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_noappetite_freq">
+
+<h3><code>dsq_noappetite_freq</code> — Frequency past 6 months: No appetite</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_noappetite_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_noappetite_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: No appetite</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Geen eetlust</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for no appetite over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_unablestand_freq">
+
+<h3><code>dsq_unablestand_freq</code> — Frequency past 6 months: Inability to tolerate an upright position</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_unablestand_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_unablestand_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / POTS</td></tr><tr><th>Instrument</th><td>DSQ-POTS + DSQ-2</td></tr><tr><th>Instrument_version</th><td>POTS / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Inability to tolerate an upright position</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Niet kunnen verdragen van een rechtopstaande houding</td></tr><tr><th>Definition</th><td>DSQ frequency rating for inability to tolerate an upright position over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/870368003">http://snomed.info/id/870368003</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_bloating_freq">
+
+<h3><code>dsq_bloating_freq</code> — Frequency past 6 months: Bloating</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_bloating_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_bloating_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Bloating</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Opgeblazen gevoel</td></tr><tr><th>Definition</th><td>DSQ frequency rating for bloating over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/116289008">http://snomed.info/id/116289008</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_slowthink_freq">
+
+<h3><code>dsq_slowthink_freq</code> — Frequency past 6 months: Slowness of thought</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_slowthink_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_slowthink_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Slowness of thought</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Traag denken</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for slowness of thought over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_ibs_freq">
+
+<h3><code>dsq_ibs_freq</code> — Frequency past 6 months: Irritable bowel problems</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_ibs_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_ibs_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Irritable bowel problems</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Prikkelbare darmklachten</td></tr><tr><th>Definition</th><td>DSQ frequency rating for irritable bowel problems over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/10743008">http://snomed.info/id/10743008</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_irregularhb_freq">
+
+<h3><code>dsq_irregularhb_freq</code> — Frequency past 6 months: Irregular heart beats</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_irregularhb_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_irregularhb_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / POTS</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Irregular heart beats</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Onregelmatige hartslag</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for irregular heart beats over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C168414">http://purl.obolibrary.org/obo/NCIT_C168414</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_lowtemp_freq">
+
+<h3><code>dsq_lowtemp_freq</code> — Frequency past 6 months: Feeling like you have a low temperature</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_lowtemp_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_lowtemp_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Feeling like you have a low temperature</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Gevoel van lage lichaamstemperatuur</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for feeling as if body temperature is low.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_flu_freq">
+
+<h3><code>dsq_flu_freq</code> — Frequency past 6 months: Flu-like symptoms</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_flu_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_flu_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Flu-like symptoms</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Griepachtige klachten</td></tr><tr><th>Definition</th><td>DSQ frequency rating for flu-like symptoms over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C143492">http://purl.obolibrary.org/obo/NCIT_C143492</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_nightawake_freq">
+
+<h3><code>dsq_nightawake_freq</code> — Frequency past 6 months: Sleeping all day and staying awake all night</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_nightawake_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_nightawake_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Sleeping all day and staying awake all night</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Overdag slapen en &#x27;s nachts wakker blijven</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for sleeping all day and staying awake all night.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_dizzy_freq">
+
+<h3><code>dsq_dizzy_freq</code> — Frequency past 6 months: Dizziness or fainting</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_dizzy_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_dizzy_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / POTS</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Dizziness or fainting</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Duizeligheid of flauwvallen</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for dizziness or fainting over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_hightemp_freq">
+
+<h3><code>dsq_hightemp_freq</code> — Frequency past 6 months: Feeling like you have a high temperature</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_hightemp_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_hightemp_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Feeling like you have a high temperature</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Gevoel van hoge lichaamstemperatuur</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for feeling as if body temperature is high.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_coldlimbs_freq">
+
+<h3><code>dsq_coldlimbs_freq</code> — Frequency past 6 months: Cold limbs</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_coldlimbs_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_coldlimbs_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Cold limbs</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Koude ledematen</td></tr><tr><th>Definition</th><td>DSQ frequency rating for cold arms, legs, hands or feet over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/771542000">http://snomed.info/id/771542000</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_sensitivities_freq">
+
+<h3><code>dsq_sensitivities_freq</code> — Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_sensitivities_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_sensitivities_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-SF + DSQ-2</td></tr><tr><th>Instrument_version</th><td>SF / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Sommige geuren, voeding, medicijnen of chemicaliën maken je ziek</td></tr><tr><th>Definition</th><td>DSQ frequency rating for feeling sick from some smells, foods, medications or chemicals.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/16932000">http://snomed.info/id/16932000</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_musclefatigue_sev">
+
+<h3><code>dsq_musclefatigue_sev</code> — Severity past 6 months: Muscle fatigue after mild physical activity</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_musclefatigue_sev</td></tr><tr><th>variable_name_CBS</th><td>dsq_musclefatigue_sev</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>severity / PEM</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Severity past 6 months: Muscle fatigue after mild physical activity</td></tr><tr><th>variable_label_NL</th><td>Ernst afgelopen 6 maanden: Spiervermoeidheid na milde fysieke activiteit</td></tr><tr><th>Definition</th><td>DSQ-2 severity rating for muscle fatigue after mild physical activity.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>mild</td><td>mild</td></tr><tr><td>2</td><td>matig</td><td>moderate</td></tr><tr><td>3</td><td>ernstig</td><td>severe</td></tr><tr><td>4</td><td>zeer ernstig</td><td>very severe</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_pressurepain_freq">
+
+<h3><code>dsq_pressurepain_freq</code> — Frequency past 6 months: Pressure on parts of the body causes pain in other parts</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_pressurepain_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_pressurepain_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Pressure on parts of the body causes pain in other parts</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Druk op delen van het lichaam veroorzaakt pijn elders</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for pain referred from pressure on other body parts.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_blackedvision_freq">
+
+<h3><code>dsq_blackedvision_freq</code> — Frequency past 6 months: Graying or blacking out after standing</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_blackedvision_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_blackedvision_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / POTS</td></tr><tr><th>Instrument</th><td>DSQ-POTS + DSQ-2</td></tr><tr><th>Instrument_version</th><td>POTS / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Graying or blacking out after standing</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Grijze of zwarte vlekken na opstaan</td></tr><tr><th>Definition</th><td>DSQ frequency rating for graying or blacking out after standing.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/69712-8">http://loinc.org/69712-8</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_pemphysical_freq">
+
+<h3><code>dsq_pemphysical_freq</code> — Frequency past 6 months: Worsening of symptoms after mild physical activity</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_pemphysical_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_pemphysical_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency / PEM</td></tr><tr><th>Instrument</th><td>DSQ-PEM + DSQ-2</td></tr><tr><th>Instrument_version</th><td>PEM / 2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Worsening of symptoms after mild physical activity</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Verergering van klachten na milde fysieke activiteit</td></tr><tr><th>Definition</th><td>DSQ frequency rating for worsening of symptoms after mild physical activity.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C189011">http://purl.obolibrary.org/obo/NCIT_C189011</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="dsq_achingeyes_freq">
+
+<h3><code>dsq_achingeyes_freq</code> — Frequency past 6 months: Aching of the eyes or behind the eyes</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_achingeyes_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_achingeyes_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Aching of the eyes or behind the eyes</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Pijn in of achter de ogen</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for aching of the eyes or behind the eyes.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="dsq_headache_freq">
+
+<h3><code>dsq_headache_freq</code> — Frequency past 6 months: Headaches</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/dsq_headache_freq</td></tr><tr><th>variable_name_CBS</th><td>dsq_headache_freq</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>frequency</td></tr><tr><th>Instrument</th><td>DSQ-2</td></tr><tr><th>Instrument_version</th><td>2</td></tr><tr><th>variable_label_EN</th><td>Frequency past 6 months: Headaches</td></tr><tr><th>variable_label_NL</th><td>Frequentie afgelopen 6 maanden: Hoofdpijn</td></tr><tr><th>Definition</th><td>DSQ-2 frequency rating for headaches over the past 6 months.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>nooit</td><td>none of the time</td></tr><tr><td>1</td><td>soms</td><td>a little of the time</td></tr><tr><td>2</td><td>ongeveer de helft van de tijd</td><td>about half the time</td></tr><tr><td>3</td><td>meestal</td><td>most of the time</td></tr><tr><td>4</td><td>altijd</td><td>all of the time</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item IRI found.</p></td></tr>
+</table>
+</article><article class="card" id="bpi_pain_where_front">
+
+<h3><code>bpi_pain_where_front</code> — Indicate your main pain area (front)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/bpi_pain_where_front</td></tr><tr><th>variable_name_CBS</th><td>bpi_pain_where_front</td></tr><tr><th>Theme</th><td>pain</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>Brief Pain Inventory</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Indicate your main pain area (front)</td></tr><tr><th>variable_label_NL</th><td>Geef uw belangrijkste pijngebied aan (voorkant).</td></tr><tr><th>Definition</th><td>Main pain region selected on the front body map of the Brief Pain Inventory.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Geen pijn</td><td>No pain</td></tr><tr><td>2</td><td>Gezicht</td><td>Face</td></tr><tr><td>3</td><td>R kaak</td><td>Right jaw</td></tr><tr><td>4</td><td>L kaak</td><td>Left jaw</td></tr><tr><td>5</td><td>R borst</td><td>Right chest</td></tr><tr><td>6</td><td>L borst</td><td>Left chest</td></tr><tr><td>7</td><td>R bovenarm</td><td>Right upper arm</td></tr><tr><td>8</td><td>L bovenarm</td><td>Left upper arm</td></tr><tr><td>9</td><td>R elleboog</td><td>Right elbow</td></tr><tr><td>10</td><td>L elleboog</td><td>Left elbow</td></tr><tr><td>11</td><td>Buik</td><td>Abdomen</td></tr><tr><td>12</td><td>Bekken</td><td>Pelvis</td></tr><tr><td>13</td><td>R onderarm</td><td>Right forearm</td></tr><tr><td>14</td><td>L onderarm</td><td>Left forearm</td></tr><tr><td>15</td><td>R pols/hand</td><td>Right wrist/hand</td></tr><tr><td>16</td><td>L pols/hand</td><td>Left wrist/hand</td></tr><tr><td>17</td><td>R lies</td><td>Right groin</td></tr><tr><td>18</td><td>L lies</td><td>Left groin</td></tr><tr><td>19</td><td>R bovenbeen</td><td>Right thigh</td></tr><tr><td>20</td><td>L bovenbeen</td><td>Left thigh</td></tr><tr><td>21</td><td>R knie</td><td>Right knee</td></tr><tr><td>22</td><td>L knie</td><td>Left knee</td></tr><tr><td>23</td><td>R onderbeen</td><td>Right lower leg</td></tr><tr><td>24</td><td>L onderbeen</td><td>Left lower leg</td></tr><tr><td>25</td><td>R enkel/voet</td><td>Right ankle/foot</td></tr><tr><td>26</td><td>L enkel/voet</td><td>Left ankle/foot</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">BPI body-map item; regions are instrument-specific.</p></td></tr>
+</table>
+</article><article class="card" id="bpi_prohibited_activity">
+
+<h3><code>bpi_prohibited_activity</code> — Pain interference with general activity last 24 hours (0-10)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/bpi_prohibited_activity</td></tr><tr><th>variable_name_CBS</th><td>bpi_prohibited_activity</td></tr><tr><th>Theme</th><td>pain</td></tr><tr><th>Subdomain</th><td>interference</td></tr><tr><th>Instrument</th><td>Brief Pain Inventory</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Pain interference with general activity last 24 hours (0-10)</td></tr><tr><th>variable_label_NL</th><td>Hoe heeft de pijn in de afgelopen 24-uur belemmerend gewerkt op uw algemene activiteit</td></tr><tr><th>Definition</th><td>How much pain interfered with general activity during the last 24 hours (0 = no interference, 10 = complete interference).</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>0</td><td>geen belemmering</td><td>no interference</td></tr><tr><td>1</td><td>1</td><td>1</td></tr><tr><td>2</td><td>2</td><td>2</td></tr><tr><td>3</td><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td><td>5</td></tr><tr><td>6</td><td>6</td><td>6</td></tr><tr><td>7</td><td>7</td><td>7</td></tr><tr><td>8</td><td>8</td><td>8</td></tr><tr><td>9</td><td>9</td><td>9</td></tr><tr><td>10</td><td>volledige belemmering</td><td>complete interference</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C100365">http://purl.obolibrary.org/obo/NCIT_C100365</a></p><p class="note">Related pain-interference concept; 24-hour 0-10 scale is from BPI.</p></td></tr>
+</table>
+</article><article class="card" id="cis_18_noenthousiasm">
+
+<h3><code>cis_18_noenthousiasm</code> — I don&#x27;t feel like doing anything</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/cis_18_noenthousiasm</td></tr><tr><th>variable_name_CBS</th><td>cis_18_noenthousiasm</td></tr><tr><th>Theme</th><td>fatigue</td></tr><tr><th>Subdomain</th><td>motivation</td></tr><tr><th>Instrument</th><td>CIS20-R</td></tr><tr><th>Instrument_version</th><td>20-R</td></tr><tr><th>variable_label_EN</th><td>I don&#x27;t feel like doing anything</td></tr><tr><th>variable_label_NL</th><td>De zin om dingen te ondernemen ontbreekt mij</td></tr><tr><th>Definition</th><td>CIS20-R item: agreement with &#x27;I don&#x27;t feel like doing anything&#x27; on a 1-7 scale.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>ja, dat klopt</td><td>yes, that is true</td></tr><tr><td>2</td><td>2</td><td>2</td></tr><tr><td>3</td><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td><td>5</td></tr><tr><td>6</td><td>6</td><td>6</td></tr><tr><td>7</td><td>nee, dat klopt niet</td><td>no, that is not true</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C130031">http://purl.obolibrary.org/obo/NCIT_C130031</a></p><p class="note">Related motivation concept; this is the CIS20-R item.</p></td></tr>
+</table>
+</article><article class="card" id="cis_13_diff_focus">
+
+<h3><code>cis_13_diff_focus</code> — It takes a lot of effort to concentrate on things</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/cis_13_diff_focus</td></tr><tr><th>variable_name_CBS</th><td>cis_13_diff_focus</td></tr><tr><th>Theme</th><td>fatigue</td></tr><tr><th>Subdomain</th><td>concentration</td></tr><tr><th>Instrument</th><td>CIS20-R</td></tr><tr><th>Instrument_version</th><td>20-R</td></tr><tr><th>variable_label_EN</th><td>It takes a lot of effort to concentrate on things</td></tr><tr><th>variable_label_NL</th><td>Het kost me moeite ergens mijn aandacht bij te houden</td></tr><tr><th>Definition</th><td>CIS20-R item: agreement with difficulty concentrating, 1-7 scale.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>ja, dat klopt</td><td>yes, that is true</td></tr><tr><td>2</td><td>2</td><td>2</td></tr><tr><td>3</td><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td><td>5</td></tr><tr><td>6</td><td>6</td><td>6</td></tr><tr><td>7</td><td>nee, dat klopt niet</td><td>no, that is not true</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C130026">http://purl.obolibrary.org/obo/NCIT_C130026</a></p><p class="note">Related concentration concept; this is the CIS20-R item.</p></td></tr>
+</table>
+</article><article class="card" id="cis_14_phys_bad">
+
+<h3><code>cis_14_phys_bad</code> — Physically I feel I am in bad form</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/cis_14_phys_bad</td></tr><tr><th>variable_name_CBS</th><td>cis_14_phys_bad</td></tr><tr><th>Theme</th><td>fatigue</td></tr><tr><th>Subdomain</th><td>energy</td></tr><tr><th>Instrument</th><td>CIS20-R</td></tr><tr><th>Instrument_version</th><td>20-R</td></tr><tr><th>variable_label_EN</th><td>Physically I feel I am in bad form</td></tr><tr><th>variable_label_NL</th><td>Lichamelijk voel ik me in een slechte conditie</td></tr><tr><th>Definition</th><td>CIS20-R item: agreement with &#x27;Physically I feel I am in bad form&#x27; on a 1-7 scale.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>ja, dat klopt</td><td>yes, that is true</td></tr><tr><td>2</td><td>2</td><td>2</td></tr><tr><td>3</td><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td><td>5</td></tr><tr><td>6</td><td>6</td><td>6</td></tr><tr><td>7</td><td>nee, dat klopt niet</td><td>no, that is not true</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C130027">http://purl.obolibrary.org/obo/NCIT_C130027</a></p><p class="note">Related physical-fatigue concept; not an exact CIS item code.</p></td></tr>
+</table>
+</article><article class="card" id="employment_status">
+
+<h3><code>employment_status</code> — Which situation applies to you most regarding paid work?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/employment_status</td></tr><tr><th>variable_name_CBS</th><td>employment_status</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>work</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Which situation applies to you most regarding paid work?</td></tr><tr><th>variable_label_NL</th><td>Welke situatie is voor jou het meest van toepassing wat betreft betaald werk?</td></tr><tr><th>Definition</th><td>Current main employment or income situation.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Betaald werk 32 uur of meer per week</td><td>Paid job 32 hours or more per week</td></tr><tr><td>2</td><td>Betaald werk 20 tot minder dan 32 uur per week</td><td>Paid job 20 to less than 32 hours per week</td></tr><tr><td>3</td><td>Betaald werk 12 tot minder dan 20 uur per week</td><td>Paid job 12 to less than 20 hours per week</td></tr><tr><td>4</td><td>Betaald werk minder dan 12 uur per week</td><td>Paid job less than 12 hours per week</td></tr><tr><td>5</td><td>Met pensioen (vervroegd / AOW / VUT / FPU)</td><td>Retired (early retirement / AOW / VUT / FPU)</td></tr><tr><td>6</td><td>Werkloos / werkzoekend</td><td>Unemployed / jobseeker</td></tr><tr><td>7</td><td>Arbeidsongeschikt (WAO / AAW / WAZ / Wajong)</td><td>Work disabled (WAO / AAW / WAZ / Wajong)</td></tr><tr><td>8</td><td>Ontvangt een bijstandsuitkering</td><td>Receiving a social security benefit</td></tr><tr><td>9</td><td>Voltijd huishouden</td><td>Full-time homemaker</td></tr><tr><td>10</td><td>In opleiding / studie</td><td>In education / study</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/67875-5">http://loinc.org/67875-5</a></p><p class="note">Employment-status topic only; PCNN options are study-specific.</p></td></tr>
+</table>
+</article><article class="card" id="income">
+
+<h3><code>income</code> — Net monthly household income</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/income</td></tr><tr><th>variable_name_CBS</th><td>income</td></tr><tr><th>Theme</th><td>demographics</td></tr><tr><th>Subdomain</th><td>work</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Net monthly household income</td></tr><tr><th>variable_label_NL</th><td>Hoeveel bedraagt het netto inkomen per maand?</td></tr><tr><th>Definition</th><td>Net monthly household income in euro bands, including partner income if the household is shared.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ik weet dit niet</td><td>I do not know</td></tr><tr><td>2</td><td>Daar geef ik liever geen antwoord op</td><td>I rather not answer</td></tr><tr><td>3</td><td>Minder dan € 750</td><td>Less than EUR 750</td></tr><tr><td>4</td><td>€ 750 - € 1000</td><td>EUR 750 - 1000</td></tr><tr><td>5</td><td>€1000 - €1500</td><td>EUR 1000 - 1500</td></tr><tr><td>6</td><td>€1500 - €2000</td><td>EUR 1500 - 2000</td></tr><tr><td>7</td><td>€2000 - €2500</td><td>EUR 2000 - 2500</td></tr><tr><td>8</td><td>€2500 - €3000</td><td>EUR 2500 - 3000</td></tr><tr><td>9</td><td>€3000 - €3500</td><td>EUR 3000 - 3500</td></tr><tr><td>10</td><td>€3500 - €4000</td><td>EUR 3500 - 4000</td></tr><tr><td>11</td><td>€4000 - €4500</td><td>EUR 4000 - 4500</td></tr><tr><td>12</td><td>€4500 - €5000</td><td>EUR 4500 - 5000</td></tr><tr><td>13</td><td>ruim € 5000</td><td>more than EUR 5000</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/98161-3">http://loinc.org/98161-3</a></p><p class="note">Income topic only; euro cut-points are PCNN-specific.</p></td></tr>
+</table>
+</article><article class="card" id="onbehalf_who">
+
+<h3><code>onbehalf_who</code> — What is your relation to the person for whom you provide information?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/onbehalf_who</td></tr><tr><th>variable_name_CBS</th><td>onbehalf_who</td></tr><tr><th>Theme</th><td>participation</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>What is your relation to the person for whom you provide information?</td></tr><tr><th>variable_label_NL</th><td>Wat is jouw relatie tot de persoon voor wie je informatie invult?</td></tr><tr><th>Definition</th><td>Relationship of the informant to the study participant when completing on behalf of someone else.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ouder of wettelijk vertegenwoordiger</td><td>Parent or legal guardian</td></tr><tr><td>2</td><td>Kind</td><td>Child</td></tr><tr><td>3</td><td>Broer of zus</td><td>Sibling</td></tr><tr><td>4</td><td>Partner</td><td>Partner</td></tr><tr><td>5</td><td>Ander familielid</td><td>Other relative</td></tr><tr><td>6</td><td>Vriend(in)</td><td>Friend</td></tr><tr><td>7</td><td>Zorgverlener (geen familie)</td><td>Care giver (not family)</td></tr><tr><td>8</td><td>Anders</td><td>Other</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">Local informant-relationship item.</p></td></tr>
+</table>
+</article><article class="card" id="onbehalf_who_t">
+
+<h3><code>onbehalf_who_t</code> — How are you related?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/onbehalf_who_t</td></tr><tr><th>variable_name_CBS</th><td>onbehalf_who_t</td></tr><tr><th>Theme</th><td>participation</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>How are you related?</td></tr><tr><th>variable_label_NL</th><td>Hoe ben je gerelateerd?</td></tr><tr><th>Definition</th><td>Free-text description of the relationship when completing on behalf of someone else.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C83393">http://purl.obolibrary.org/obo/NCIT_C83393</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="howheardstudy">
+
+<h3><code>howheardstudy</code> — How did you hear about the post-COVID research?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/howheardstudy</td></tr><tr><th>variable_name_CBS</th><td>howheardstudy</td></tr><tr><th>Theme</th><td>participation</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>How did you hear about the post-COVID research?</td></tr><tr><th>variable_label_NL</th><td>Hoe heb je van het post-COVID-onderzoek gehoord?</td></tr><tr><th>Definition</th><td>How the respondent learned about the PCNN study.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Via mijn huisarts</td><td>Via my GP</td></tr><tr><td>2</td><td>Via de media (vrije tekst)</td><td>Via the media (free text)</td></tr><tr><td>3</td><td>Via vrienden of familie</td><td>Via friends or family</td></tr><tr><td>4</td><td>Via Thuisarts.nl</td><td>Via Thuisarts.nl</td></tr><tr><td>5</td><td>Via Google of een andere zoekmachine</td><td>Via Google or another search engine</td></tr><tr><td>6</td><td>Uitnodiging per brief/e-mail</td><td>Invitation by letter/email</td></tr><tr><td>7</td><td>Anders (vrije tekst)</td><td>Other (free text)</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/780816009">http://snomed.info/id/780816009</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="invitation">
+
+<h3><code>invitation</code> — Which research or organization invited you?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/invitation</td></tr><tr><th>variable_name_CBS</th><td>invitation</td></tr><tr><th>Theme</th><td>participation</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Which research or organization invited you?</td></tr><tr><th>variable_label_NL</th><td>Welk onderzoek of welke organisatie heeft je uitgenodigd?</td></tr><tr><th>Definition</th><td>Recruitment source that invited the respondent.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Uitnodiging na RIVM long-COVID-onderzoek</td><td>Invitation after RIVM long-COVID study</td></tr><tr><td>2</td><td>Uitnodiging via C-support</td><td>Invitation via C-support</td></tr><tr><td>3</td><td>Via de RECLAIM-nieuwsbrief</td><td>Via the RECLAIM newsletter</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C93448">http://purl.obolibrary.org/obo/NCIT_C93448</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="studycodept">
+
+<h3><code>studycodept</code> — Research code received by email or letter</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/studycodept</td></tr><tr><th>variable_name_CBS</th><td>studycodept</td></tr><tr><th>Theme</th><td>participation</td></tr><tr><th>Subdomain</th><td>contact</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Research code received by email or letter</td></tr><tr><th>variable_label_NL</th><td>Onderzoekscode ontvangen per e-mail of brief</td></tr><tr><th>Definition</th><td>Study linkage code sent to the participant so questionnaire data can be joined to other PCNN data.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">Local linkage identifier; not a clinical concept.</p></td></tr>
+</table>
+</article><article class="card" id="contact_GP">
+
+<h3><code>contact_GP</code> — Enter your GP contact details</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/contact_GP</td></tr><tr><th>variable_name_CBS</th><td>contact_GP</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Enter your GP contact details</td></tr><tr><th>variable_label_NL</th><td>Vul de contactgegevens van je huisarts in</td></tr><tr><th>Definition</th><td>Free-text general practitioner contact details provided by the respondent.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C60776">http://purl.obolibrary.org/obo/NCIT_C60776</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="hospital_end">
+
+<h3><code>hospital_end</code> — Date discharged from hospital</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/hospital_end</td></tr><tr><th>variable_name_CBS</th><td>hospital_end</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Date discharged from hospital</td></tr><tr><th>variable_label_NL</th><td>Op welke datum werd je ontslagen uit het ziekenhuis?</td></tr><tr><th>Definition</th><td>Date the respondent was discharged from hospital; estimation is allowed.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://loinc.org/8649-6">http://loinc.org/8649-6</a></p><p class="note">Discharge-date concept; PCNN item allows an estimate.</p></td></tr>
+</table>
+</article><article class="card" id="hosptial">
+
+<h3><code>hosptial</code> — Hospital admission due to corona infection before long-term symptoms</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/hosptial</td></tr><tr><th>variable_name_CBS</th><td>hosptial</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Hospital admission due to corona infection before long-term symptoms</td></tr><tr><th>variable_label_NL</th><td>Opname in het ziekenhuis door corona-infectie vóór langdurige klachten</td></tr><tr><th>Definition</th><td>Whether the respondent was admitted to hospital for a coronavirus infection before long-term symptoms started.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C25179">http://purl.obolibrary.org/obo/NCIT_C25179</a></p><p class="note">Column name keeps the original codebook spelling.</p></td></tr>
+</table>
+</article><article class="card" id="hospital_treat">
+
+<h3><code>hospital_treat</code> — What applied during hospital admission</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/hospital_treat</td></tr><tr><th>variable_name_CBS</th><td>hospital_treat</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>What applied during hospital admission</td></tr><tr><th>variable_label_NL</th><td>Wat was van toepassing tijdens de ziekenhuisopname</td></tr><tr><th>Definition</th><td>Whether ICU admission and/or oxygen treatment applied during hospital admission.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Opgenomen op IC</td><td>Admitted to ICU</td></tr><tr><td>2</td><td>Zuurstof gekregen</td><td>Received oxygen</td></tr><tr><td>3</td><td>Geen van beide</td><td>Neither</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/32485007">http://snomed.info/id/32485007</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="Nxinfected">
+
+<h3><code>Nxinfected</code> — Estimated number of coronavirus infections since February 2020</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/Nxinfected</td></tr><tr><th>variable_name_CBS</th><td>Nxinfected</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Estimated number of coronavirus infections since February 2020</td></tr><tr><th>variable_label_NL</th><td>Geschat aantal coronavirusinfecties sinds februari 2020</td></tr><tr><th>Definition</th><td>How often the respondent thinks they were infected with SARS-CoV-2 since the start of the pandemic in the Netherlands.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/840539006">http://snomed.info/id/840539006</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="Nxinfected_confirm">
+
+<h3><code>Nxinfected_confirm</code> — Number of infections confirmed by a positive test</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/Nxinfected_confirm</td></tr><tr><th>variable_name_CBS</th><td>Nxinfected_confirm</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Number of infections confirmed by a positive test</td></tr><tr><th>variable_label_NL</th><td>Aantal infecties bevestigd met een positieve test</td></tr><tr><th>Definition</th><td>How many of the reported infections were confirmed with a positive test.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="pos_test">
+
+<h3><code>pos_test</code> — Positive test before long-term coronavirus complaints</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/pos_test</td></tr><tr><th>variable_name_CBS</th><td>pos_test</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Positive test before long-term coronavirus complaints</td></tr><tr><th>variable_label_NL</th><td>Positieve test vóór langdurige coronavirusklachten</td></tr><tr><th>Definition</th><td>Whether the respondent tested positive before long-term coronavirus complaints started.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="pos_test_type">
+
+<h3><code>pos_test_type</code> — Type of coronavirus test for this result</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/pos_test_type</td></tr><tr><th>variable_name_CBS</th><td>pos_test_type</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Type of coronavirus test for this result</td></tr><tr><th>variable_label_NL</th><td>Type coronavirustest voor dit resultaat</td></tr><tr><th>Definition</th><td>Type of test used for the reported positive coronavirus result.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>PCR- of antigeensneltest afgenomen door een deskundige</td><td>PCR or antigen rapid test taken by an expert</td></tr><tr><td>2</td><td>Bloedtest (serologie)</td><td>Blood test (serology)</td></tr><tr><td>3</td><td>Zelftest</td><td>Self-test</td></tr><tr><td>4</td><td>Vastgesteld door behandelend arts; type test onbekend</td><td>Diagnosed by treating physician; test type unknown</td></tr><tr><td>5</td><td>Ik weet het niet</td><td>I do not know</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/246246002">http://snomed.info/id/246246002</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="pos_test_date">
+
+<h3><code>pos_test_date</code> — Date of this coronavirus test</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/pos_test_date</td></tr><tr><th>variable_name_CBS</th><td>pos_test_date</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Date of this coronavirus test</td></tr><tr><th>variable_label_NL</th><td>Datum van deze coronavirustest</td></tr><tr><th>Definition</th><td>Date of the reported coronavirus test; estimation is allowed.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C82512">http://purl.obolibrary.org/obo/NCIT_C82512</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="pc_confirmedby">
+
+<h3><code>pc_confirmedby</code> — Who told you that you had long COVID / post-COVID syndrome?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/pc_confirmedby</td></tr><tr><th>variable_name_CBS</th><td>pc_confirmedby</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Who told you that you had long COVID / post-COVID syndrome?</td></tr><tr><th>variable_label_NL</th><td>Wie heeft je verteld dat je long COVID / post-COVID-syndroom had?</td></tr><tr><th>Definition</th><td>Source of the long-COVID or post-COVID syndrome attribution.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Een huisarts</td><td>A general practitioner</td></tr><tr><td>2</td><td>Een medisch specialist</td><td>A medical specialist</td></tr><tr><td>3</td><td>Een alternatieve behandelaar</td><td>An alternative practitioner</td></tr><tr><td>4</td><td>Mensen die mij goed kennen denken dat ik het heb; niet officieel bevestigd</td><td>People who know me well think I have it; not officially confirmed</td></tr><tr><td>5</td><td>Ik denk zelf dat ik het heb; niet officieel bevestigd</td><td>I think I have it myself; not officially confirmed</td></tr><tr><td>6</td><td>Anders (vrije tekst)</td><td>Other (free text)</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/1119303003">http://snomed.info/id/1119303003</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="vaccin">
+
+<h3><code>vaccin</code> — Have you been vaccinated against the coronavirus?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin</td></tr><tr><th>variable_name_CBS</th><td>vaccin</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Have you been vaccinated against the coronavirus?</td></tr><tr><th>variable_label_NL</th><td>Ben je gevaccineerd tegen het coronavirus?</td></tr><tr><th>Definition</th><td>Whether the respondent received any SARS-CoV-2 vaccination.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr><tr><td>3</td><td>Ik weet het niet</td><td>I don&#x27;t know</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="vaccin_N">
+
+<h3><code>vaccin_N</code> — Number of coronavirus vaccinations</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin_N</td></tr><tr><th>variable_name_CBS</th><td>vaccin_N</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Number of coronavirus vaccinations</td></tr><tr><th>variable_label_NL</th><td>Aantal coronavirusvaccinaties</td></tr><tr><th>Definition</th><td>How many coronavirus vaccinations the respondent has received.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/97073-1">http://loinc.org/97073-1</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="vaccin_LTc_Nvacc">
+
+<h3><code>vaccin_LTc_Nvacc</code> — After how many vaccinations did vaccine-related long-term complaints start?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin_LTc_Nvacc</td></tr><tr><th>variable_name_CBS</th><td>vaccin_LTc_Nvacc</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>After how many vaccinations did vaccine-related long-term complaints start?</td></tr><tr><th>variable_label_NL</th><td>Na hoeveel vaccinaties begonnen vaccingerelateerde langdurige klachten?</td></tr><tr><th>Definition</th><td>Number of coronavirus vaccinations received before long-term complaints attributed to vaccination started.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="vaccin_LTc_date">
+
+<h3><code>vaccin_LTc_date</code> — Date of the vaccination linked to post-COVID vaccination syndrome</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin_LTc_date</td></tr><tr><th>variable_name_CBS</th><td>vaccin_LTc_date</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Date of the vaccination linked to post-COVID vaccination syndrome</td></tr><tr><th>variable_label_NL</th><td>Datum van de vaccinatie gekoppeld aan post-COVID-vaccinatiesyndroom</td></tr><tr><th>Definition</th><td>Date of the vaccination after which post-COVID vaccination syndrome started; estimation allowed.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="vaccin_LTc_Nvirus">
+
+<h3><code>vaccin_LTc_Nvirus</code> — Vaccinations received before coronavirus-related long-term complaints</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin_LTc_Nvirus</td></tr><tr><th>variable_name_CBS</th><td>vaccin_LTc_Nvirus</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Vaccinations received before coronavirus-related long-term complaints</td></tr><tr><th>variable_label_NL</th><td>Vaccinaties ontvangen vóór coronavirusgerelateerde langdurige klachten</td></tr><tr><th>Definition</th><td>Number of vaccinations received before long-term complaints attributed to the coronavirus started.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="vaccin_LTc_other">
+
+<h3><code>vaccin_LTc_other</code> — Long-term complaints after a non-COVID vaccination</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/vaccin_LTc_other</td></tr><tr><th>variable_name_CBS</th><td>vaccin_LTc_other</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Long-term complaints after a non-COVID vaccination</td></tr><tr><th>variable_label_NL</th><td>Langdurige klachten na een niet-COVID-vaccinatie</td></tr><tr><th>Definition</th><td>Whether the respondent ever had long-term complaints after a non-COVID vaccination, for example a travel vaccine or flu shot.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja, namelijk: vrije tekst</td><td>Yes, namely: free text</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/66375-7">http://loinc.org/66375-7</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="whodiagnosed">
+
+<h3><code>whodiagnosed</code> — Who told you that you had post-COVID vaccination syndrome?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/whodiagnosed</td></tr><tr><th>variable_name_CBS</th><td>whodiagnosed</td></tr><tr><th>Theme</th><td>COVID-19</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Who told you that you had post-COVID vaccination syndrome?</td></tr><tr><th>variable_label_NL</th><td>Wie heeft je verteld dat je post-COVID-vaccinatiesyndroom had?</td></tr><tr><th>Definition</th><td>Source of the post-COVID vaccination syndrome attribution.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Een huisarts</td><td>A general practitioner</td></tr><tr><td>2</td><td>Een medisch specialist</td><td>A medical specialist</td></tr><tr><td>3</td><td>Een alternatieve behandelaar</td><td>An alternative practitioner</td></tr><tr><td>4</td><td>Mensen die mij goed kennen denken dat ik het heb; niet officieel bevestigd</td><td>People who know me well think I have it; not officially confirmed</td></tr><tr><td>5</td><td>Ik denk zelf dat ik het heb; niet officieel bevestigd</td><td>I think I have it myself; not officially confirmed</td></tr><tr><td>6</td><td>Anders (vrije tekst)</td><td>Other (free text)</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="LTcompl_virus">
+
+<h3><code>LTcompl_virus</code> — Current long-term health complaints due to the coronavirus</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/LTcompl_virus</td></tr><tr><th>variable_name_CBS</th><td>LTcompl_virus</td></tr><tr><th>Theme</th><td>long-term complaints</td></tr><tr><th>Subdomain</th><td>COVID-19</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Current long-term health complaints due to the coronavirus</td></tr><tr><th>variable_label_NL</th><td>Huidige langdurige gezondheidsklachten door het coronavirus</td></tr><tr><th>Definition</th><td>Whether the respondent currently has long-term health complaints attributed to the coronavirus.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr><tr><td>3</td><td>Niet meer, ik ben hersteld</td><td>Not anymore, I have recovered</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/1119304009">http://snomed.info/id/1119304009</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="LTcompl_virus_start">
+
+<h3><code>LTcompl_virus_start</code> — Approximate start date of coronavirus-related long-term complaints</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/LTcompl_virus_start</td></tr><tr><th>variable_name_CBS</th><td>LTcompl_virus_start</td></tr><tr><th>Theme</th><td>long-term complaints</td></tr><tr><th>Subdomain</th><td>COVID-19</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Approximate start date of coronavirus-related long-term complaints</td></tr><tr><th>variable_label_NL</th><td>Geschatte startdatum van coronavirusgerelateerde langdurige klachten</td></tr><tr><th>Definition</th><td>Estimated start date of long-term complaints attributed to the coronavirus.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/298059007">http://snomed.info/id/298059007</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="LTcompl_virus_recover">
+
+<h3><code>LTcompl_virus_recover</code> — Approximate recovery date from coronavirus-related long-term complaints</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/LTcompl_virus_recover</td></tr><tr><th>variable_name_CBS</th><td>LTcompl_virus_recover</td></tr><tr><th>Theme</th><td>long-term complaints</td></tr><tr><th>Subdomain</th><td>COVID-19</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Approximate recovery date from coronavirus-related long-term complaints</td></tr><tr><th>variable_label_NL</th><td>Geschatte hersteldatum van coronavirusgerelateerde langdurige klachten</td></tr><tr><th>Definition</th><td>Estimated date of recovery from long-term complaints attributed to the coronavirus.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="LTcompl_vacc">
+
+<h3><code>LTcompl_vacc</code> — Current long-term health complaints due to a coronavirus vaccination</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/LTcompl_vacc</td></tr><tr><th>variable_name_CBS</th><td>LTcompl_vacc</td></tr><tr><th>Theme</th><td>long-term complaints</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Current long-term health complaints due to a coronavirus vaccination</td></tr><tr><th>variable_label_NL</th><td>Huidige langdurige gezondheidsklachten door een coronavirusvaccinatie</td></tr><tr><th>Definition</th><td>Whether the respondent currently has long-term health complaints attributed to a coronavirus vaccination.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr><tr><td>3</td><td>Niet meer, ik ben hersteld</td><td>Not anymore, I have recovered</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="LTcompl_vacc_recover">
+
+<h3><code>LTcompl_vacc_recover</code> — Approximate recovery date from vaccine-related long-term complaints</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/LTcompl_vacc_recover</td></tr><tr><th>variable_name_CBS</th><td>LTcompl_vacc_recover</td></tr><tr><th>Theme</th><td>long-term complaints</td></tr><tr><th>Subdomain</th><td>vaccination</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Approximate recovery date from vaccine-related long-term complaints</td></tr><tr><th>variable_label_NL</th><td>Geschatte hersteldatum van vaccingerelateerde langdurige klachten</td></tr><tr><th>Definition</th><td>Estimated date of recovery from long-term complaints attributed to the coronavirus vaccine.</td></tr>
+<tr><th>values</th><td><p>No coded list (date)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/293104008">http://snomed.info/id/293104008</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="depression_history">
+
+<h3><code>depression_history</code> — Have you ever suffered from depressive symptoms?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/depression_history</td></tr><tr><th>variable_name_CBS</th><td>depression_history</td></tr><tr><th>Theme</th><td>mental health</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Have you ever suffered from depressive symptoms?</td></tr><tr><th>variable_label_NL</th><td>Heb je ooit last gehad van depressieve klachten?</td></tr><tr><th>Definition</th><td>Lifetime history of depressive symptoms, with optional year of last episode.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja, voor het laatst in jaar ...</td><td>Yes, last in year ...</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/394924000">http://snomed.info/id/394924000</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="s31_skin_where">
+
+<h3><code>s31_skin_where</code> — Which body parts are affected by these colour changes?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/s31_skin_where</td></tr><tr><th>variable_name_CBS</th><td>s31_skin_where</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>Which body parts are affected by these colour changes?</td></tr><tr><th>variable_label_NL</th><td>Welke lichaamsdelen zijn betrokken bij deze kleurveranderingen?</td></tr><tr><th>Definition</th><td>COMPASS-31 item: body regions affected by skin colour changes.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Mijn handen</td><td>My hands</td></tr><tr><td>2</td><td>Mijn voeten</td><td>My feet</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/364533002">http://snomed.info/id/364533002</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="c31_dry_mouth">
+
+<h3><code>c31_dry_mouth</code> — Does your mouth feel abnormally dry?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/c31_dry_mouth</td></tr><tr><th>variable_name_CBS</th><td>c31_dry_mouth</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>Does your mouth feel abnormally dry?</td></tr><tr><th>variable_label_NL</th><td>Voelt uw mond abnormaal droog aan?</td></tr><tr><th>Definition</th><td>COMPASS-31 item asking whether the mouth feels abnormally dry.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>closeMatch</code> <a href="http://loinc.org/63981-5">http://loinc.org/63981-5</a></p><p class="note">Close to PhenX/LOINC 63981-5 (&#x27;frequently dry&#x27;) but this is the COMPASS-31 wording (&#x27;abnormally dry&#x27;).</p></td></tr>
+</table>
+</article><article class="card" id="c31_drrhea_freq_n">
+
+<h3><code>c31_drrhea_freq_n</code> — How many times per month? (diarrhea)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/c31_drrhea_freq_n</td></tr><tr><th>variable_name_CBS</th><td>c31_drrhea_freq_n</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>How many times per month? (diarrhea)</td></tr><tr><th>variable_label_NL</th><td>Hoe vaak per maand? (diarree)</td></tr><tr><th>Definition</th><td>COMPASS-31 count of diarrhea episodes per month.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://loinc.org/69711-0">http://loinc.org/69711-0</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="c31_bladder_freq_n">
+
+<h3><code>c31_bladder_freq_n</code> — How many times per month? (bladder)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/c31_bladder_freq_n</td></tr><tr><th>variable_name_CBS</th><td>c31_bladder_freq_n</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>How many times per month? (bladder)</td></tr><tr><th>variable_label_NL</th><td>Hoe vaak per maand? (blaas)</td></tr><tr><th>Definition</th><td>COMPASS-31 count of bladder-related episodes per month.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="c31_eyes_change">
+
+<h3><code>c31_eyes_change</code> — This most annoying eye complaint is</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/c31_eyes_change</td></tr><tr><th>variable_name_CBS</th><td>c31_eyes_change</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>This most annoying eye complaint is</td></tr><tr><th>variable_label_NL</th><td>Deze meest hinderlijke oogklacht is</td></tr><tr><th>Definition</th><td>COMPASS-31 item identifying the most annoying eye complaint.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="calcc31_eyes_change">
+
+<h3><code>calcc31_eyes_change</code> — COMPASS dependency (eyes)</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/calcc31_eyes_change</td></tr><tr><th>variable_name_CBS</th><td>calcc31_eyes_change</td></tr><tr><th>Theme</th><td>symptoms</td></tr><tr><th>Subdomain</th><td>POTS</td></tr><tr><th>Instrument</th><td>COMPASS-31</td></tr><tr><th>Instrument_version</th><td>31</td></tr><tr><th>variable_label_EN</th><td>COMPASS dependency (eyes)</td></tr><tr><th>variable_label_NL</th><td>COMPASS-afhankelijkheid (ogen)</td></tr><tr><th>Definition</th><td>Derived COMPASS-31 eyes-change dependency score calculated by the study pipeline.</td></tr>
+<tr><th>values</th><td><p>No coded list (number)</p></td></tr>
+<tr><th>Mapping</th><td><p class="note">Derived variable; not a questionnaire item.</p></td></tr>
+</table>
+</article><article class="card" id="permission">
+
+<h3><code>permission</code> — May we contact you for additional scientific research?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/permission</td></tr><tr><th>variable_name_CBS</th><td>permission</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>May we contact you for additional scientific research?</td></tr><tr><th>variable_label_NL</th><td>Mogen we je benaderen voor aanvullend wetenschappelijk onderzoek?</td></tr><tr><th>Definition</th><td>Consent to be approached for additional PCNN scientific research.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja, ik mag benaderd worden; contactgegevens gegeven</td><td>Yes, I may be approached; contact details provided</td></tr><tr><td>0</td><td>Nee, alleen vragenlijstonderzoek</td><td>No, questionnaire study only</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://purl.obolibrary.org/obo/NCIT_C125453">http://purl.obolibrary.org/obo/NCIT_C125453</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="permission_pc">
+
+<h3><code>permission_pc</code> — Consent form for post-COVID research</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/permission_pc</td></tr><tr><th>variable_name_CBS</th><td>permission_pc</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Consent form for post-COVID research</td></tr><tr><th>variable_label_NL</th><td>Toestemmingsformulier voor post-COVID-onderzoek</td></tr><tr><th>Definition</th><td>Record that the post-COVID research consent form was presented or completed.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="persmission_postvacc">
+
+<h3><code>persmission_postvacc</code> — Consent form for post-COVID vaccination complaints research</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/persmission_postvacc</td></tr><tr><th>variable_name_CBS</th><td>persmission_postvacc</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Consent form for post-COVID vaccination complaints research</td></tr><tr><th>variable_label_NL</th><td>Toestemmingsformulier voor onderzoek naar post-COVID-vaccinatieklachten</td></tr><tr><th>Definition</th><td>Record that the post-vaccination complaints consent form was presented or completed. Column name keeps the original codebook spelling.</td></tr>
+<tr><th>values</th><td><p>No coded list (text)</p></td></tr>
+<tr><th>Mapping</th><td><p><code>relatedMatch</code> <a href="http://snomed.info/id/75554001">http://snomed.info/id/75554001</a></p><p class="note"></p></td></tr>
+</table>
+</article><article class="card" id="permissions_check">
+
+<h3><code>permissions_check</code> — Confirmation that additional-research permission was not given</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/permissions_check</td></tr><tr><th>variable_name_CBS</th><td>permissions_check</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Confirmation that additional-research permission was not given</td></tr><tr><th>variable_label_NL</th><td>Je hebt op de vorige pagina (nog) geen toestemming gegeven om benaderd te mogen worden voor aanvullend onderzoek. Klopt dit?</td></tr><tr><th>Definition</th><td>Check item confirming that the respondent did not give permission to be approached for additional research.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja, dit klopt</td><td>Yes, this is correct</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="travel">
+
+<h3><code>travel</code> — Able and willing to travel for additional research</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/travel</td></tr><tr><th>variable_name_CBS</th><td>travel</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>Able and willing to travel for additional research</td></tr><tr><th>variable_label_NL</th><td>Ben je in staat en bereid om te reizen om deel te nemen aan aanvullend onderzoek?</td></tr><tr><th>Definition</th><td>Whether the respondent can travel to take part in additional research.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>2</td><td>Ja, maar niet langer dan 1 uur</td><td>Yes, but not longer than 1 hour</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article><article class="card" id="contact">
+
+<h3><code>contact</code> — May we contact you for a telephone or video appointment?</h3>
+<table class="meta"><tr><th>IRI</th><td>https://w3id.org/pcnn/var/contact</td></tr><tr><th>variable_name_CBS</th><td>contact</td></tr><tr><th>Theme</th><td>permissions</td></tr><tr><th>Subdomain</th><td>—</td></tr><tr><th>Instrument</th><td>no instrument</td></tr><tr><th>Instrument_version</th><td>—</td></tr><tr><th>variable_label_EN</th><td>May we contact you for a telephone or video appointment?</td></tr><tr><th>variable_label_NL</th><td>Mogen we je benaderen voor een belafspraak of een videogesprek voor aanvullend onderzoek</td></tr><tr><th>Definition</th><td>Consent to be contacted by phone or video for additional research.</td></tr>
+<tr><th>values</th><td><table><thead><tr><th>Code</th><th>NL</th><th>EN</th></tr></thead><tbody><tr><td>1</td><td>Ja</td><td>Yes</td></tr><tr><td>0</td><td>Nee</td><td>No</td></tr></tbody></table></td></tr>
+<tr><th>Mapping</th><td><p class="note">No public item code yet.</p></td></tr>
+</table>
+</article>
+</main></body></html>

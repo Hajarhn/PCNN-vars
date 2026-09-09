@@ -1,0 +1,224 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix :     <https://w3id.org/pcnn/> .
+@prefix var:  <https://w3id.org/pcnn/var/> .
+
+:coll-inst-brief-pain-inventory a skos:Collection ;
+  skos:prefLabel "Brief Pain Inventory"@en ;
+  skos:member var:bpi_pain_where_front ,
+    var:bpi_prohibited_activity .
+
+:coll-inst-cis20-r a skos:Collection ;
+  skos:prefLabel "CIS20-R"@en ;
+  skos:member var:cis_18_noenthousiasm ,
+    var:cis_13_diff_focus ,
+    var:cis_14_phys_bad .
+
+:coll-inst-compass-31 a skos:Collection ;
+  skos:prefLabel "COMPASS-31"@en ;
+  skos:member var:s31_skin_where ,
+    var:c31_dry_mouth ,
+    var:c31_drrhea_freq_n ,
+    var:c31_bladder_freq_n ,
+    var:c31_eyes_change ,
+    var:calcc31_eyes_change .
+
+:coll-inst-dsq a skos:Collection ;
+  skos:prefLabel "DSQ"@en ;
+  skos:member var:dsq_fatigue_freq .
+
+:coll-inst-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-2"@en ;
+  skos:member var:dsq_slowspeech_sev ,
+    var:dsq_muscletwitch_freq ,
+    var:dsq_muscletwitch_sev ,
+    var:dsq_forgetful_freq ,
+    var:dsq_shortbreath_freq ,
+    var:dsq_noappetite_freq ,
+    var:dsq_slowthink_freq ,
+    var:dsq_irregularhb_freq ,
+    var:dsq_lowtemp_freq ,
+    var:dsq_nightawake_freq ,
+    var:dsq_dizzy_freq ,
+    var:dsq_hightemp_freq ,
+    var:dsq_musclefatigue_sev ,
+    var:dsq_pressurepain_freq ,
+    var:dsq_achingeyes_freq ,
+    var:dsq_headache_freq .
+
+:coll-inst-dsq-pem-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-PEM + DSQ-2"@en ;
+  skos:member var:dsq_exhausted_freq ,
+    var:dsq_pemphysical_freq .
+
+:coll-inst-dsq-pots-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-POTS + DSQ-2"@en ;
+  skos:member var:dsq_unablestand_freq ,
+    var:dsq_blackedvision_freq .
+
+:coll-inst-dsq-sf-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-SF + DSQ-2"@en ;
+  skos:member var:dsq_memory_freq ,
+    var:dsq_pain_freq ,
+    var:dsq_bloating_freq ,
+    var:dsq_ibs_freq ,
+    var:dsq_flu_freq ,
+    var:dsq_coldlimbs_freq ,
+    var:dsq_sensitivities_freq .
+
+:coll-inst-dsq-sf-dsq-pem-dsq-2 a skos:Collection ;
+  skos:prefLabel "DSQ-SF + DSQ-PEM + DSQ-2"@en ;
+  skos:member var:dsq_heavy_freq ,
+    var:dsq_soreness_freq ,
+    var:dsq_minexercise_sev .
+
+:coll-inst-study-specific-no-instrument a skos:Collection ;
+  skos:prefLabel "Study-specific (no instrument)"@en ;
+  skos:member var:smokingstatus ,
+    var:paidjob ,
+    var:hours_household ,
+    var:hours_family ,
+    var:employment_status ,
+    var:income ,
+    var:onbehalf_who ,
+    var:onbehalf_who_t ,
+    var:howheardstudy ,
+    var:invitation ,
+    var:studycodept ,
+    var:contact_GP ,
+    var:hospital_end ,
+    var:hosptial ,
+    var:hospital_treat ,
+    var:Nxinfected ,
+    var:Nxinfected_confirm ,
+    var:pos_test ,
+    var:pos_test_type ,
+    var:pos_test_date ,
+    var:pc_confirmedby ,
+    var:vaccin ,
+    var:vaccin_N ,
+    var:vaccin_LTc_Nvacc ,
+    var:vaccin_LTc_date ,
+    var:vaccin_LTc_Nvirus ,
+    var:vaccin_LTc_other ,
+    var:whodiagnosed ,
+    var:LTcompl_virus ,
+    var:LTcompl_virus_start ,
+    var:LTcompl_virus_recover ,
+    var:LTcompl_vacc ,
+    var:LTcompl_vacc_recover ,
+    var:depression_history ,
+    var:permission ,
+    var:permission_pc ,
+    var:persmission_postvacc ,
+    var:permissions_check ,
+    var:travel ,
+    var:contact .
+
+:coll-theme-covid-19 a skos:Collection ;
+  skos:prefLabel "COVID-19"@en ;
+  skos:member var:hospital_end ,
+    var:hosptial ,
+    var:hospital_treat ,
+    var:Nxinfected ,
+    var:Nxinfected_confirm ,
+    var:pos_test ,
+    var:pos_test_type ,
+    var:pos_test_date ,
+    var:pc_confirmedby ,
+    var:vaccin ,
+    var:vaccin_N ,
+    var:vaccin_LTc_Nvacc ,
+    var:vaccin_LTc_date ,
+    var:vaccin_LTc_Nvirus ,
+    var:vaccin_LTc_other ,
+    var:whodiagnosed .
+
+:coll-theme-demographics a skos:Collection ;
+  skos:prefLabel "demographics"@en ;
+  skos:member var:smokingstatus ,
+    var:paidjob ,
+    var:hours_household ,
+    var:hours_family ,
+    var:employment_status ,
+    var:income .
+
+:coll-theme-fatigue a skos:Collection ;
+  skos:prefLabel "fatigue"@en ;
+  skos:member var:cis_18_noenthousiasm ,
+    var:cis_13_diff_focus ,
+    var:cis_14_phys_bad .
+
+:coll-theme-long-term-complaints a skos:Collection ;
+  skos:prefLabel "long-term complaints"@en ;
+  skos:member var:LTcompl_virus ,
+    var:LTcompl_virus_start ,
+    var:LTcompl_virus_recover ,
+    var:LTcompl_vacc ,
+    var:LTcompl_vacc_recover .
+
+:coll-theme-mental-health a skos:Collection ;
+  skos:prefLabel "mental health"@en ;
+  skos:member var:depression_history .
+
+:coll-theme-pain a skos:Collection ;
+  skos:prefLabel "pain"@en ;
+  skos:member var:bpi_pain_where_front ,
+    var:bpi_prohibited_activity .
+
+:coll-theme-participation a skos:Collection ;
+  skos:prefLabel "participation"@en ;
+  skos:member var:onbehalf_who ,
+    var:onbehalf_who_t ,
+    var:howheardstudy ,
+    var:invitation ,
+    var:studycodept .
+
+:coll-theme-permissions a skos:Collection ;
+  skos:prefLabel "permissions"@en ;
+  skos:member var:contact_GP ,
+    var:permission ,
+    var:permission_pc ,
+    var:persmission_postvacc ,
+    var:permissions_check ,
+    var:travel ,
+    var:contact .
+
+:coll-theme-symptoms a skos:Collection ;
+  skos:prefLabel "symptoms"@en ;
+  skos:member var:dsq_fatigue_freq ,
+    var:dsq_slowspeech_sev ,
+    var:dsq_memory_freq ,
+    var:dsq_exhausted_freq ,
+    var:dsq_heavy_freq ,
+    var:dsq_muscletwitch_freq ,
+    var:dsq_muscletwitch_sev ,
+    var:dsq_soreness_freq ,
+    var:dsq_minexercise_sev ,
+    var:dsq_pain_freq ,
+    var:dsq_forgetful_freq ,
+    var:dsq_shortbreath_freq ,
+    var:dsq_noappetite_freq ,
+    var:dsq_unablestand_freq ,
+    var:dsq_bloating_freq ,
+    var:dsq_slowthink_freq ,
+    var:dsq_ibs_freq ,
+    var:dsq_irregularhb_freq ,
+    var:dsq_lowtemp_freq ,
+    var:dsq_flu_freq ,
+    var:dsq_nightawake_freq ,
+    var:dsq_dizzy_freq ,
+    var:dsq_hightemp_freq ,
+    var:dsq_coldlimbs_freq ,
+    var:dsq_sensitivities_freq ,
+    var:dsq_musclefatigue_sev ,
+    var:dsq_pressurepain_freq ,
+    var:dsq_blackedvision_freq ,
+    var:dsq_pemphysical_freq ,
+    var:dsq_achingeyes_freq ,
+    var:dsq_headache_freq ,
+    var:s31_skin_where ,
+    var:c31_dry_mouth ,
+    var:c31_drrhea_freq_n ,
+    var:c31_bladder_freq_n ,
+    var:c31_eyes_change ,
+    var:calcc31_eyes_change .

@@ -1,0 +1,830 @@
+Theme,Subdomain,Instrument,Instrument_version,variable_name_CBS,variable_label_NL,variable_label_EN,values,value_labels_NL,value_labels_EN
+demographics,lifestyle,no instrument,,smokingstatus,Rook je?,Do you smoke?,"[1]No
+[2]No, but I have smoked in the past
+[3]Yes, occasionally
+[4]Daily, less than 10 cigarettes/cigars per day
+[5]Daily, 10 or more cigarettes/cigars per day
+[6]Daily, e-cigarettes/vapes only","[1]Nee
+[2]Nee, maar ik heb in het verleden wel gerookt
+[3]Ja, af en toe
+[4]Dagelijks, minder dan 10 sigaretten/sigaren per dag
+[5]Dagelijks, 10 of meer sigaretten/sigaren per dag
+[6]Dagelijks, alleen e-sigaretten/vapes","[1]No
+[2]No, but I have smoked in the past
+[3]Yes, occasionally
+[4]Daily, less than 10 cigarettes/cigars per day
+[5]Daily, 10 or more cigarettes/cigars per day
+[6]Daily, e-cigarettes/vapes only"
+demographics,work,no instrument,,paidjob,Heb je op dit moment betaald werk?,Do you have a paid job at this moment?,"[1]Yes
+[0]No
+[3]Yes, but I have been reported sick (partly) due to long-term complaints
+[4]No, I no longer have a job due to long-term complaints","[1]Ja
+[0]Nee
+[3]Ja, maar ik ben (deels) ziek gemeld door langdurige klachten
+[4]Nee, ik heb geen werk meer door langdurige klachten","[1]Yes
+[0]No
+[3]Yes, but I have been reported sick (partly) due to long-term complaints
+[4]No, I no longer have a job due to long-term complaints"
+demographics,activity,no instrument,,hours_household,Huishoudelijke activiteiten? (uren per week):,Household activities (hours per week),,,
+demographics,activity,no instrument,,hours_family,Gezinsactiviteiten? (uren per week):,Family activities (hours per week),,,
+symptoms,frequency,DSQ,,dsq_fatigue_freq,Frequentie afgelopen 6 maanden: Vermoeidheid/extreme uitputting,Frequency past 6 months: Fatigue / extreme tiredness,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,severity,DSQ-2,2,dsq_slowspeech_sev,Ernst afgelopen 6 maanden: Traag spreken,Severity past 6 months: Slowed speech,"[1]mild
+[2]moderate
+[3]severe
+[4]very severe","[1]mild
+[2]matig
+[3]ernstig
+[4]zeer ernstig","[1]mild
+[2]moderate
+[3]severe
+[4]very severe"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_memory_freq,Frequentie afgelopen 6 maanden: Moeite met herinneren van dingen,Frequency past 6 months: Problems remembering things,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / PEM,DSQ-PEM + DSQ-2,PEM / 2,dsq_exhausted_freq,Frequentie afgelopen 6 maanden: Lichamelijk uitgeput of ziek na milde activiteit,Frequency past 6 months: Physically drained or sick after mild activity,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / PEM,DSQ-SF + DSQ-PEM + DSQ-2,SF / PEM / 2,dsq_heavy_freq,"Frequentie afgelopen 6 maanden: Dood, zwaar gevoel na beginnen met sporten","Frequency past 6 months: Dead, heavy feeling after starting to exercise","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_muscletwitch_freq,Frequentie afgelopen 6 maanden: Spiertrekkingen,Frequency past 6 months: Muscle twitches,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,severity,DSQ-2,2,dsq_muscletwitch_sev,Ernst afgelopen 6 maanden: Spiertrekkingen,Severity past 6 months: Muscle twitches,"[1]mild
+[2]moderate
+[3]severe
+[4]very severe","[1]mild
+[2]matig
+[3]ernstig
+[4]zeer ernstig","[1]mild
+[2]moderate
+[3]severe
+[4]very severe"
+symptoms,frequency / PEM,DSQ-SF + DSQ-PEM + DSQ-2,SF / PEM / 2,dsq_soreness_freq,Frequentie afgelopen 6 maanden: Spierpijn of vermoeidheid de volgende dag na niet-zware alledaagse activiteiten,Frequency past 6 months: Next-day soreness or fatigue after non-strenuous everyday activities,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,severity / PEM,DSQ-SF + DSQ-PEM + DSQ-2,SF / PEM / 2,dsq_minexercise_sev,Ernst afgelopen 6 maanden: Minimale inspanning maakt je lichamelijk moe,Severity past 6 months: Minimum exercise makes you physically tired,"[1]mild
+[2]moderate
+[3]severe
+[4]very severe","[1]mild
+[2]matig
+[3]ernstig
+[4]zeer ernstig","[1]mild
+[2]moderate
+[3]severe
+[4]very severe"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_pain_freq,Frequentie afgelopen 6 maanden: Pijn of zeurend gevoel in je spieren,Frequency past 6 months: Pain or aching in your muscles,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_forgetful_freq,Frequentie afgelopen 6 maanden: Vergeetachtigheid,Frequency past 6 months: Absent-mindedness or forgetfulness,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_shortbreath_freq,Frequentie afgelopen 6 maanden: Kortademigheid,Frequency past 6 months: Shortness of breath,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_noappetite_freq,Frequentie afgelopen 6 maanden: Geen eetlust,Frequency past 6 months: No appetite,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / POTS,DSQ-POTS + DSQ-2,POTS / 2,dsq_unablestand_freq,Frequentie afgelopen 6 maanden: Niet kunnen verdragen van een rechtopstaande houding,Frequency past 6 months: Inability to tolerate an upright position,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_bloating_freq,Frequentie afgelopen 6 maanden: Opgeblazen gevoel,Frequency past 6 months: Bloating,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_slowthink_freq,Frequentie afgelopen 6 maanden: Traag denken,Frequency past 6 months: Slowness of thought,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_ibs_freq,Frequentie afgelopen 6 maanden: Prikkelbare darmklachten,Frequency past 6 months: Irritable bowel problems,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / POTS,DSQ-2,2,dsq_irregularhb_freq,Frequentie afgelopen 6 maanden: Onregelmatige hartslag,Frequency past 6 months: Irregular heart beats,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_lowtemp_freq,Frequentie afgelopen 6 maanden: Gevoel van lage lichaamstemperatuur,Frequency past 6 months: Feeling like you have a low temperature,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_flu_freq,Frequentie afgelopen 6 maanden: Griepachtige klachten,Frequency past 6 months: Flu-like symptoms,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_nightawake_freq,Frequentie afgelopen 6 maanden: Overdag slapen en 's nachts wakker blijven,Frequency past 6 months: Sleeping all day and staying awake all night,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / POTS,DSQ-2,2,dsq_dizzy_freq,Frequentie afgelopen 6 maanden: Duizeligheid of flauwvallen,Frequency past 6 months: Dizziness or fainting,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_hightemp_freq,Frequentie afgelopen 6 maanden: Gevoel van hoge lichaamstemperatuur,Frequency past 6 months: Feeling like you have a high temperature,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_coldlimbs_freq,Frequentie afgelopen 6 maanden: Koude ledematen,Frequency past 6 months: Cold limbs,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-SF + DSQ-2,SF / 2,dsq_sensitivities_freq,"Frequentie afgelopen 6 maanden: Sommige geuren, voeding, medicijnen of chemicaliën maken je ziek","Frequency past 6 months: Some smells, foods, medications or chemicals make you feel sick","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,severity / PEM,DSQ-2,2,dsq_musclefatigue_sev,Ernst afgelopen 6 maanden: Spiervermoeidheid na milde fysieke activiteit,Severity past 6 months: Muscle fatigue after mild physical activity,"[1]mild
+[2]moderate
+[3]severe
+[4]very severe","[1]mild
+[2]matig
+[3]ernstig
+[4]zeer ernstig","[1]mild
+[2]moderate
+[3]severe
+[4]very severe"
+symptoms,frequency,DSQ-2,2,dsq_pressurepain_freq,Frequentie afgelopen 6 maanden: Druk op delen van het lichaam veroorzaakt pijn elders,Frequency past 6 months: Pressure on parts of the body causes pain in other parts,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / POTS,DSQ-POTS + DSQ-2,POTS / 2,dsq_blackedvision_freq,Frequentie afgelopen 6 maanden: Grijze of zwarte vlekken na opstaan,Frequency past 6 months: Graying or blacking out after standing,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency / PEM,DSQ-PEM + DSQ-2,PEM / 2,dsq_pemphysical_freq,Frequentie afgelopen 6 maanden: Verergering van klachten na milde fysieke activiteit,Frequency past 6 months: Worsening of symptoms after mild physical activity,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_achingeyes_freq,Frequentie afgelopen 6 maanden: Pijn in of achter de ogen,Frequency past 6 months: Aching of the eyes or behind the eyes,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+symptoms,frequency,DSQ-2,2,dsq_headache_freq,Frequentie afgelopen 6 maanden: Hoofdpijn,Frequency past 6 months: Headaches,"[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time","[0]nooit
+[1]soms
+[2]ongeveer de helft van de tijd
+[3]meestal
+[4]altijd","[0]none of the time
+[1]a little of the time
+[2]about half the time
+[3]most of the time
+[4]all of the time"
+pain,,Brief Pain Inventory,,bpi_pain_where_front,Geef uw belangrijkste pijngebied aan (voorkant).,Indicate your main pain area (front),"[1]No pain
+[2]Face
+[3]Right jaw
+[4]Left jaw
+[5]Right chest
+[6]Left chest
+[7]Right upper arm
+[8]Left upper arm
+[9]Right elbow
+[10]Left elbow
+[11]Abdomen
+[12]Pelvis
+[13]Right forearm
+[14]Left forearm
+[15]Right wrist/hand
+[16]Left wrist/hand
+[17]Right groin
+[18]Left groin
+[19]Right thigh
+[20]Left thigh
+[21]Right knee
+[22]Left knee
+[23]Right lower leg
+[24]Left lower leg
+[25]Right ankle/foot
+[26]Left ankle/foot","[1]Geen pijn
+[2]Gezicht
+[3]R kaak
+[4]L kaak
+[5]R borst
+[6]L borst
+[7]R bovenarm
+[8]L bovenarm
+[9]R elleboog
+[10]L elleboog
+[11]Buik
+[12]Bekken
+[13]R onderarm
+[14]L onderarm
+[15]R pols/hand
+[16]L pols/hand
+[17]R lies
+[18]L lies
+[19]R bovenbeen
+[20]L bovenbeen
+[21]R knie
+[22]L knie
+[23]R onderbeen
+[24]L onderbeen
+[25]R enkel/voet
+[26]L enkel/voet","[1]No pain
+[2]Face
+[3]Right jaw
+[4]Left jaw
+[5]Right chest
+[6]Left chest
+[7]Right upper arm
+[8]Left upper arm
+[9]Right elbow
+[10]Left elbow
+[11]Abdomen
+[12]Pelvis
+[13]Right forearm
+[14]Left forearm
+[15]Right wrist/hand
+[16]Left wrist/hand
+[17]Right groin
+[18]Left groin
+[19]Right thigh
+[20]Left thigh
+[21]Right knee
+[22]Left knee
+[23]Right lower leg
+[24]Left lower leg
+[25]Right ankle/foot
+[26]Left ankle/foot"
+pain,interference,Brief Pain Inventory,,bpi_prohibited_activity,Hoe heeft de pijn in de afgelopen 24-uur belemmerend gewerkt op uw algemene activiteit,Pain interference with general activity last 24 hours (0-10),"[0]no interference
+[1]1
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]7
+[8]8
+[9]9
+[10]complete interference","[0]geen belemmering
+[1]1
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]7
+[8]8
+[9]9
+[10]volledige belemmering","[0]no interference
+[1]1
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]7
+[8]8
+[9]9
+[10]complete interference"
+fatigue,motivation,CIS20-R,20-R,cis_18_noenthousiasm,De zin om dingen te ondernemen ontbreekt mij,I don't feel like doing anything,"[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true","[1]ja, dat klopt
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]nee, dat klopt niet","[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true"
+fatigue,concentration,CIS20-R,20-R,cis_13_diff_focus,Het kost me moeite ergens mijn aandacht bij te houden,It takes a lot of effort to concentrate on things,"[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true","[1]ja, dat klopt
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]nee, dat klopt niet","[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true"
+fatigue,energy,CIS20-R,20-R,cis_14_phys_bad,Lichamelijk voel ik me in een slechte conditie,Physically I feel I am in bad form,"[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true","[1]ja, dat klopt
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]nee, dat klopt niet","[1]yes, that is true
+[2]2
+[3]3
+[4]4
+[5]5
+[6]6
+[7]no, that is not true"
+demographics,work,no instrument,,employment_status,Welke situatie is voor jou het meest van toepassing wat betreft betaald werk?,Which situation applies to you most regarding paid work?,"[1]Paid job 32 hours or more per week
+[2]Paid job 20 to less than 32 hours per week
+[3]Paid job 12 to less than 20 hours per week
+[4]Paid job less than 12 hours per week
+[5]Retired (early retirement / AOW / VUT / FPU)
+[6]Unemployed / jobseeker
+[7]Work disabled (WAO / AAW / WAZ / Wajong)
+[8]Receiving a social security benefit
+[9]Full-time homemaker
+[10]In education / study","[1]Betaald werk 32 uur of meer per week
+[2]Betaald werk 20 tot minder dan 32 uur per week
+[3]Betaald werk 12 tot minder dan 20 uur per week
+[4]Betaald werk minder dan 12 uur per week
+[5]Met pensioen (vervroegd / AOW / VUT / FPU)
+[6]Werkloos / werkzoekend
+[7]Arbeidsongeschikt (WAO / AAW / WAZ / Wajong)
+[8]Ontvangt een bijstandsuitkering
+[9]Voltijd huishouden
+[10]In opleiding / studie","[1]Paid job 32 hours or more per week
+[2]Paid job 20 to less than 32 hours per week
+[3]Paid job 12 to less than 20 hours per week
+[4]Paid job less than 12 hours per week
+[5]Retired (early retirement / AOW / VUT / FPU)
+[6]Unemployed / jobseeker
+[7]Work disabled (WAO / AAW / WAZ / Wajong)
+[8]Receiving a social security benefit
+[9]Full-time homemaker
+[10]In education / study"
+demographics,work,no instrument,,income,Hoeveel bedraagt het netto inkomen per maand?,Net monthly household income,"[1]I do not know
+[2]I rather not answer
+[3]Less than EUR 750
+[4]EUR 750 - 1000
+[5]EUR 1000 - 1500
+[6]EUR 1500 - 2000
+[7]EUR 2000 - 2500
+[8]EUR 2500 - 3000
+[9]EUR 3000 - 3500
+[10]EUR 3500 - 4000
+[11]EUR 4000 - 4500
+[12]EUR 4500 - 5000
+[13]more than EUR 5000","[1]Ik weet dit niet
+[2]Daar geef ik liever geen antwoord op
+[3]Minder dan € 750
+[4]€ 750 - € 1000
+[5]€1000 - €1500
+[6]€1500 - €2000
+[7]€2000 - €2500
+[8]€2500 - €3000
+[9]€3000 - €3500
+[10]€3500 - €4000
+[11]€4000 - €4500
+[12]€4500 - €5000
+[13]ruim € 5000","[1]I do not know
+[2]I rather not answer
+[3]Less than EUR 750
+[4]EUR 750 - 1000
+[5]EUR 1000 - 1500
+[6]EUR 1500 - 2000
+[7]EUR 2000 - 2500
+[8]EUR 2500 - 3000
+[9]EUR 3000 - 3500
+[10]EUR 3500 - 4000
+[11]EUR 4000 - 4500
+[12]EUR 4500 - 5000
+[13]more than EUR 5000"
+participation,,no instrument,,onbehalf_who,Wat is jouw relatie tot de persoon voor wie je informatie invult?,What is your relation to the person for whom you provide information?,"[1]Parent or legal guardian
+[2]Child
+[3]Sibling
+[4]Partner
+[5]Other relative
+[6]Friend
+[7]Care giver (not family)
+[8]Other","[1]Ouder of wettelijk vertegenwoordiger
+[2]Kind
+[3]Broer of zus
+[4]Partner
+[5]Ander familielid
+[6]Vriend(in)
+[7]Zorgverlener (geen familie)
+[8]Anders","[1]Parent or legal guardian
+[2]Child
+[3]Sibling
+[4]Partner
+[5]Other relative
+[6]Friend
+[7]Care giver (not family)
+[8]Other"
+participation,,no instrument,,onbehalf_who_t,Hoe ben je gerelateerd?,How are you related?,,,
+participation,,no instrument,,howheardstudy,Hoe heb je van het post-COVID-onderzoek gehoord?,How did you hear about the post-COVID research?,"[1]Via my GP
+[2]Via the media (free text)
+[3]Via friends or family
+[4]Via Thuisarts.nl
+[5]Via Google or another search engine
+[6]Invitation by letter/email
+[7]Other (free text)","[1]Via mijn huisarts
+[2]Via de media (vrije tekst)
+[3]Via vrienden of familie
+[4]Via Thuisarts.nl
+[5]Via Google of een andere zoekmachine
+[6]Uitnodiging per brief/e-mail
+[7]Anders (vrije tekst)","[1]Via my GP
+[2]Via the media (free text)
+[3]Via friends or family
+[4]Via Thuisarts.nl
+[5]Via Google or another search engine
+[6]Invitation by letter/email
+[7]Other (free text)"
+participation,,no instrument,,invitation,Welk onderzoek of welke organisatie heeft je uitgenodigd?,Which research or organization invited you?,"[1]Invitation after RIVM long-COVID study
+[2]Invitation via C-support
+[3]Via the RECLAIM newsletter","[1]Uitnodiging na RIVM long-COVID-onderzoek
+[2]Uitnodiging via C-support
+[3]Via de RECLAIM-nieuwsbrief","[1]Invitation after RIVM long-COVID study
+[2]Invitation via C-support
+[3]Via the RECLAIM newsletter"
+participation,contact,no instrument,,studycodept,Onderzoekscode ontvangen per e-mail of brief,Research code received by email or letter,,,
+permissions,,no instrument,,contact_GP,Vul de contactgegevens van je huisarts in,Enter your GP contact details,,,
+COVID-19,,no instrument,,hospital_end,Op welke datum werd je ontslagen uit het ziekenhuis?,Date discharged from hospital,,,
+COVID-19,,no instrument,,hosptial,Opname in het ziekenhuis door corona-infectie vóór langdurige klachten,Hospital admission due to corona infection before long-term symptoms,"[1]Yes
+[0]No","[1]Ja
+[0]Nee","[1]Yes
+[0]No"
+COVID-19,,no instrument,,hospital_treat,Wat was van toepassing tijdens de ziekenhuisopname,What applied during hospital admission,"[1]Admitted to ICU
+[2]Received oxygen
+[3]Neither","[1]Opgenomen op IC
+[2]Zuurstof gekregen
+[3]Geen van beide","[1]Admitted to ICU
+[2]Received oxygen
+[3]Neither"
+COVID-19,,no instrument,,Nxinfected,Geschat aantal coronavirusinfecties sinds februari 2020,Estimated number of coronavirus infections since February 2020,,,
+COVID-19,,no instrument,,Nxinfected_confirm,Aantal infecties bevestigd met een positieve test,Number of infections confirmed by a positive test,,,
+COVID-19,,no instrument,,pos_test,Positieve test vóór langdurige coronavirusklachten,Positive test before long-term coronavirus complaints,"[1]Yes
+[0]No","[1]Ja
+[0]Nee","[1]Yes
+[0]No"
+COVID-19,,no instrument,,pos_test_type,Type coronavirustest voor dit resultaat,Type of coronavirus test for this result,"[1]PCR or antigen rapid test taken by an expert
+[2]Blood test (serology)
+[3]Self-test
+[4]Diagnosed by treating physician; test type unknown
+[5]I do not know","[1]PCR- of antigeensneltest afgenomen door een deskundige
+[2]Bloedtest (serologie)
+[3]Zelftest
+[4]Vastgesteld door behandelend arts; type test onbekend
+[5]Ik weet het niet","[1]PCR or antigen rapid test taken by an expert
+[2]Blood test (serology)
+[3]Self-test
+[4]Diagnosed by treating physician; test type unknown
+[5]I do not know"
+COVID-19,,no instrument,,pos_test_date,Datum van deze coronavirustest,Date of this coronavirus test,,,
+COVID-19,,no instrument,,pc_confirmedby,Wie heeft je verteld dat je long COVID / post-COVID-syndroom had?,Who told you that you had long COVID / post-COVID syndrome?,"[1]A general practitioner
+[2]A medical specialist
+[3]An alternative practitioner
+[4]People who know me well think I have it; not officially confirmed
+[5]I think I have it myself; not officially confirmed
+[6]Other (free text)","[1]Een huisarts
+[2]Een medisch specialist
+[3]Een alternatieve behandelaar
+[4]Mensen die mij goed kennen denken dat ik het heb; niet officieel bevestigd
+[5]Ik denk zelf dat ik het heb; niet officieel bevestigd
+[6]Anders (vrije tekst)","[1]A general practitioner
+[2]A medical specialist
+[3]An alternative practitioner
+[4]People who know me well think I have it; not officially confirmed
+[5]I think I have it myself; not officially confirmed
+[6]Other (free text)"
+COVID-19,vaccination,no instrument,,vaccin,Ben je gevaccineerd tegen het coronavirus?,Have you been vaccinated against the coronavirus?,"[1]Yes
+[0]No
+[3]I don't know","[1]Ja
+[0]Nee
+[3]Ik weet het niet","[1]Yes
+[0]No
+[3]I don't know"
+COVID-19,vaccination,no instrument,,vaccin_N,Aantal coronavirusvaccinaties,Number of coronavirus vaccinations,,,
+COVID-19,vaccination,no instrument,,vaccin_LTc_Nvacc,Na hoeveel vaccinaties begonnen vaccingerelateerde langdurige klachten?,After how many vaccinations did vaccine-related long-term complaints start?,,,
+COVID-19,vaccination,no instrument,,vaccin_LTc_date,Datum van de vaccinatie gekoppeld aan post-COVID-vaccinatiesyndroom,Date of the vaccination linked to post-COVID vaccination syndrome,,,
+COVID-19,vaccination,no instrument,,vaccin_LTc_Nvirus,Vaccinaties ontvangen vóór coronavirusgerelateerde langdurige klachten,Vaccinations received before coronavirus-related long-term complaints,,,
+COVID-19,vaccination,no instrument,,vaccin_LTc_other,Langdurige klachten na een niet-COVID-vaccinatie,Long-term complaints after a non-COVID vaccination,"[1]Yes, namely: free text
+[0]No","[1]Ja, namelijk: vrije tekst
+[0]Nee","[1]Yes, namely: free text
+[0]No"
+COVID-19,vaccination,no instrument,,whodiagnosed,Wie heeft je verteld dat je post-COVID-vaccinatiesyndroom had?,Who told you that you had post-COVID vaccination syndrome?,"[1]A general practitioner
+[2]A medical specialist
+[3]An alternative practitioner
+[4]People who know me well think I have it; not officially confirmed
+[5]I think I have it myself; not officially confirmed
+[6]Other (free text)","[1]Een huisarts
+[2]Een medisch specialist
+[3]Een alternatieve behandelaar
+[4]Mensen die mij goed kennen denken dat ik het heb; niet officieel bevestigd
+[5]Ik denk zelf dat ik het heb; niet officieel bevestigd
+[6]Anders (vrije tekst)","[1]A general practitioner
+[2]A medical specialist
+[3]An alternative practitioner
+[4]People who know me well think I have it; not officially confirmed
+[5]I think I have it myself; not officially confirmed
+[6]Other (free text)"
+long-term complaints,COVID-19,no instrument,,LTcompl_virus,Huidige langdurige gezondheidsklachten door het coronavirus,Current long-term health complaints due to the coronavirus,"[1]Yes
+[0]No
+[3]Not anymore, I have recovered","[1]Ja
+[0]Nee
+[3]Niet meer, ik ben hersteld","[1]Yes
+[0]No
+[3]Not anymore, I have recovered"
+long-term complaints,COVID-19,no instrument,,LTcompl_virus_start,Geschatte startdatum van coronavirusgerelateerde langdurige klachten,Approximate start date of coronavirus-related long-term complaints,,,
+long-term complaints,COVID-19,no instrument,,LTcompl_virus_recover,Geschatte hersteldatum van coronavirusgerelateerde langdurige klachten,Approximate recovery date from coronavirus-related long-term complaints,,,
+long-term complaints,vaccination,no instrument,,LTcompl_vacc,Huidige langdurige gezondheidsklachten door een coronavirusvaccinatie,Current long-term health complaints due to a coronavirus vaccination,"[1]Yes
+[0]No
+[3]Not anymore, I have recovered","[1]Ja
+[0]Nee
+[3]Niet meer, ik ben hersteld","[1]Yes
+[0]No
+[3]Not anymore, I have recovered"
+long-term complaints,vaccination,no instrument,,LTcompl_vacc_recover,Geschatte hersteldatum van vaccingerelateerde langdurige klachten,Approximate recovery date from vaccine-related long-term complaints,,,
+mental health,,no instrument,,depression_history,Heb je ooit last gehad van depressieve klachten?,Have you ever suffered from depressive symptoms?,"[1]Yes, last in year ...
+[0]No","[1]Ja, voor het laatst in jaar ...
+[0]Nee","[1]Yes, last in year ...
+[0]No"
+symptoms,POTS,COMPASS-31,31,s31_skin_where,Welke lichaamsdelen zijn betrokken bij deze kleurveranderingen?,Which body parts are affected by these colour changes?,"[1]My hands
+[2]My feet","[1]Mijn handen
+[2]Mijn voeten","[1]My hands
+[2]My feet"
+symptoms,POTS,COMPASS-31,31,c31_dry_mouth,Voelt uw mond abnormaal droog aan?,Does your mouth feel abnormally dry?,"[1]Yes
+[0]No","[1]Ja
+[0]Nee","[1]Yes
+[0]No"
+symptoms,POTS,COMPASS-31,31,c31_drrhea_freq_n,Hoe vaak per maand? (diarree),How many times per month? (diarrhea),,,
+symptoms,POTS,COMPASS-31,31,c31_bladder_freq_n,Hoe vaak per maand? (blaas),How many times per month? (bladder),,,
+symptoms,POTS,COMPASS-31,31,c31_eyes_change,Deze meest hinderlijke oogklacht is,This most annoying eye complaint is,,,
+symptoms,POTS,COMPASS-31,31,calcc31_eyes_change,COMPASS-afhankelijkheid (ogen),COMPASS dependency (eyes),,,
+permissions,,no instrument,,permission,Mogen we je benaderen voor aanvullend wetenschappelijk onderzoek?,May we contact you for additional scientific research?,"[1]Yes, I may be approached; contact details provided
+[0]No, questionnaire study only","[1]Ja, ik mag benaderd worden; contactgegevens gegeven
+[0]Nee, alleen vragenlijstonderzoek","[1]Yes, I may be approached; contact details provided
+[0]No, questionnaire study only"
+permissions,,no instrument,,permission_pc,Toestemmingsformulier voor post-COVID-onderzoek,Consent form for post-COVID research,,,
+permissions,,no instrument,,persmission_postvacc,Toestemmingsformulier voor onderzoek naar post-COVID-vaccinatieklachten,Consent form for post-COVID vaccination complaints research,,,
+permissions,,no instrument,,permissions_check,Je hebt op de vorige pagina (nog) geen toestemming gegeven om benaderd te mogen worden voor aanvullend onderzoek. Klopt dit?,Confirmation that additional-research permission was not given,"[1]Yes, this is correct","[1]Ja, dit klopt","[1]Yes, this is correct"
+permissions,,no instrument,,travel,Ben je in staat en bereid om te reizen om deel te nemen aan aanvullend onderzoek?,Able and willing to travel for additional research,"[1]Yes
+[2]Yes, but not longer than 1 hour
+[0]No","[1]Ja
+[2]Ja, maar niet langer dan 1 uur
+[0]Nee","[1]Yes
+[2]Yes, but not longer than 1 hour
+[0]No"
+permissions,,no instrument,,contact,Mogen we je benaderen voor een belafspraak of een videogesprek voor aanvullend onderzoek,May we contact you for a telephone or video appointment?,"[1]Yes
+[0]No","[1]Ja
+[0]Nee","[1]Yes
+[0]No"
