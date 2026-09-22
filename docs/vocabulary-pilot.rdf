@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:iop="https://w3id.org/iadopt/ont/">
+
+  <owl:Ontology rdf:about="https://w3id.org/pcnn/">
+    <dct:title xml:lang="en">PCNN variable vocabulary</dct:title>
+    <owl:versionInfo>0.1.0-pilot5</owl:versionInfo>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-5262-7399"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-22</dct:modified>
+  </owl:Ontology>
+
+  <skos:Concept rdf:about="https://w3id.org/pcnn/var/HI7">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <skos:notation>HI7</skos:notation>
+    <skos:prefLabel xml:lang="en">During the past 7 days, I feel fatigued.</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://loinc.org/61878-5"/>
+    <iop:hasProperty rdf:resource="https://w3id.org/pcnn/prop/intensity"/>
+    <iop:hasObjectOfInterest rdf:resource="http://snomed.info/id/84229001"/>
+    <iop:hasConstraint rdf:resource="https://w3id.org/pcnn/constraint/past-7-days"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/pcnn/var/FATEXP40">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <skos:notation>FATEXP40</skos:notation>
+    <skos:prefLabel xml:lang="en">In the past 7 days, how fatigued were you on average?</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://loinc.org/61864-5"/>
+    <iop:hasProperty rdf:resource="https://w3id.org/pcnn/prop/intensity"/>
+    <iop:hasObjectOfInterest rdf:resource="http://snomed.info/id/84229001"/>
+    <iop:hasConstraint rdf:resource="https://w3id.org/pcnn/constraint/past-7-days"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/pcnn/var/phq_tired">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <skos:notation>phq_tired</skos:notation>
+    <skos:prefLabel xml:lang="en">Feeling tired or having little energy (last 2 weeks)</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://loinc.org/54664-8"/>
+    <iop:hasProperty rdf:resource="https://w3id.org/pcnn/prop/frequency"/>
+    <iop:hasObjectOfInterest rdf:resource="http://snomed.info/id/224960004"/>
+    <iop:hasConstraint rdf:resource="https://w3id.org/pcnn/constraint/past-2-weeks"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/pcnn/var/dsq_fatigue_freq">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <skos:notation>dsq_fatigue_freq</skos:notation>
+    <skos:prefLabel xml:lang="en">Frequency past 6 months: Fatigue / Extreme tiredness</skos:prefLabel>
+    <skos:relatedMatch rdf:resource="http://snomed.info/id/84229001"/>
+    <iop:hasProperty rdf:resource="https://w3id.org/pcnn/prop/frequency"/>
+    <iop:hasObjectOfInterest rdf:resource="http://snomed.info/id/84229001"/>
+    <iop:hasConstraint rdf:resource="https://w3id.org/pcnn/constraint/past-6-months"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/pcnn/var/smokingstatus">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <skos:notation>smokingstatus</skos:notation>
+    <skos:prefLabel xml:lang="en">Do you smoke?</skos:prefLabel>
+    <skos:closeMatch rdf:resource="http://loinc.org/72166-2"/>
+    <iop:hasProperty rdf:resource="https://w3id.org/pcnn/prop/status"/>
+    <iop:hasObjectOfInterest rdf:resource="http://snomed.info/id/365981007"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,200 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix iop:  <https://w3id.org/iadopt/ont/> .
+@prefix :     <https://w3id.org/pcnn/> .
+@prefix var:  <https://w3id.org/pcnn/var/> .
+@prefix vs:   <https://w3id.org/pcnn/vs/> .
+@prefix prop: <https://w3id.org/pcnn/prop/> .
+@prefix cstr: <https://w3id.org/pcnn/constraint/> .
+
+: a skos:ConceptScheme, owl:Ontology ;
+  dct:title "PCNN variable vocabulary"@en ;
+  dct:description "Persistent identifiers and I-ADOPT decompositions for selected PCNN codebook columns. Pilot release: 5 variables."@en ;
+  dct:creator <https://orcid.org/0000-0001-5262-7399> ;
+  dct:publisher "Post-COVID Network Netherlands" ;
+  dct:created "2026-09-08"^^xsd:date ;
+  dct:modified "2026-09-22"^^xsd:date ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  owl:versionInfo "0.1.0-pilot5" ;
+  vann:preferredNamespacePrefix "pcnn" ;
+  vann:preferredNamespaceUri "https://w3id.org/pcnn/" ;
+  foaf:homepage <https://Hajarhn.github.io/PCNN-vars/> .
+
+<https://orcid.org/0000-0001-5262-7399> a foaf:Person ;
+  foaf:name "Hajar Hasannejadasl" .
+
+# --- reusable I-ADOPT components ---
+
+prop:frequency a iop:Property, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "frequency"@en ;
+  skos:definition "How often an object of interest occurs or is experienced."@en .
+
+prop:intensity a iop:Property, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "intensity"@en ;
+  skos:definition "Magnitude of a felt state, not how often it occurs."@en .
+
+prop:status a iop:Property, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "status"@en ;
+  skos:definition "Categorical state of a behaviour or condition."@en .
+
+prop:presence a iop:Property, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "presence"@en ;
+  skos:definition "Whether a state is reported as present or absent."@en .
+
+cstr:past-7-days a iop:Constraint, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "past 7 days"@en .
+
+cstr:past-2-weeks a iop:Constraint, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "past 2 weeks"@en .
+
+cstr:past-6-months a iop:Constraint, skos:Concept ;
+  skos:inScheme : ;
+  skos:prefLabel "past 6 months"@en .
+
+cstr:abnormal a iop:Constraint, skos:Concept ;
+  skos:prefLabel "abnormal"@en ;
+  skos:inScheme : .
+
+# --- value sets ---
+
+vs:vs-028 a skos:Collection ;
+  dct:title "PROMIS intensity (not at all – very much)"@en ;
+  skos:member <https://w3id.org/pcnn/vs/vs-028/1>,
+              <https://w3id.org/pcnn/vs/vs-028/2>,
+              <https://w3id.org/pcnn/vs/vs-028/3>,
+              <https://w3id.org/pcnn/vs/vs-028/4>,
+              <https://w3id.org/pcnn/vs/vs-028/5> .
+
+<https://w3id.org/pcnn/vs/vs-028/1> a skos:Concept ; skos:notation "1" ; skos:prefLabel "not at all"@en .
+<https://w3id.org/pcnn/vs/vs-028/2> a skos:Concept ; skos:notation "2" ; skos:prefLabel "a little bit"@en .
+<https://w3id.org/pcnn/vs/vs-028/3> a skos:Concept ; skos:notation "3" ; skos:prefLabel "somewhat"@en .
+<https://w3id.org/pcnn/vs/vs-028/4> a skos:Concept ; skos:notation "4" ; skos:prefLabel "quite a bit"@en .
+<https://w3id.org/pcnn/vs/vs-028/5> a skos:Concept ; skos:notation "5" ; skos:prefLabel "very much"@en .
+
+vs:vs-017 a skos:Collection ;
+  dct:title "PHQ frequency (not at all – nearly every day)"@en ;
+  skos:member <https://w3id.org/pcnn/vs/vs-017/0>,
+              <https://w3id.org/pcnn/vs/vs-017/1>,
+              <https://w3id.org/pcnn/vs/vs-017/2>,
+              <https://w3id.org/pcnn/vs/vs-017/3> .
+
+<https://w3id.org/pcnn/vs/vs-017/0> a skos:Concept ; skos:notation "0" ; skos:prefLabel "Not at all"@en .
+<https://w3id.org/pcnn/vs/vs-017/1> a skos:Concept ; skos:notation "1" ; skos:prefLabel "Several days"@en .
+<https://w3id.org/pcnn/vs/vs-017/2> a skos:Concept ; skos:notation "2" ; skos:prefLabel "More than half the days"@en .
+<https://w3id.org/pcnn/vs/vs-017/3> a skos:Concept ; skos:notation "3" ; skos:prefLabel "Nearly every day"@en .
+
+vs:vs-002 a skos:Collection ;
+  dct:title "DSQ frequency (none of the time – all of the time)"@en ;
+  skos:member <https://w3id.org/pcnn/vs/vs-002/0>,
+              <https://w3id.org/pcnn/vs/vs-002/1>,
+              <https://w3id.org/pcnn/vs/vs-002/2>,
+              <https://w3id.org/pcnn/vs/vs-002/3>,
+              <https://w3id.org/pcnn/vs/vs-002/4> .
+
+<https://w3id.org/pcnn/vs/vs-002/0> a skos:Concept ; skos:notation "0" ; skos:prefLabel "none of the time"@en .
+<https://w3id.org/pcnn/vs/vs-002/1> a skos:Concept ; skos:notation "1" ; skos:prefLabel "a little of the time"@en .
+<https://w3id.org/pcnn/vs/vs-002/2> a skos:Concept ; skos:notation "2" ; skos:prefLabel "about half the time"@en .
+<https://w3id.org/pcnn/vs/vs-002/3> a skos:Concept ; skos:notation "3" ; skos:prefLabel "most of the time"@en .
+<https://w3id.org/pcnn/vs/vs-002/4> a skos:Concept ; skos:notation "4" ; skos:prefLabel "all of the time"@en .
+
+vs:vs-051 a skos:Collection ;
+  dct:title "PCNN smoking status"@en ;
+  skos:member <https://w3id.org/pcnn/vs/vs-051/1>,
+              <https://w3id.org/pcnn/vs/vs-051/2>,
+              <https://w3id.org/pcnn/vs/vs-051/3>,
+              <https://w3id.org/pcnn/vs/vs-051/4>,
+              <https://w3id.org/pcnn/vs/vs-051/5>,
+              <https://w3id.org/pcnn/vs/vs-051/6> .
+
+<https://w3id.org/pcnn/vs/vs-051/1> a skos:Concept ; skos:notation "1" ; skos:prefLabel "No"@en .
+<https://w3id.org/pcnn/vs/vs-051/2> a skos:Concept ; skos:notation "2" ; skos:prefLabel "No, but I have smoked in the past"@en .
+<https://w3id.org/pcnn/vs/vs-051/3> a skos:Concept ; skos:notation "3" ; skos:prefLabel "Yes, occasionally"@en .
+<https://w3id.org/pcnn/vs/vs-051/4> a skos:Concept ; skos:notation "4" ; skos:prefLabel "Daily, less than 10 cigarettes/cigars per day"@en .
+<https://w3id.org/pcnn/vs/vs-051/5> a skos:Concept ; skos:notation "5" ; skos:prefLabel "Daily, 10 or more cigarettes/cigars per day"@en .
+<https://w3id.org/pcnn/vs/vs-051/6> a skos:Concept ; skos:notation "6" ; skos:prefLabel "Daily, e-cigarettes/vapes only"@en .
+
+vs:vs-005 a skos:Collection ;
+  dct:title "Yes / No"@en ;
+  skos:member <https://w3id.org/pcnn/vs/vs-005/1>,
+              <https://w3id.org/pcnn/vs/vs-005/0> .
+
+<https://w3id.org/pcnn/vs/vs-005/1> a skos:Concept ; skos:notation "1" ; skos:prefLabel "Yes"@en .
+<https://w3id.org/pcnn/vs/vs-005/0> a skos:Concept ; skos:notation "0" ; skos:prefLabel "No"@en .
+
+# --- 5 pilot variables ---
+
+var:HI7 a skos:Concept, iop:Variable ;
+  skos:inScheme : ;
+  skos:notation "HI7" ;
+  skos:prefLabel "During the past 7 days, I feel fatigued."@en ;
+  skos:altLabel "In de afgelopen 7 dagen, heb ik last van vermoeidheid."@nl ;
+  skos:definition "Intensity of feeling fatigued during the past 7 days, PROMIS item HI7."@en ;
+  dct:source "PROMIS-29 + PROMIS SF Fatigue 4a" ;
+  skos:exactMatch <http://loinc.org/61878-5> ;
+  skos:related vs:vs-028 ;
+  iop:hasProperty prop:intensity ;
+  iop:hasObjectOfInterest <http://snomed.info/id/84229001> ;
+  iop:hasConstraint cstr:past-7-days .
+
+var:FATEXP40 a skos:Concept, iop:Variable ;
+  skos:inScheme : ;
+  skos:notation "FATEXP40" ;
+  skos:prefLabel "In the past 7 days, how fatigued were you on average?"@en ;
+  skos:altLabel "In de afgelopen 7 dagen, hoe vermoeid was u gemiddeld genomen?"@nl ;
+  skos:definition "Average intensity of fatigue during the past 7 days, PROMIS item FATEXP40."@en ;
+  dct:source "PROMIS-29 + PROMIS SF Fatigue 4a" ;
+  skos:exactMatch <http://loinc.org/61864-5> ;
+  skos:related vs:vs-028 ;
+  iop:hasProperty prop:intensity ;
+  iop:hasObjectOfInterest <http://snomed.info/id/84229001> ;
+  iop:hasConstraint cstr:past-7-days .
+
+var:phq_tired a skos:Concept, iop:Variable ;
+  skos:inScheme : ;
+  skos:notation "phq_tired" ;
+  skos:prefLabel "Feeling tired or having little energy (last 2 weeks)"@en ;
+  skos:altLabel "U moe voelen of gebrek aan energie hebben"@nl ;
+  skos:definition "Frequency of being bothered by tiredness or little energy over the last 2 weeks. PHQ-8 item."@en ;
+  dct:source "PHQ-8" ;
+  skos:exactMatch <http://loinc.org/54664-8> ;
+  skos:related vs:vs-017 ;
+  iop:hasProperty prop:frequency ;
+  iop:hasObjectOfInterest <http://snomed.info/id/224960004> ;
+  iop:hasConstraint cstr:past-2-weeks .
+
+var:dsq_fatigue_freq a skos:Concept, iop:Variable ;
+  skos:inScheme : ;
+  skos:notation "dsq_fatigue_freq" ;
+  skos:prefLabel "Frequency past 6 months: Fatigue / Extreme tiredness"@en ;
+  skos:altLabel "Frequentie afgelopen 6 maanden: Vermoeidheid/extreme uitputting"@nl ;
+  skos:definition "Self-reported frequency of fatigue or extreme tiredness over the past 6 months. DSQ item. Not the same variable as PROMIS HI7."@en ;
+  dct:source "DSQ-2 + DSQ-SF" ;
+  skos:relatedMatch <http://snomed.info/id/84229001> ;
+  skos:related vs:vs-002 ;
+  iop:hasProperty prop:frequency ;
+  iop:hasObjectOfInterest <http://snomed.info/id/84229001> ;
+  iop:hasConstraint cstr:past-6-months .
+
+var:smokingstatus a skos:Concept, iop:Variable ;
+  skos:inScheme : ;
+  skos:notation "smokingstatus" ;
+  skos:prefLabel "Do you smoke?"@en ;
+  skos:altLabel "Rook je?"@nl ;
+  skos:definition "Current tobacco and vape use status, including former smoking. Study-specific answer list; close to LOINC 72166-2 but not identical."@en ;
+  dct:source "PCNN study-specific" ;
+  skos:closeMatch <http://loinc.org/72166-2> ;
+  skos:related vs:vs-051 ;
+  iop:hasProperty prop:status ;
+  iop:hasObjectOfInterest <http://snomed.info/id/365981007> .

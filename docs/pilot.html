@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PCNN pilot — 5 published variables</title>
+<style>
+  :root { --navy:#0b3d91; --line:#d7e0ef; }
+  body { margin:0; font:16px/1.5 "IBM Plex Sans", Calibri, sans-serif; color:#122; background:#fff; }
+  header { border-bottom:3px solid var(--navy); padding:1.4rem 8vw 1rem; }
+  h1 { margin:0 0 .3rem; color:var(--navy); font-size:1.6rem; }
+  .meta { color:#445; font-size:.92rem; }
+  .meta a { color:var(--navy); }
+  main { padding:1.2rem 8vw 3rem; max-width:920px; }
+  table { border-collapse:collapse; width:100%; margin:1rem 0; }
+  th, td { border:1px solid var(--line); padding:.45rem .55rem; text-align:left; vertical-align:top; }
+  th { background:#f3f6fb; color:var(--navy); }
+  code { font-family:ui-monospace, Menlo, monospace; font-size:.88em; }
+  article { border:1px solid var(--line); border-radius:8px; padding:1rem 1.1rem; margin:1rem 0 1.3rem; }
+  article h2 { margin:0 0 .4rem; color:var(--navy); font-size:1.15rem; }
+  .slot { color:#445; font-size:.92rem; }
+  footer { padding:0 8vw 2rem; color:#556; font-size:.88rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PCNN pilot — 5 published variables</h1>
+  <p class="meta"><a href="index.html">← Full catalogue (636 variables)</a><br/>
+  Version 0.1.0-pilot5 ·
+  <a href="vocabulary.ttl">Turtle</a> ·
+  <a href="vocabulary.jsonld">JSON-LD</a> ·
+  <a href="vocabulary.rdf">RDF/XML</a></p>
+</header>
+<main>
+<p>These five columns are the first reviewed slice. The full catalogue stays on the <a href="index.html">main page</a>. Adding more variables later does not change these IRIs.</p>
+<table>
+  <thead><tr><th>Column</th><th>SKOS match</th><th>Property</th><th>Constraint</th></tr></thead>
+  <tbody>
+    <tr><td><a href="#HI7"><code>HI7</code></a></td><td>exactMatch LOINC 61878-5</td><td>intensity</td><td>7 days</td></tr>
+    <tr><td><a href="#FATEXP40"><code>FATEXP40</code></a></td><td>exactMatch LOINC 61864-5</td><td>intensity</td><td>7 days</td></tr>
+    <tr><td><a href="#phq_tired"><code>phq_tired</code></a></td><td>exactMatch LOINC 54664-8</td><td>frequency</td><td>2 weeks</td></tr>
+    <tr><td><a href="#dsq_fatigue_freq"><code>dsq_fatigue_freq</code></a></td><td>relatedMatch SNOMED 84229001</td><td>frequency</td><td>6 months</td></tr>
+    <tr><td><a href="#smokingstatus"><code>smokingstatus</code></a></td><td>closeMatch LOINC 72166-2</td><td>status</td><td>—</td></tr>
+  </tbody>
+</table>
+<article id="HI7"><h2>HI7</h2><p>During the past 7 days, I feel fatigued.</p><p class="slot"><strong>IRI</strong> <code>https://w3id.org/pcnn/var/HI7</code><br/><strong>exactMatch</strong> <a href="http://loinc.org/61878-5">http://loinc.org/61878-5</a><br/>intensity · fatigue · past 7 days</p></article>
+<article id="FATEXP40"><h2>FATEXP40</h2><p>In the past 7 days, how fatigued were you on average?</p><p class="slot"><strong>IRI</strong> <code>https://w3id.org/pcnn/var/FATEXP40</code><br/><strong>exactMatch</strong> <a href="http://loinc.org/61864-5">http://loinc.org/61864-5</a><br/>intensity · fatigue · past 7 days</p></article>
+<article id="phq_tired"><h2>phq_tired</h2><p>Feeling tired or having little energy (last 2 weeks)</p><p class="slot"><strong>IRI</strong> <code>https://w3id.org/pcnn/var/phq_tired</code><br/><strong>exactMatch</strong> <a href="http://loinc.org/54664-8">http://loinc.org/54664-8</a><br/>frequency · tiredness · past 2 weeks</p></article>
+<article id="dsq_fatigue_freq"><h2>dsq_fatigue_freq</h2><p>Frequency past 6 months: Fatigue / Extreme tiredness</p><p class="slot"><strong>IRI</strong> <code>https://w3id.org/pcnn/var/dsq_fatigue_freq</code><br/><strong>relatedMatch</strong> <a href="http://snomed.info/id/84229001">http://snomed.info/id/84229001</a><br/>frequency · fatigue · past 6 months</p><p class="slot">Same object as HI7; different property and window — not the same I-ADOPT variable.</p></article>
+<article id="smokingstatus"><h2>smokingstatus</h2><p>Do you smoke?</p><p class="slot"><strong>IRI</strong> <code>https://w3id.org/pcnn/var/smokingstatus</code><br/><strong>closeMatch</strong> <a href="http://loinc.org/72166-2">http://loinc.org/72166-2</a><br/>status · tobacco smoking status</p></article>
+</main>
+<footer>PCNN encoding: CC BY 4.0. Third-party instrument wording remains copyright of the original authors.</footer>
+</body>
+</html>
